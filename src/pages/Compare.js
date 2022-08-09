@@ -7,17 +7,27 @@ import Tabel from "../components/tabel/Tabel";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
 
+import {db} from "../firebase-config";
+import {
+    collection,
+    getDocs,
+    doc,
+} from "firebase/firestore";
+
 
 function Compare({headerImageHandler, pageTitleHandler}) {
     const [menstrualDiscs, setMenstrualDiscs] = useState([]);
+    const usersCollectionRef = collection(db, "discs");
+
 
     useEffect(() => {
-        axios.get("http://localhost:8080/discs/")
-            .then((response) => {
-                setMenstrualDiscs(response.data);
-            }).catch(error => {
-            console.error('There was an error!', error);
-        });
+        const getUsers = async () => {
+            const data = await getDocs(usersCollectionRef);
+            setMenstrualDiscs(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
+
+        };
+
+        getUsers();
 
     }, []);
 
