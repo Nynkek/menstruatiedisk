@@ -3,11 +3,10 @@
 
 # Menstruatiedisk app
 
-Onderdeel van het project menstruatieDisk. Dit project was mijn eindopdracht voor de Bootcamp Fullstack Development.
+Ik heb de oorspronkelijke app als onderdeel van mijn studie gemaakt. 
 
-- [Nynkek/MenstruatieDisk-backend](https://github.com/Nynkek/menstruatieDisk-backend) - Backend gedeelte (Java + Spring
-  Boot)
-
+Maar om hem online te zetten heb ik de SpringBoot-backend eruit gesloopt en een nieuwe firebase backend gemaakt.
+Aangezien mijn data vrij simpel is (ik wil cups-data ophalen), hoef ik geen uitgebreide eigen backend te bouwen.
 
 ## **Probleemstelling**
 
@@ -40,19 +39,6 @@ Dit project bevat de volgende mappen:
 - context, bevat alle context data providers.
 - helpers, bevat functies die door de hele applicatie gebruikt kunnen worden.
 - pages, bevat alle pagina's.
-
-# Rollen en Gebruikers
-
-Dit zijn de geconfigureerde testgebruikers. Username + wachtwoord.
-
-**USER**
-1. user - password
-
-**BRAND**
-1. brand - password
-
-**ADMIN**
-1. admin - password
 
 
 # Installatie-handleiding
