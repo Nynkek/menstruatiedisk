@@ -28,7 +28,7 @@
 body {
   font-family: 'Mulish', sans-serif;
   font-size: 1em;
-  background: var(--bluegreen) url('../../menstruatiedisk-frontend/src/assets/24pxGrid.png') repeat fixed top;
+  background: var(--bluegreen) url('./assets/24pxGrid.png') repeat fixed top;
   color: #111111;
 }
 
