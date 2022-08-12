@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import pageImg
-    from "../../../menstruatiedisk-frontend/src/assets/Cupkiezer-Bamboozy-menstruatiedisk-en-cup-vergelijken-in-twee-maten-4308-1000x400.jpg";
+    from "../assets/Cupkiezer-Bamboozy-menstruatiedisk-en-cup-vergelijken-in-twee-maten-4308-1000x400.jpg";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import TwoColumn from "../components/pageItems/pageDesignElements/twoColumn/TwoColumn";
 import Column from "../components/pageItems/pageDesignElements/twoColumn/Column";

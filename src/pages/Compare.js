@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import pageImg
-    from '../../../menstruatiedisk-frontend/src/assets/Cupkiezer-Bamboozy-menstruatiedisk-en-cup-vergelijken-in-twee-maten-4356.jpg'
+    from '../assets/Cupkiezer-Bamboozy-menstruatiedisk-en-cup-vergelijken-in-twee-maten-4356.jpg'
 import YellowContentBox from "../components/pageItems/pageDesignElements/yellowContentBox/YellowContentBox";
 import axios from "axios";
 import Tabel from "../components/tabel/Tabel";
@@ -28,7 +28,7 @@ function Compare({headerImageHandler, pageTitleHandler}) {
         };
 
         getUsers();
-
+        console.log(menstrualDiscs);
     }, []);
 
     const sizes = menstrualDiscs.length; // misschien map?
