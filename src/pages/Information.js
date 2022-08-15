@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import pageImg
     from "../assets/Cupkiezer-Bamboozy-menstruatiedisk-en-cup-vergelijken-in-twee-maten-4367.jpg";
 import discs
@@ -8,16 +8,48 @@ import discs2
 import TwoColumnWithImg from "../components/pageItems/pageDesignElements/twoColumn/TwoColumnWithImg";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
+import {onValue, ref} from "firebase/database";
+import {db} from "../firebase-config";
 
 function Information({headerImageHandler, pageTitleHandler}) {
+    const [menstrualDiscs, setMenstrualDiscs] = useState([]);
+
 
     useEffect(() => {
         headerImageHandler(pageImg);
         pageTitleHandler("Menstruatiedisk-informatie");
     }, []);
+
+    useEffect(() => {
+
+        function getDiscs() {
+            onValue(ref(db), (snapshot) => {
+                setMenstrualDiscs([]);
+                const data = snapshot.val();
+                if (data !== null) {
+                    Object.values(data).map((disk) => {
+                        setMenstrualDiscs((oldArray) => [...oldArray, disk]);
+                    });
+                }
+            });
+        }
+
+        getDiscs();
+        console.log(menstrualDiscs);
+        console.log("Test");
+    }, []);
+
+
     return (
         <>
             <TextContainer>
+                {menstrualDiscs.map((disk) => (
+                    <>
+                        <h1>hoi</h1>
+                        {console.log(disk)}
+                    </>
+                ))}
+
                 <p>Menstruatiecups ken je nu hopelijk wel. Maar ken je de menstruatiedisk al? Deze zijn wat breder en
                     minder lang. Zoals de naam al doet vermoeden… zijn het meer schijven. De overeenkomst tussen de
                     menstruatiedisk en de -cup is dat ze beide je menstruatie opvangen en dat je ze 12 uur kan dragen.

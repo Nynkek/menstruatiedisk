@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import DataTable from 'react-data-table-component';
-import axios from "axios";
 import "./tabel.css";
+import {ref, onValue} from "firebase/database"
+import {db} from "../../firebase-config";
+
 
 function Tabel() {
     const [menstrualDiscs, setMenstrualDiscs] = useState([]);
@@ -9,24 +11,19 @@ function Tabel() {
     const [bmm, setBmm] = useState('');
     const [reusable, setReusable] = useState('');
     const [stem, setStem] = useState('');
-    const [selectedOption, setSelectedOption] = useState()
-    const source = axios.CancelToken.source();
 
     useEffect(() => {
-        return function cleanup() {
-            source.cancel();
-        }
-    }, []);
-
-    useEffect(() => {
-        axios.get("http://localhost:8080/discs/")
-            .then((response) => {
-                setMenstrualDiscs(response.data);
-                setFilteredDiscs(response.data)
-            }).catch(error => {
-            console.error('There was an error!', error);
+        onValue(ref(db, 'discs/'), (snapshot) => {
+            let discs = [];
+            const data = snapshot.val();
+            if (data !== null) {
+                Object.values(data).map((disk) => {
+                    return discs = [...discs, disk];
+                });
+            }
+            setMenstrualDiscs(discs);
+            setFilteredDiscs(discs);
         });
-
     }, []);
 
 
@@ -156,7 +153,7 @@ function Tabel() {
         }
         setFilteredDiscs(discList);
 
-    }, [bmm, reusable, stem])
+    }, [bmm, reusable, stem, menstrualDiscs])
 
     function handleOptionChange(e) {
         if (e.target.name === "bmm") {
@@ -166,7 +163,6 @@ function Tabel() {
         } else if (e.target.name === "steel") {
             setStem(e.target.value);
         }
-        setSelectedOption(e.target.value);
     }
 
     function resetFilters() {

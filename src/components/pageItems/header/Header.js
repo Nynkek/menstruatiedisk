@@ -17,7 +17,7 @@ function Header({headerImage, pageTitle}) {
         <>
             <header className="header">
                 <div className="logo">
-                    <Link to="/"><figure><img src={logo} alt="logo" className="logo"/></figure></Link>
+                    <Link to="/"><figure><img src={logo} alt="menstruatiedisk logo" className="logo"/></figure></Link>
                 </div>
                 <div className="-btn">
                     <button type="button" onClick={toLink}><span className="btn-text">Doneer!</span></button>
@@ -26,7 +26,7 @@ function Header({headerImage, pageTitle}) {
             <Nav/>
             <div className="header-img-container">
                 <figure>
-                    <img src={headerImage} className="header-img"/>
+                    <img src={headerImage} className="header-img" alt="menstruatiedisk header afbeelding"/>
                 </figure>
                 <div className="page-title">
                     <h1>{pageTitle}</h1>

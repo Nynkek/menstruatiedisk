@@ -17,19 +17,8 @@ import {
 
 function Compare({headerImageHandler, pageTitleHandler}) {
     const [menstrualDiscs, setMenstrualDiscs] = useState([]);
-    const usersCollectionRef = collection(db, "discs");
 
 
-    useEffect(() => {
-        const getUsers = async () => {
-            const data = await getDocs(usersCollectionRef);
-            setMenstrualDiscs(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
-
-        };
-
-        getUsers();
-        console.log(menstrualDiscs);
-    }, []);
 
     const sizes = menstrualDiscs.length; // misschien map?
 
