@@ -1,0 +1,38 @@
+
+.menu-items {
+    position: relative;
+}
+
+.dropdown {
+    text-align: left;
+    position: absolute;
+    right: 0;
+    left: -1ch;
+    z-index: 9999;
+    min-width: 20ch;
+    list-style: none;
+    background-color: var(--pink);
+    display: none;
+    box-shadow: var(--dropshadow);
+    border: var(--border);
+    padding: 1ch;
+}
+
+.dropdown-item {
+    margin: 1ch;
+}
+
+.dropdown.show {
+    display: block;
+}
+
+.dropdown .dropdown-submenu {
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+
+.menu-items:hover .dropdown {
+    display: block;
+}
+
