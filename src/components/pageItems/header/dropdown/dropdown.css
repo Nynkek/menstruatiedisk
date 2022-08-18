@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.dropdown {
+.dropdown{
     text-align: left;
     position: absolute;
     right: 0;
@@ -20,6 +20,7 @@
 
 .dropdown-item {
     margin: 1ch;
+    box-shadow: 0.0em .3em 0 var(--black) ;
 }
 
 .dropdown.show {
