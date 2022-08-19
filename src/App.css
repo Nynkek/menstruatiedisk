@@ -146,7 +146,7 @@ figcaption::before {
     padding: 0em 1em 0.5em 0.2em;
   }
 
-  .nav-container .nav-list, .bookmark-container, .content-bigbox {
+  .nav-container .nav-list, .container .bookmark-container, .container .content-bigbox {
     width: 120%;
     left: -10%;
   }
