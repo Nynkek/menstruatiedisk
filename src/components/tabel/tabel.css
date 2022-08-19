@@ -1,28 +1,42 @@
 .dt_Table {
-    background-color: var(--yellow);
+    background-color: var(--lightBlack);
 }
 
-.rdt_TableRow {
-    background-color: var(--yellow);
-    border: thin solid var(--yellow);
+.discsTabel .rdt_TableBody .rdt_TableRow {
+    background-color: var(--lightBlack);
+    border-bottom: 0.3em solid var(--black);
 }
 
-.rdt_TableCol {
+.discsTabel .rdt_TableBody .rdt_TableHeadRow {
+    background-color: var(--yellow);
+    /*border: 0.3em solid var(--black);*/
+}
+
+.discsTabel .rdt_TableCol {
     background-color: var(--pink);
     font-weight: bold;
     text-align: center;
+    border-bottom: 0.3em solid var(--black);
 }
 
-.rdt_TableCell {
-    background-color: var(--yellow);
+.discsTabel .rdt_TableCell {
+    background-color: var(--lightGrey);
     margin: 0;
+    /*border: 0.3em solid var(--black);*/
+}
+
+.discsTabel .rdt_TableBody {
+    /*border: 0.3em solid var(--black);*/
 }
 
 .discsTabel {
     width: 108%;
     left: -4%;
     position: relative;
+    /*box-shadow: var(--dropshadow);*/
+    border: var(--border);
 }
+
 
 
 label {
