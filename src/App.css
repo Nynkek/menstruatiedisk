@@ -125,6 +125,15 @@ figcaption::before {
   }
 }
 
+  @media only screen and (max-width: 400px) {
+    :root {
+      font-size: 13px;
+    }
+
+    .nav-container .nav-list {
+      font-size: 0.8rem;
+    }
+  }
 /*-----------elementen-----------*/
 
 button, header button:visited {
