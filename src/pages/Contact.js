@@ -11,7 +11,7 @@ function Contact({headerImageHandler, pageTitleHandler}) {
 
     useEffect(() => {
         headerImageHandler(pageImg);
-        pageTitleHandler("Contact met Nynke, de maker achter menstruatiedisk.nl");
+        pageTitleHandler("Contact met Nynke");
     }, []);
 
 

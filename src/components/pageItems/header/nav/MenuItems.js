@@ -26,7 +26,7 @@ function MenuItems({items}) {
             ) : (
 
                 <NavLink to={items.url} end
-                         className={`link ${(navData) => navData.isActive ? "active-link" : ""}`} role="button"
+                         className={(navData) => navData.isActive ? "active-link" : ""} role="button"
                 >
                     {items.title}
                 </NavLink>

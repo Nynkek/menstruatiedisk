@@ -2,34 +2,40 @@ export const menuItemsList = [
         {
             title: 'home',
             url: '/',
+
         },
         {
-            title: 'info',
+            title: 'disk info ⌵ ',
             url: '/informatie-over-menstruatiedisks',
             submenu: [
                 {
-                    title: 'faq',
-                    url: 'faq',
+                    title: 'gebruik',
+                    url: 'faq#gebruik',
                 },
                 {
-                    title: 'informatie over disks',
-                    url: 'informatie-over-menstruatiedisks',
+                    title: 'onderhoud',
+                    url: 'faq#onderhoud',
+                },
+                {
+                    title: 'kiezen',
+                    url: 'faq#kiezen',
                 },
             ],
         },
         {
-            title: 'vergelijken',
+            title: 'vergelijken ⌵',
             url: '/vergelijk-meerdere-menstruatiedisks',
             submenu: [
                 {
-                    title: 'faq',
-                    url: 'faq',
+                    title: 'vind jouw disk',
+                    url: 'vergelijk-meerdere-menstruatiedisks',
                 },
                 {
-                    title: 'informatie over disks',
-                    url: 'informatie-over-menstruatiedisks',
+                    title: 'disks lijst',
+                    url: 'vergelijk-meerdere-menstruatiedisks',
                 },
             ],
+
         },
 
         {
