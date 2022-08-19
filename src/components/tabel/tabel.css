@@ -22,18 +22,15 @@
 .discsTabel .rdt_TableCell {
     background-color: var(--lightGrey);
     margin: 0;
-    /*border: 0.3em solid var(--black);*/
 }
 
 .discsTabel .rdt_TableBody {
-    /*border: 0.3em solid var(--black);*/
 }
 
 .discsTabel {
     width: 108%;
     left: -4%;
     position: relative;
-    /*box-shadow: var(--dropshadow);*/
     border: var(--border);
 }
 

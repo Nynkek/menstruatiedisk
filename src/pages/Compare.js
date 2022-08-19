@@ -59,8 +59,10 @@ function Compare({headerImageHandler, pageTitleHandler}) {
                     De hoogte kan veranderen tijdens je cyclus, daarom is het belangrijk dat je het echt tijdens je
                     menstruatie doet.
                     Aangezien je dan de disk gaat dragen.</p><p>
-                Je baarmoedermond voelt als een kleine, beetje harde donutvormige bobbel die terugveert bij aanraking. Het zal wat
-                harder voelen dan de rest van je vaginawand. Wanneer je hem voelt houd dan met een andere vinger bij hoe diep je zit. Meet daarna op hoeveel mm dat ongeveer was.</p>
+                Je baarmoedermond voelt als een kleine, beetje harde donutvormige bobbel die terugveert bij aanraking.
+                Het zal wat
+                harder voelen dan de rest van je vaginawand. Wanneer je hem voelt houd dan met een andere vinger bij hoe
+                diep je zit. Meet daarna op hoeveel mm dat ongeveer was.</p>
                 <p>
                     De baarmoederhals vormt de verbinding van de baarmoeder met de vagina.
                 </p>

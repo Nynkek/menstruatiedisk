@@ -3,7 +3,6 @@ import DataTable from 'react-data-table-component';
 import "./tabel.css";
 import {ref, onValue} from "firebase/database"
 import {db} from "../../firebase-config";
-import TextContainer from "../pageItems/pageDesignElements/textContainer/TextContainer";
 import YellowContentBox from "../pageItems/pageDesignElements/yellowContentBox/YellowContentBox";
 
 
@@ -30,7 +29,7 @@ function Tabel() {
 
 
     const noData = [
-        "Met deze specificaties zijn er geen disks gevonden. "  +
+        "Met deze specificaties zijn er geen disks gevonden. " +
         "Probeer eens een ander antwoord te geven."
     ];
 
@@ -191,7 +190,7 @@ function Tabel() {
                     <label>
                         <input type="radio" value="hoge-bmm" name="bmm"
                                onChange={handleOptionChange} checked={bmm === "hoge-bmm"}/>
-                        Ik heb een hoge baarmoedermond. Hoger dan 5,5.
+                        Ik heb een hoge baarmoedermond. Hoger dan 5,5cm.
                     </label><br/>
                     <label>
                         <input type="radio" value="gem-bmm" name="bmm" onChange={handleOptionChange}
