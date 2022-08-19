@@ -44,10 +44,10 @@
     display: block;
     position: absolute;
     left: 1ch;
-    top: -15px;
-    border-bottom: 15px solid var(--black);
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
+    top: -1em;
+    border-bottom: 1em solid var(--black);
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
 }
 
 
