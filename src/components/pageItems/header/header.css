@@ -12,7 +12,7 @@ header button, header button:visited {
     margin: var(--margin);
     box-shadow: var(--dropshadow);
     border: var(--border);
-    font-size: 1rem;
+    font-size: 1em;
     column-count: var(--black);
     border-radius: 50px;
 }

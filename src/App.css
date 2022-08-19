@@ -123,15 +123,37 @@ figcaption::before {
   :root {
     font-size: 14px;
   }
+  .page-title h1 {
+    font-size: 1.5em;
+    margin: 0.1em;
+  }
 }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 390px) {
     :root {
       font-size: 13px;
     }
 
     .nav-container .nav-list {
       font-size: 0.8rem;
+    }
+
+    .page-title h1 {
+      font-size: 1.4em;
+      margin: 0.1em;
+    }
+
+    .btn-text {
+      font-size: 0.8em;
+    }
+
+    header figure .logo {
+      width: 7rem;
+    }
+
+   .container header button {
+      padding: 0.5em 1.5em;
+      margin: 1em;
     }
   }
 /*-----------elementen-----------*/
