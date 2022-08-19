@@ -17,8 +17,7 @@ function Footer() {
                         <li><Link to="/faq">faq</Link></li>
                         <li><Link to="/privacy-policy">privacy policy</Link></li>
                         <li><Link to="/contact">over Nynke</Link></li>
-                        {auth ? <li><Link to="/inloggen">Uitloggen</Link></li> : <li><Link to="/inloggen">Inloggen</Link></li>}
-                        {auth && <li><Link to="/profiel">Profiel</Link></li>}
+                        <li><Link to="/design-elementen/">design</Link></li>
                     </ul>
                 </div>
                 <div className="footer-txt">
