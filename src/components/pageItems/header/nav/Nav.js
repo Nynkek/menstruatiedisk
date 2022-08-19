@@ -1,10 +1,11 @@
 import React from 'react';
-import {NavLink, useLocation} from "react-router-dom";
+import {useLocation} from "react-router-dom";
+import {menuItemsList} from './menuItemsList';
+import MenuItems from "./MenuItems";
 
 
 function Nav() {
     let location = useLocation().pathname;
-    console.log(location);
 
     function getNavClass(location) {
         switch (location) {
@@ -23,15 +24,16 @@ function Nav() {
 
     return (
         <div className="nav-container">
-        <nav>
-            <ul className={getNavClass(location) + " nav-list"}>
-                <li><NavLink to="/" end className={(navData) => navData.isActive ? "active-link" : "" }>home</NavLink></li>
-                <li><NavLink to="/informatie-over-menstruatiedisks" className={(navData) => navData.isActive ? "active-link" : "" }>info</NavLink></li>
-                <li><NavLink to="/vergelijk-meerdere-menstruatiedisks" className={(navData) => navData.isActive ? "active-link" : "" }>vergelijken</NavLink></li>
-                <li><NavLink to="/contact" end className={(navData) => navData.isActive ? "active-link" : "" }>contact</NavLink></li>
-            </ul>
+            <nav>
+                <ul className={getNavClass(location) + " nav-list"}>
+                    {menuItemsList.map((menu, index) => {
+                        return (
+                            <MenuItems items={menu} key={index} />
+                        )
+                    })}
+                </ul>
 
-        </nav>
+            </nav>
         </div>
     );
 }

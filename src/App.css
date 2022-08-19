@@ -5,9 +5,12 @@
   --white: #fffee6;
   --black: #212121;
   --pink: #EEC2E0;
+  --lightPink: #fddff0;
+  --darkPink: #F69BC9FF;
   --bluegreen: #BEE5CE;
   --red: #E65339;
   --orange: #E79E3D;
+  --lightBlack: #545454;
   --border: 0.3em solid var(--black);
   --dropshadow:  0.6em 0.6em 0 var(--black);
   --margin: 2em;
