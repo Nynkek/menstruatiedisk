@@ -3,19 +3,42 @@
     position: relative;
 }
 
-.dropdown{
+.dropdown {
     text-align: left;
     position: absolute;
     right: 0;
     left: -1ch;
+    top: 3ch;
     z-index: 9999;
     min-width: 20ch;
     list-style: none;
-    background-color: var(--pink);
+    background-color: var(--lightPink);
     display: none;
     box-shadow: var(--dropshadow);
     border: var(--border);
     padding: 1ch;
+    line-height: 1.5em;
+}
+
+.nav-list .menu-items .dropdown:hover{
+    box-shadow: var(--dropshadow);
+}
+
+
+
+.nav-list .menu-items .dropdown-item a {
+    box-shadow: none;
+}
+
+.dropdown:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 1ch;
+    top: -15px;
+    border-bottom: 15px solid var(--black);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
 }
 
 .dropdown-item {

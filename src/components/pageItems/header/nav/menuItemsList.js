@@ -20,6 +20,16 @@ export const menuItemsList = [
         {
             title: 'vergelijken',
             url: '/vergelijk-meerdere-menstruatiedisks',
+            submenu: [
+                {
+                    title: 'faq',
+                    url: 'faq',
+                },
+                {
+                    title: 'informatie over disks',
+                    url: 'informatie-over-menstruatiedisks',
+                },
+            ],
         },
 
         {
