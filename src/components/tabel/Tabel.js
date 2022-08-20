@@ -4,6 +4,7 @@ import "./tabel.css";
 import {ref, onValue} from "firebase/database"
 import {db} from "../../firebase-config";
 import YellowContentBox from "../pageItems/pageDesignElements/yellowContentBox/YellowContentBox";
+import {Link} from "react-router-dom";
 
 
 function Tabel() {
@@ -28,10 +29,10 @@ function Tabel() {
     }, []);
 
 
-    const noData = [
-        "Met deze specificaties zijn er geen disks gevonden. " +
-        "Probeer eens een ander antwoord te geven."
-    ];
+    const noData = (<div className="tabel-no-data">
+        Met deze specificaties zijn er geen disks gevonden. <br/>
+        Probeer eens een ander antwoord te geven. Of <Link to="" onClick={resetFilters}>wis al je antwoorden</Link>.
+    </div>);
 
     const columns = [
         // {

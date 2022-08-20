@@ -40,7 +40,9 @@ label {
     margin-left: 1ch;
     line-height: 1.5rem;
 }
-
+.tabel-no-data {
+    margin: 1em;
+}
 
 .tabel input {
     appearance: none;
