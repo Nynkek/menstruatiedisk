@@ -28,10 +28,10 @@ export const menuItemsList = [
             submenu: [
                 {
                     title: 'vind jouw disk',
-                    url: 'vergelijk-meerdere-menstruatiedisks',
+                    url: 'diskquiz',
                 },
                 {
-                    title: 'disks lijst',
+                    title: 'disks vergelijken',
                     url: 'vergelijk-meerdere-menstruatiedisks',
                 },
             ],

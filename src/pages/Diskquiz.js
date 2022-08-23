@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from 'react';
 import pageImg
-    from '../assets/Cupkiezer-menstruatiedisk-naast-elkaar-softcup-ziggy-cup-en-nixit-cup-mening-vergelijken-20210511.jpg'
+    from '../assets/Cupkiezer-Bamboozy-menstruatiedisk-en-cup-vergelijken-in-twee-maten-4356.jpg'
 import DiscQuizTabel from "../components/tabel/DiscQuizTabel";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
-import DiscTabel from "../components/tabel/DiscTabel";
 
 
-function Compare({headerImageHandler, pageTitleHandler}) {
+
+function Diskquiz({headerImageHandler, pageTitleHandler}) {
     const [menstrualDiscs, setMenstrualDiscs] = useState([]);
 
 
@@ -23,8 +23,8 @@ function Compare({headerImageHandler, pageTitleHandler}) {
 
     useEffect(() => {
         headerImageHandler(pageImg);
-        pageTitleHandler("Vergelijken");
-    }, []);
+        pageTitleHandler("Diskquiz");
+    }, [headerImageHandler, pageTitleHandler]);
 
 
     return (
@@ -40,7 +40,7 @@ function Compare({headerImageHandler, pageTitleHandler}) {
                 </p>
             </div>
 
-            <DiscTabel/>
+            <DiscQuizTabel/>
             <TextContainer>
 
                 <h3>Baarmoedermondhoogte</h3>
@@ -91,4 +91,4 @@ function Compare({headerImageHandler, pageTitleHandler}) {
     );
 }
 
-export default Compare;
+export default Diskquiz;

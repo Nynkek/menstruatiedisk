@@ -7,12 +7,15 @@ import YellowContentBox from "../pageItems/pageDesignElements/yellowContentBox/Y
 import {Link} from "react-router-dom";
 
 
-function Tabel() {
+
+function DiscTabel() {
     const [menstrualDiscs, setMenstrualDiscs] = useState([]);
     const [filteredDiscs, setFilteredDiscs] = useState([]);
     const [bmm, setBmm] = useState('');
     const [reusable, setReusable] = useState('');
     const [stem, setStem] = useState('');
+    const [country, setCountry] = useState('');
+
 
     useEffect(() => {
         onValue(ref(db, 'discs/'), (snapshot) => {
@@ -102,15 +105,7 @@ function Tabel() {
             hide: "md",
             maxWidth: "50px",
         },
-        {
-            name: 'Merk',
-            selector: row => row.brand,
-            sortable: true,
-            compact: true,
-            hide: "md",
-            maxWidth: "50px",
-            wrap: true,
-        },
+
         {
             name: 'Design',
             selector: row => row.designFeature,
@@ -158,9 +153,17 @@ function Tabel() {
                 break;
             default:
         }
+        switch (country) {
+            case "ja-nl":
+                discList = discList.filter(disc => disc.availableInNL === true)
+                break;
+            case "nee-nl":
+                break;
+            default:
+        }
         setFilteredDiscs(discList);
 
-    }, [bmm, reusable, stem, menstrualDiscs])
+    }, [bmm, reusable, stem, menstrualDiscs, country])
 
     function handleOptionChange(e) {
         if (e.target.name === "bmm") {
@@ -169,6 +172,8 @@ function Tabel() {
             setReusable(e.target.value);
         } else if (e.target.name === "steel") {
             setStem(e.target.value);
+        } else if (e.target.name === "land") {
+            setCountry(e.target.value);
         }
     }
 
@@ -183,7 +188,7 @@ function Tabel() {
 
         <div className="tabel">
             <YellowContentBox>
-                <h2>Vergelijk alle menstruatiedisks</h2>
+                <h2>Menstruatiedisks vergelijken</h2>
                 <p>Onder de tabel vind je de legenda. De tabel is het best zichtbaar op een breed scherm.</p>
 
                 <h4 className="legend">Baarmoedermondhoogte (bepaalt de breedte van de disk)</h4>
@@ -191,17 +196,17 @@ function Tabel() {
                     <label>
                         <input type="radio" value="hoge-bmm" name="bmm"
                                onChange={handleOptionChange} checked={bmm === "hoge-bmm"}/>
-                        Ik heb een hoge baarmoedermond. Hoger dan 5,5cm.
+                        Disks voor een hoge bmm. <span className="small-txt">Hoger dan 5,5cm.</span>
                     </label><br/>
                     <label>
                         <input type="radio" value="gem-bmm" name="bmm" onChange={handleOptionChange}
                                checked={bmm === "gem-bmm"}/>
-                        Ik heb een gemiddelde bmm. Zo'n 4,5cm - 5,5cm hoog.
+                        Disks voor een gemiddelde bmm. <span className="small-txt">Zo'n 4,5cm - 5,5cm hoog.</span>
                     </label><br/>
                     <label>
                         <input type="radio" value="lage-bmm" name="bmm"
                                onChange={handleOptionChange} checked={bmm === "lage-bmm"}/>
-                        Ik heb een lage bmm. Hij zit lager dan 4,5cm.
+                        Disks voor een lage bmm. <span className="small-txt">Hij zit lager dan 4,5cm.</span>
                     </label><br/>
                     <label>
                         <input type="radio" value="geen-bmm" name="bmm"
@@ -212,21 +217,28 @@ function Tabel() {
                     <h4 className="legend">Herbruikbaar?</h4>
                     <label><input type="radio" value="ja-hbb" name="herbruikbaar" onChange={handleOptionChange}
                                   checked={reusable === "ja-hbb"}/>
-                        Ik wil een herbruikbare disk (gaat tot 10 jaar mee, vanaf €20)</label><br/>
+                        Herbruikbare disks. <span className="small-txt">Die gaat tot 10 jaar mee, vanaf €20.</span></label><br/>
                     <label><input type="radio" value="nee-hbb" name="herbruikbaar" onChange={handleOptionChange}
                                   checked={reusable === "nee-hbb"}/>
-                        Ik wil een wegwerp exemplaar (gaat 1x mee, rond de €4 per stuk)</label><br/>
+                        Wegwerp disks. <span className="small-txt">Die kan je 1x gebruiken, rond de €4 per stuk.</span></label><br/>
                     <label><input type="radio" value="geen-hbb" name="herbruikbaar" onChange={handleOptionChange}
                                   checked={reusable === "geen-hbb"}/>
                         Maakt me niet uit, laat me alle opties zien.</label>
 
-                    <h4 className="legend">Steeltje?</h4>
+                    <h4 className="legend">Steeltje of lusje?</h4>
                     <label> <input type="radio" value="ja-steel" name="steel" onChange={handleOptionChange}
                                    checked={stem === "ja-steel"}/>
-                        Ik wil extra hulp bij het eruit halen. Dus een disk met een
-                        steeltje.</label><br/>
+                        Disks met steeltje of uitneem-gleuf. </label><br/>
                     <label><input type="radio" value="nee-steel" name="steel" onChange={handleOptionChange}
                                   checked={stem === "nee-steel"}/>
+                        Het maakt me niet uit, laat me alle opties zien.</label><br/>
+
+                    <h4 className="legend">Nederlandse webshop?</h4>
+                    <label> <input type="radio" value="ja-nl" name="land" onChange={handleOptionChange}
+                                   checked={country === "ja-nl"}/>
+                        Ik wil alleen disks zien die makkelijk in NL te verkrijgen zijn.</label><br/>
+                    <label><input type="radio" value="nee-nl" name="land" onChange={handleOptionChange}
+                                  checked={country === "nee-nl"}/>
                         Het maakt me niet uit, laat me alle opties zien.</label><br/>
 
                 </form>
@@ -250,4 +262,4 @@ function Tabel() {
     );
 }
 
-export default Tabel;
+export default DiscTabel;

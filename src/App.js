@@ -15,6 +15,7 @@ import Footer from "./components/pageItems/footer/Footer";
 import Faq from "./pages/Faq";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Elements from "./pages/Elements";
+import Diskquiz from "./pages/Diskquiz";
 
 
 function App() {
@@ -43,6 +44,9 @@ function App() {
 
                 <Route path="/vergelijk-meerdere-menstruatiedisks/"
                        element={<Compare headerImageHandler={setHeaderImage} pageTitleHandler={setPageTitle}/>}/>
+
+                <Route path="/diskquiz/"
+                       element={<Diskquiz headerImageHandler={setHeaderImage} pageTitleHandler={setPageTitle}/>}/>
 
                 <Route path="/faq/"
                        element={<Faq headerImageHandler={setHeaderImage} pageTitleHandler={setPageTitle}/>}/>

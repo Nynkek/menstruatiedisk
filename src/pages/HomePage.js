@@ -77,7 +77,7 @@ function HomePage({headerImageHandler, pageTitleHandler}) {
                         je de disk horizontaal houdt, zodat je niet morst. Dit kan in het begin nog even lastig zijn,
                         dus neem er rustig de tijd voor en doe dit in een vertrouwde omgeving.
                     </li>
-                    <li>Hem je de disk eruit? Leeg hem dan in de wc en <strong>spoel hem met water af</strong>.</li>
+                    <li>Heb je de disk eruit? Leeg hem dan in de wc en <strong>spoel hem met water af</strong>.</li>
                     <li>Begin weer bij stap 2, en blijf dit <strong>herhalen</strong> tot je menstruatie voorbij is. :)
                     </li>
                     <li>Menstruatie voorbij? <strong>Kook je disk even uit</strong> en bewaar hem in de tussentijd in

@@ -44,6 +44,11 @@ label {
     margin: 1em;
 }
 
+.small-txt {
+    font-size: 0.8em;
+    color: var(--lightBlack);
+}
+
 .tabel input {
     appearance: none;
     border-radius: 50%;
