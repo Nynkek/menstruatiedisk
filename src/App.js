@@ -12,7 +12,7 @@ import headerImg
 import Donate from "./pages/Donate";
 import Header from "./components/pageItems/header/Header";
 import Footer from "./components/pageItems/footer/Footer";
-import Faq from "./pages/Faq";
+import FaqPage from "./pages/Faq-page";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Elements from "./pages/Elements";
 import Diskquiz from "./pages/Diskquiz";
@@ -49,7 +49,7 @@ function App() {
                        element={<Diskquiz headerImageHandler={setHeaderImage} pageTitleHandler={setPageTitle}/>}/>
 
                 <Route path="/faq/"
-                       element={<Faq headerImageHandler={setHeaderImage} pageTitleHandler={setPageTitle}/>}/>
+                       element={<FaqPage headerImageHandler={setHeaderImage} pageTitleHandler={setPageTitle}/>}/>
 
                 <Route path="/privacy-policy/"
                        element={<PrivacyPolicy headerImageHandler={setHeaderImage} pageTitleHandler={setPageTitle}/>}/>
