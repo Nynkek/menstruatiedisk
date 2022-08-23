@@ -7,7 +7,7 @@ export const menuItemsList = [
         {
             title: 'info ⌵ ',
             url: '/faq',
-            submenu: [
+            hashmenu: [
                 {
                     title: 'gebruik',
                     url: 'faq#gebruik',

@@ -8,6 +8,7 @@ import {discData} from "../components/faqData/discFAQData";
 import {discCleanData} from "../components/faqData/discUseFAQData";
 import {discChooseData} from "../components/faqData/discChooseFAQData";
 import {discProblemsFAQData} from "../components/faqData/discProblemsFAQData";
+import { HashLink } from 'react-router-hash-link';
 
 function FaqPage({headerImageHandler, pageTitleHandler}) {
 
@@ -75,6 +76,7 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                      }}
                 />
             </BookmarkBox>
+            <TextContainer><HashLink to="#top">Scroll naar boven</HashLink></TextContainer>
         </>
 );
 }
