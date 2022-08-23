@@ -1,0 +1,36 @@
+.container .faq-row {
+    padding: 0.75em 0;
+    border-bottom: 0.2em solid var(--black);
+}
+
+.page-content .container .faq-row li {
+    display: list-item;
+    list-style-type: square;
+}
+
+.row-title-text {
+    font-weight: bold;
+}
+
+.page-content .container .faq-row ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.bookmark-container .faq-row ul {
+   padding-top: 0rem;
+}
+
+ .container .faq-title {
+     border-bottom: 0.3em solid var(--black);
+}
+.page-content .container .faq-title {
+    padding: 0.75em 0;
+    border-bottom: 0.3em solid var(--black);
+    background-color: var(--yellow);
+ }
