@@ -6,7 +6,7 @@ export const menuItemsList = [
         },
         {
             title: 'info ⌵ ',
-            url: '/informatie-over-menstruatiedisks',
+            url: '/faq',
             submenu: [
                 {
                     title: 'gebruik',

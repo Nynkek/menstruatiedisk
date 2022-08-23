@@ -8,6 +8,7 @@ import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/
 import TwoColumnWithImg from "../components/pageItems/pageDesignElements/twoColumn/TwoColumnWithImg";
 import cupsOnRackImg
     from "../assets/20211217-16-42-27-Cupkiezer-verschillende-menstruatiecup-vergelijken-op-kruidenrek-1024x1024.jpg";
+import {Link} from "react-router-dom";
 
 function HomePage({headerImageHandler, pageTitleHandler}) {
 
@@ -50,6 +51,9 @@ function HomePage({headerImageHandler, pageTitleHandler}) {
                         pannetje/mok/bakje met kokend heet water te leggen.</p>
                 </Column>
             </TwoColumn>
+            <TextContainer><strong>Wil je een weten welke disk bij jouw lichaam past?</strong> <br/>
+                Maak dan de <Link to="/diskquiz"  className="highlighter">diskquiz!</Link>
+            </TextContainer>
             <BookmarkBox verticalText="gebruik">
                 <h2>Hoe gebruik je een disk?</h2>
                 <ul>
@@ -98,6 +102,7 @@ function HomePage({headerImageHandler, pageTitleHandler}) {
                 <p>Een disk kun je maar op een manier vouwen, erg simpel (zeker als je cups gewend bent, die hebben veel
                     vouwen!). Je disk vouw je door de zijkanten in te drukken. Op die manier heb je een platte
                     ovaal.</p>
+                <p>Heb je nog meer vragen? <Link to="/faq">Check de faq</Link></p>
             </TwoColumnWithImg>
         </>
     );

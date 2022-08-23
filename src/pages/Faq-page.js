@@ -5,8 +5,9 @@ import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import "./css/faq-page.css";
 import {discData} from "../components/faqData/discFAQData";
-import {discCleanData} from "../components/faqData/discCleanFAQData";
+import {discCleanData} from "../components/faqData/discUseFAQData";
 import {discChooseData} from "../components/faqData/discChooseFAQData";
+import {discProblemsFAQData} from "../components/faqData/discProblemsFAQData";
 
 function FaqPage({headerImageHandler, pageTitleHandler}) {
 
@@ -52,6 +53,18 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
             </BookmarkBox>
             <BookmarkBox verticalText="kiezen">
                 <Faq data={discChooseData}
+                     styles={{
+                         titleTextColor: "var(--black)",
+                         rowTitleColor: "var(--black)",
+                         rowContentColor: "var(--black)",
+                         bgColor: "none",
+                         rowContentTextSize: "1em",
+                         arrowColor: "var(--black)",
+                     }}
+                />
+            </BookmarkBox>
+            <BookmarkBox verticalText="problemen">
+                <Faq data={discProblemsFAQData}
                      styles={{
                          titleTextColor: "var(--black)",
                          rowTitleColor: "var(--black)",

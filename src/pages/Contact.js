@@ -4,8 +4,8 @@ import pageImg
     from "../assets/Cupkiezer-Bamboozy-menstruatiedisk-en-cup-vergelijken-in-twee-maten-4308-1000x400.jpg";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import TwoColumnWithImg from "../components/pageItems/pageDesignElements/twoColumn/TwoColumnWithImg";
-import cupsOnRackImg
-    from "../assets/20211217-16-42-27-Cupkiezer-verschillende-menstruatiecup-vergelijken-op-kruidenrek-1024x1024.jpg";
+import nynkeWithDiscs
+    from "../assets/Nynke-gooit-met-cups-en-disks.jpg";
 
 function Contact({headerImageHandler, pageTitleHandler}) {
 
@@ -20,18 +20,20 @@ function Contact({headerImageHandler, pageTitleHandler}) {
             <TextContainer>
                 <h1>Contact</h1>
                 <p>Hoi! Heb je vragen? Lees eerst de <Link to="/faq">veelgesteldevragen-pagina</Link>, misschien staat
-                    je vraag daar wel tussen. Anders kun je ons via social media en e-mail bereiken.</p>
+                    je vraag daar wel tussen. </p><p>Anders kun je me via social media bereiken via <a href="http://instagram.com/cupkiezer/" target="_blank">@Cupkiezer's accounts</a>.
+                Ik kan je helaas niet helpen met persoonlijke vragen, aangezien ik dit allemaal vrijwillig en onbetaald doe. Daar heb ik helaas geen tijd voor.</p>
+                <h3>Persoonlijke vragen?</h3>
                 <p>We hebben ook een <a href="https://www.facebook.com/groups/menstruatiecupclub/" target="_blank">gezellige
-                    Facebookgroep</a> waar je vragen kan stellen.</p>
+                    besloten Facebookgroep</a> waar je vragen kan stellen. Je hoeft alleen een paar vragen te beantwoorden bij het lid worden, zodat we zeker weten dat er alleen echte mensen lid worden.</p>
             </TextContainer>
 
-            <TwoColumnWithImg img={cupsOnRackImg} imgAlt="alt text" imgCaption="lees deze caption">
+            <TwoColumnWithImg img={nynkeWithDiscs} imgAlt="alt text" imgCaption="Foto: Met Francis">
                 <h2>Onafhankelijk en genderneutraal</h2>
-                <p> Wat Cupkiezer bijzonder maakt is dat het een <span className="highlighter">onafhankelijke site</span> is;
-                    we worden niet betaald door cup-fabrikanten.
-                    Ook vinden we het belangrijk dat alles <span className="highlighter">genderneutraal</span> gecommuniceerd wordt.
-                    Cupkiezer is gericht op elk persoon met interesse in een menstruatiecup. Niet iedereen die menstrueert is een vrouw en niet
-                    iedere vrouw menstrueert. We willen de site zo inclusief en genderneutraal mogelijk houden, zodat
+                <p> Wat menstruatiedisk.nl bijzonder maakt is dat het een <span className="highlighter">onafhankelijke site</span> is;
+                    ik word niet betaald door fabrikanten. Ik krijg de meeste producten wel gratis opgestuurd.</p>
+                    <p>Ook vind ik het belangrijk dat alles <span className="highlighter">genderneutraal</span> gecommuniceerd wordt.
+                        Menstruatiedisk.nl is gericht op elk persoon met interesse in een menstruatiedisk. Niet iedereen die menstrueert is een vrouw en niet
+                    iedere vrouw menstrueert. Ik wil de site zo inclusief mogelijk houden, zodat
                     iedereen zich welkom voelt.</p>
 
             </TwoColumnWithImg>

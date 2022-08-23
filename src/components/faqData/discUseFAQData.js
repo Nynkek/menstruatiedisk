@@ -46,5 +46,15 @@ export const discCleanData = {
             content: `Je vouwt de disk, tot een platte ovaal door hem aan de zijkanten in te drukken.
             
             `
-        }]
+        },
+        {
+            title: "Hoe haal je een disk er weer uit?",
+            content: `<p>Om de disk eruit te halen spreid je weer je benen en breng een schone vinger in je vagina. Pers een beetje, zoals bij het poepen om de disk binnen handbereik te krijgen.
+Haak een vinger achter de rand van de disk, en <strong>haal de disk eruit</strong>. Zorg er wel voor
+                        dat je de disk horizontaal houdt, zodat je niet morst. Dit kan in het begin nog even lastig zijn,
+                        dus neem er rustig de tijd voor en doe dit in een vertrouwde omgeving. En bij voorkeur onder de douche.</p>
+            <p>Er is een grote kans dat er wat menstruatiebloed op je vingers komt. Dat was je er met water en zeep gewoon weer af. Maar wel fijn om op voorbereid te zijn.</p>
+            `
+        }
+    ]
 }
