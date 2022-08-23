@@ -12,7 +12,7 @@
     font-weight: bold;
 }
 
-.page-content .container .faq-row ul{
+.page-content .container .faq-row ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -23,14 +23,15 @@
 }
 
 .bookmark-container .faq-row ul {
-   padding-top: 0rem;
+    padding-top: 0rem;
 }
 
- .container .faq-title {
-     border-bottom: 0.3em solid var(--black);
+.container div .faq-title {
+    border-bottom: 0.3em solid var(--black);
 }
+
 .page-content .container .faq-title {
     padding: 0.75em 0;
     border-bottom: 0.3em solid var(--black);
     background-color: var(--yellow);
- }
+}
