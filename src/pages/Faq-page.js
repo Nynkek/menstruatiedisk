@@ -10,6 +10,7 @@ import {discChooseData} from "../components/faqData/discChooseFAQData";
 import {discProblemsFAQData} from "../components/faqData/discProblemsFAQData";
 import {HashLink} from 'react-router-hash-link';
 
+
 function FaqPage({headerImageHandler, pageTitleHandler}) {
 
     useEffect(() => {
@@ -94,7 +95,9 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                 />
 
             </BookmarkBox>
+
             <TextContainer><HashLink to="#hoofdstukken">Bekijk alle hoofdstukken</HashLink></TextContainer>
+
         </>
     );
 }
