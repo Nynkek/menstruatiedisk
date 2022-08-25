@@ -10,19 +10,19 @@ export const menuItemsList = [
             submenu: [
                 {
                     title: 'Disks',
-                    url: 'faq#algemeen',
+                    url: '/faq/#algemeen',
                 },
                 {
                     title: 'Gebruik',
-                    url: 'faq#gebruik',
+                    url: '/faq/#gebruik',
                 },
                 {
                     title: 'Kiezen',
-                    url: 'faq#kiezen',
+                    url: '/faq/#kiezen',
                 },
                 {
                     title: 'Problemen',
-                    url: 'faq#problemen',
+                    url: '/faq/#problemen',
                 },
             ],
         },

@@ -15,7 +15,7 @@ function MenuItems({items}) {
             {items.submenu ? (
             <>
             <NavLink to={items.url} end
-                     className={(navData) => navData.isActive ? "active-link" : ""} role="button"
+                     className={(navData) => navData.isActive ? "active-link" : null} role="button"
                      aria-expanded={dropdown ? "true" : "false"}
                      onClick={() => toggleDropdown((prev) => !prev)}
             >
@@ -26,7 +26,7 @@ function MenuItems({items}) {
             ) : (
 
                 <NavLink to={items.url} end
-                         className={(navData) => navData.isActive ? "active-link" : ""} role="button"
+                         className={(navData) => navData.isActive ? "active-link" : null} role="button"
                 >
                     {items.title}
                 </NavLink>
