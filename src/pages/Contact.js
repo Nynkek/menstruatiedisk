@@ -20,10 +20,10 @@ function Contact({headerImageHandler, pageTitleHandler}) {
             <TextContainer>
                 <h1>Contact</h1>
                 <p>Hoi! Heb je vragen? Lees eerst de <Link to="/faq">veelgesteldevragen-pagina</Link>, misschien staat
-                    je vraag daar wel tussen. </p><p>Anders kun je me via social media bereiken via <a href="http://instagram.com/cupkiezer/" target="_blank">@Cupkiezer's accounts</a>.
+                    je vraag daar wel tussen. </p><p>Anders kun je me via social media bereiken via <a href="http://instagram.com/cupkiezer/" target="_blank"  rel="noreferrer">@Cupkiezer's accounts</a>.
                 Ik kan je helaas niet helpen met persoonlijke vragen, aangezien ik dit allemaal vrijwillig en onbetaald doe. Daar heb ik helaas geen tijd voor.</p>
                 <h3>Persoonlijke vragen?</h3>
-                <p>We hebben ook een <a href="https://www.facebook.com/groups/menstruatiecupclub/" target="_blank">gezellige
+                <p>We hebben ook een <a href="https://www.facebook.com/groups/menstruatiecupclub/" target="_blank"  rel="noreferrer">gezellige
                     besloten Facebookgroep</a> waar je vragen kan stellen. Je hoeft alleen een paar vragen te beantwoorden bij het lid worden, zodat we zeker weten dat er alleen echte mensen lid worden.</p>
             </TextContainer>
 

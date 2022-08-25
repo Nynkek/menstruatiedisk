@@ -27,7 +27,7 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                     veel vragen beantwoordt, dus lees die maar rustig door.</p>
 
                 <p>Staat je vraag er echt niet tussen? Stel je vraag in <a
-                    href="https://www.facebook.com/groups/menstruatiecupclub/" target="_blank">onze Facebookgroep!</a>
+                    href="https://www.facebook.com/groups/menstruatiecupclub/" target="_blank"  rel="noreferrer">onze Facebookgroep!</a>
                 </p>
 
             </TextContainer>

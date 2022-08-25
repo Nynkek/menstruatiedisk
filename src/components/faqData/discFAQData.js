@@ -52,7 +52,7 @@ export const discData = {
             content: `
                     <ul>
                         <li><strong>Investering</strong>: De (herbruikbare) disk is wel vrij prijzig. 
-                    Maar je kan er 10 jaar mee doen! Benieuwd hoe duur verschillende menstruatieproducten per maand kosten? <a href="https://cupkiezer.nl/menstruatie-producten-overzicht/" target="_blank">Bekijk dit overzicht op Cupkiezer.</a><br/></li>
+                    Maar je kan er 10 jaar mee doen! Benieuwd hoe duur verschillende menstruatieproducten per maand kosten? <a href="https://cupkiezer.nl/menstruatie-producten-overzicht/" target="_blank"  rel="noreferrer">Bekijk dit overzicht op Cupkiezer.</a><br/></li>
                         <li><strong>Bloed op je vingers:</strong> Grote kans dat er menstruatie op je vingers komt bij het eruit halen. 
                     Je wast je handen erna weer, dus het is niet erg. Maar ik kan me voorstellen dat het een nadeel is.<br/>Er zijn ook disks met lusjes of touwtjes, die dit makkelijker moeten maken.</li>
                 <li><strong>Leercurve</strong>: Het kan even duren voordat je het in- en uitdoen onder de knie hebt.</li>
@@ -96,7 +96,7 @@ export const discData = {
             title: "Verschil tussen een cup en een disk?",
             content: `
 
-<p>Daar heb ik <a href="https://cupkiezer.nl/menstruatiecups-vergelijken/" target="_blank">op cupkiezer.nl al eens uitgebreid over geschreven</a>. Maar hieronder nog in het kort.</p>
+<p>Daar heb ik <a href="https://cupkiezer.nl/menstruatiecups-vergelijken/" target="_blank"  rel="noreferrer">op cupkiezer.nl al eens uitgebreid over geschreven</a>. Maar hieronder nog in het kort.</p>
  <p>De <strong>overeenkomst</strong> tussen de menstruatiedisk en de -cup is dat ze beide je menstruatie opvangen en dat je ze 12 uur kan dragen. Dat is het ongeveer wel... Maar hoe je ze indoet en hoe hoog je ze draagt is anders.</p>
  <p>Het verschil: </p>
  <ul>
@@ -108,8 +108,8 @@ export const discData = {
 </ul>
 <p>Welke beter bij jouw lichaam past, is persoonlijk. <strong>Wil je weten welke cup of disk bij jouw lichaam past? </strong></p>
 <ul>
-<li>De <a href="https://cupkiezer.nl/quiz" target="_blank">Cupquiz</a> vind je op cupkiezer.nl</li>
-<li>De <a href="/diskquiz" target="_blank">Diskquiz</a> vind je hier, op menstruatiedisk.nl</li>
+<li>De <a href="https://cupkiezer.nl/quiz" target="_blank"  rel="noreferrer">Cupquiz</a> vind je op cupkiezer.nl</li>
+<li>De <a href="/diskquiz" target="_blank" rel="noreferrer">Diskquiz</a> vind je hier, op menstruatiedisk.nl</li>
 </ul>
 
 
@@ -122,7 +122,7 @@ export const discData = {
         {
             title: "Kan je een disk gebruiken als je een spiraaltje hebt?",
             content: `
-            <p>Er is nog te weinig onderzoek naar gedaan om 100% zeker te zeggen dat het veilig is. <a href="https://cupkiezer.nl/hrf_faq/is-spiraaltje-probleem-menstruatiecup/" target="_blank">Er is wel onderzoek naar een cup + spiraaltje geweest.</a></p>
+            <p>Er is nog te weinig onderzoek naar gedaan om 100% zeker te zeggen dat het veilig is. <a href="https://cupkiezer.nl/hrf_faq/is-spiraaltje-probleem-menstruatiecup/" target="_blank"  rel="noreferrer">Er is wel onderzoek naar een cup + spiraaltje geweest.</a></p>
             <p>Mijn tips: Overleg met je gynaecoloog of huisarts en laat je draadjes zo kort mogelijk knippen.</p>
             <p>Je kan op eigen risico een disk gebruiken.</p>
 `
