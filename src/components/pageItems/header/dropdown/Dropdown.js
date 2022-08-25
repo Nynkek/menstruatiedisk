@@ -10,7 +10,7 @@ function Dropdown({submenus, dropdown}) {
             {submenus.map((submenu, index) => (
                 <li key={index} className="dropdown-item">
                     {(submenu.url.includes("#")) ? (
-                            <NavLink smooth to={submenu.url}>{submenu.title}</NavLink>
+                            <HashLink smooth to={submenu.url}>{submenu.title}</HashLink>
                         )
                         :
                         (
