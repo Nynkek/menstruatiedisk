@@ -10,7 +10,7 @@ import {discChooseData} from "../components/faqData/discChooseFAQData";
 import {discProblemsFAQData} from "../components/faqData/discProblemsFAQData";
 import {HashLink} from 'react-router-hash-link';
 import YellowContentBox from "../components/pageItems/pageDesignElements/yellowContentBox/YellowContentBox";
-
+import useScrollToHash from "../helpers/useScrollToHash";
 
 function FaqPage({headerImageHandler, pageTitleHandler}) {
 
@@ -55,7 +55,9 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                          rowContentTextSize: "1em",
                          arrowColor: "var(--black)",
                      }}
+
                 />
+                {useScrollToHash()}
             </BookmarkBox>
             <a id="gebruik"></a>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import "./dropdown.css";
-import {NavHashLink} from 'react-router-hash-link';
+import {HashLink} from 'react-router-hash-link';
 
 
 function Dropdown({submenus, dropdown}) {
@@ -10,7 +10,7 @@ function Dropdown({submenus, dropdown}) {
             {submenus.map((submenu, index) => (
                 <li key={index} className="dropdown-item">
                     {(submenu.url.includes("#")) ? (
-                            <NavLink to={submenu.url}>{submenu.title}</NavLink>
+                            <HashLink smooth to={submenu.url}>{submenu.title}</HashLink>
                         )
                         :
                         (
