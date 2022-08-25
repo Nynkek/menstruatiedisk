@@ -9,6 +9,7 @@ import {discCleanData} from "../components/faqData/discUseFAQData";
 import {discChooseData} from "../components/faqData/discChooseFAQData";
 import {discProblemsFAQData} from "../components/faqData/discProblemsFAQData";
 import {HashLink} from 'react-router-hash-link';
+import YellowContentBox from "../components/pageItems/pageDesignElements/yellowContentBox/YellowContentBox";
 
 
 function FaqPage({headerImageHandler, pageTitleHandler}) {
@@ -28,7 +29,11 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                 <p>Staat je vraag er echt niet tussen? Stel je vraag in <a
                     href="https://www.facebook.com/groups/menstruatiecupclub/" target="_blank">onze Facebookgroep!</a>
                 </p>
-                <a id="hoofdstukken"></a>
+
+            </TextContainer>
+            <a id="hoofdstukken"></a>
+            <YellowContentBox>
+
                 <h2>Hoofdstukken</h2>
                 <ul>
                     <li><HashLink to="#algemeen">Algemene vragen over disks</HashLink></li>
@@ -36,8 +41,8 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                     <li><HashLink to="#kiezen">Disk kiezen</HashLink></li>
                     <li><HashLink to="/faq#problemen">Disk problemen</HashLink></li>
                 </ul>
+            </YellowContentBox>
 
-            </TextContainer>
             <a id="algemeen"></a>
 
             <BookmarkBox verticalText="Algemeen">
