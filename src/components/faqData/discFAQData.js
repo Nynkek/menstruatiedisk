@@ -51,7 +51,7 @@ export const discData = {
             title: "Nadelen van de menstruatiedisk",
             content: `
                     <ul>
-                        <li><strong>Investering</strong>: De (herbruikbare) disk geeft, is wel vrij prijzig. 
+                        <li><strong>Investering</strong>: De (herbruikbare) disk is wel vrij prijzig. 
                     Maar je kan er 10 jaar mee doen! Benieuwd hoe duur verschillende menstruatieproducten per maand kosten? <a href="https://cupkiezer.nl/menstruatie-producten-overzicht/" target="_blank">Bekijk dit overzicht op Cupkiezer.</a><br/></li>
                         <li><strong>Bloed op je vingers:</strong> Grote kans dat er menstruatie op je vingers komt bij het eruit halen. 
                     Je wast je handen erna weer, dus het is niet erg. Maar ik kan me voorstellen dat het een nadeel is.<br/>Er zijn ook disks met lusjes of touwtjes, die dit makkelijker moeten maken.</li>
