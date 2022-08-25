@@ -182,6 +182,7 @@ function DiscTabel() {
         setBmm('');
         setReusable('');
         setStem('');
+        setCountry('');
     }
 
     return (

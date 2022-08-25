@@ -79,31 +79,31 @@ function DiscQuizTabel() {
 
         },
 
-        {
-            name: 'Hardheid',
-            selector: row => row.firmness.toLowerCase(),
-            sortable: true,
-            compact: true,
-            hide: "md",
-            maxWidth: "50px",
-        },
-        {
-            name: 'Materiaal',
-            selector: row => row.material.toLowerCase(),
-            sortable: true,
-            compact: true,
-            hide: "md",
-            maxWidth: "50px",
-
-        },
-        {
-            name: 'Vorm',
-            selector: row => row.shape.toLowerCase(),
-            sortable: true,
-            compact: true,
-            hide: "md",
-            maxWidth: "50px",
-        },
+        // {
+        //     name: 'Hardheid',
+        //     selector: row => row.firmness.toLowerCase(),
+        //     sortable: true,
+        //     compact: true,
+        //     hide: "md",
+        //     maxWidth: "50px",
+        // },
+        // {
+        //     name: 'Materiaal',
+        //     selector: row => row.material.toLowerCase(),
+        //     sortable: true,
+        //     compact: true,
+        //     hide: "md",
+        //     maxWidth: "50px",
+        //
+        // },
+        // {
+        //     name: 'Vorm',
+        //     selector: row => row.shape.toLowerCase(),
+        //     sortable: true,
+        //     compact: true,
+        //     hide: "md",
+        //     maxWidth: "50px",
+        // },
 
         {
             name: 'Design',
@@ -181,6 +181,7 @@ function DiscQuizTabel() {
         setBmm('');
         setReusable('');
         setStem('');
+        setCountry('');
     }
 
     return (
