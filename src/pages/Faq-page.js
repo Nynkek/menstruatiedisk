@@ -1,5 +1,7 @@
 import React, {useEffect} from 'react';
 import pageImg from "../assets/headers/menstruatiedisk.nl-gevouwen-disk-quiz-5.jpg";
+import faqImg1 from "../assets/img/Cupkiezer-alle-mensturatieproducten-icon-menstruatiecup.png";
+import faqImg2 from "../assets/img/Cupkiezer-alle-mensturatieproducten-icon-menstruatiedisk.png";
 import Faq from 'react-faq-component';
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
@@ -11,6 +13,7 @@ import {discProblemsFAQData} from "../components/faqData/discProblemsFAQData";
 import {HashLink} from 'react-router-hash-link';
 import YellowContentBox from "../components/pageItems/pageDesignElements/yellowContentBox/YellowContentBox";
 import useScrollToHash from "../helpers/useScrollToHash";
+import TwoColumnBothImg from "../components/pageItems/pageDesignElements/columns/TwoColumnBothImg";
 
 function FaqPage({headerImageHandler, pageTitleHandler}) {
 
@@ -27,7 +30,8 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                     veel vragen beantwoordt, dus lees die maar rustig door.</p>
 
                 <p>Staat je vraag er echt niet tussen? Stel je vraag in <a
-                    href="https://www.facebook.com/groups/menstruatiecupclub/" target="_blank"  rel="noreferrer">onze Facebookgroep!</a>
+                    href="https://www.facebook.com/groups/menstruatiecupclub/" target="_blank" rel="noreferrer">onze
+                    Facebookgroep!</a>
                 </p>
 
             </TextContainer>
@@ -60,7 +64,7 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                 {useScrollToHash()}
             </BookmarkBox>
             <a id="gebruik"></a>
-
+            <TwoColumnBothImg img1={faqImg1} imgAlt1="disks" imgCaption1="cup" img2={faqImg2} imgAlt2="afbeelding" imgCaption2="disk" />
             <BookmarkBox verticalText="gebruik">
                 <Faq data={discCleanData}
                      styles={{

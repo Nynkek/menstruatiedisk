@@ -1,0 +1,38 @@
+
+.page-two-section {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    gap: 5%;
+}
+
+.page-two-section-img {
+    flex-basis: 30%;
+    padding-top: var(--margin);
+    padding-bottom: var(--margin);
+    text-align: center;
+}
+
+.page-two-section img {
+    max-width: calc(100% - var(--margin));
+    max-height: calc(100% - var(--margin));
+    box-shadow: var(--dropshadow);
+    border: var(--border);
+}
+
+.page-two-section-text {
+    flex-basis: 65%;
+}
+
+.img {
+    flex-basis: 45%;
+}
+
+@media only screen and (max-width: 800px) {
+    .page-two-section {
+        flex-flow: column-reverse wrap;
+    }
+}
+
+
+

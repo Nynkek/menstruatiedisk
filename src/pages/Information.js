@@ -5,7 +5,7 @@ import discs
     from "../assets/headers/menstruatiedisk.nl-kiezen-quiz-4.jpg"
 import discs2
     from "../assets/headers/menstruatiedisk.nl-kiezen-quiz-4.jpg"
-import TwoColumnWithImg from "../components/pageItems/pageDesignElements/twoColumn/TwoColumnWithImg";
+import TwoColumnWithImg from "../components/pageItems/pageDesignElements/columns/TwoColumnWithImg";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
 import {onValue, ref} from "firebase/database";

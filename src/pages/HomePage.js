@@ -2,13 +2,26 @@ import React, {useEffect, useState} from 'react';
 import pageImg
     from "../assets/headers/menstruatiedisk.nl-kiezen-quiz-9.jpg";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
-import TwoColumn from "../components/pageItems/pageDesignElements/twoColumn/TwoColumn";
-import Column from "../components/pageItems/pageDesignElements/twoColumn/Column";
+
+import TwoColumn from "../components/pageItems/pageDesignElements/columns/TwoColumn";
+import Column from "../components/pageItems/pageDesignElements/columns/Column";
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
-import TwoColumnWithImg from "../components/pageItems/pageDesignElements/twoColumn/TwoColumnWithImg";
+import TwoColumnWithImg from "../components/pageItems/pageDesignElements/columns/TwoColumnWithImg";
+import TwoColumnBothImg from "../components/pageItems/pageDesignElements/columns/TwoColumnBothImg";
 import cupsOnRackImg
     from "../assets/img/verschillende-menstruatiecups-vergelijken-op-kruidenrek.jpg";
 import {Link} from "react-router-dom";
+import faqImg1 from "../assets/faqImg/menstruatiedisk-gevouwen-inbrengen.jpg";
+import faqImg2 from "../assets/faqImg/menstruatiedisk-inbrengen-onder-je-baarmoedermond.jpg";
+import faqImg3 from "../assets/faqImg/menstruatiedisk-vastklemmen-achter-schaambeen.jpg";
+import faqImg4 from "../assets/faqImg/menstruatiedisk-zit-goed.jpg";
+import faqImg5 from "../assets/faqImg/menstruatiedisk-eruithalen1.jpg";
+import faqImg6 from "../assets/faqImg/menstruatiedisk-eruithalen2.jpg";
+import faqImg7 from "../assets/faqImg/menstruatiedisk-eruithalen-lekt.jpg";
+import faqImg8 from "../assets/faqImg/menstruatiedisk-eruithalen-lekt-aan-onderkant.jpg";
+import ImgGallery from "../components/pageItems/pageDesignElements/columns/ImgGallery";
+import {insertDisc, removeDisc} from "../gallerys/insertDisc";
+
 
 function HomePage({headerImageHandler, pageTitleHandler}) {
 
@@ -23,6 +36,7 @@ function HomePage({headerImageHandler, pageTitleHandler}) {
             <TextContainer>
                 <h2>Wat is een menstruatiedisk?</h2>
             </TextContainer>
+
             <TwoColumn>
                 <Column>
                     <p>Een menstruatiedisk is een menstruatieproduct. Het is <strong>een platte disk, die je menstruatie
@@ -54,9 +68,15 @@ function HomePage({headerImageHandler, pageTitleHandler}) {
                         een steelpannetje met water op het fornuis. Maar ook in een mok/bakje met wat water in de magnetron.</p>
                 </Column>
             </TwoColumn>
-            <TextContainer><strong>Wil je een weten welke disk bij jouw lichaam past?</strong> <br/>
-                Maak dan de <Link to="/diskquiz"  className="highlighter">diskquiz!</Link>
+            <TextContainer><p><strong>Wil je een weten welke disk bij jouw lichaam past?</strong> <br/>
+                Maak dan de <Link to="/diskquiz"  className="highlighter">diskquiz!</Link></p>
+                <h2>Menstruatiedisk Indoen</h2>
             </TextContainer>
+
+            <ImgGallery imageList={insertDisc} />
+            <TextContainer><h2>Menstruatiedisk eruit halen</h2></TextContainer>
+            <ImgGallery imageList={removeDisc} />
+
             <BookmarkBox verticalText="gebruik">
                 <h2>Hoe gebruik je een disk?</h2>
                 <ul>
@@ -95,7 +115,6 @@ function HomePage({headerImageHandler, pageTitleHandler}) {
                     </li>
                 </ul>
             </BookmarkBox>
-
             <TwoColumnWithImg img={cupsOnRackImg}
                               imgAlt="Verschillende cups op een vintage kruidenrek."
                               imgCaption="Verschillende cups op een vintage kruidenrek.">

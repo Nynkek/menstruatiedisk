@@ -3,11 +3,11 @@ import pageImg from "../assets/headers/menstruatiedisk.nl-kiezen-quiz-6.jpg";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import YellowContentBox from "../components/pageItems/pageDesignElements/yellowContentBox/YellowContentBox";
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
-import TwoColumnWithImg from "../components/pageItems/pageDesignElements/twoColumn/TwoColumnWithImg";
+import TwoColumnWithImg from "../components/pageItems/pageDesignElements/columns/TwoColumnWithImg";
 import cupsOnRackImg
     from "../assets/img/verschillende-menstruatiecups-vergelijken-op-kruidenrek.jpg";
-import TwoColumn from "../components/pageItems/pageDesignElements/twoColumn/TwoColumn";
-import Column from "../components/pageItems/pageDesignElements/twoColumn/Column";
+import TwoColumn from "../components/pageItems/pageDesignElements/columns/TwoColumn";
+import Column from "../components/pageItems/pageDesignElements/columns/Column";
 
 
 function Elements({headerImageHandler, pageTitleHandler}) {

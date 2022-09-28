@@ -1,0 +1,60 @@
+.page-two-section {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    gap: 5%;
+}
+
+
+.page-two-section img {
+    max-width: calc(100% - var(--margin));
+    max-height: calc(100% - var(--margin));
+    box-shadow: var(--dropshadow);
+    border: var(--border);
+}
+
+.one {
+    flex-basis: 100%;
+}
+
+.two {
+    flex-basis: 45%;
+}
+
+.three {
+    flex-basis: 30%;
+
+}
+
+.four {
+    flex-basis: 21%;
+}
+
+.caption {
+    font-size: 1rem;
+}
+
+.gallery figure {
+    position: relative;
+    text-align: center;
+}
+
+.number {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: var(--yellow);
+    margin: 0;
+    padding: 1em;
+    border-radius: 5em;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .page-two-section {
+        flex-flow: column wrap;
+    }
+}
+
+
+

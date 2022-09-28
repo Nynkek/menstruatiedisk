@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import pageImg
     from "../assets/headers/menstruatiedisk.nl-cups-en-disks-kiezen-quiz-1.jpg";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
-import TwoColumnWithImg from "../components/pageItems/pageDesignElements/twoColumn/TwoColumnWithImg";
+import TwoColumnWithImg from "../components/pageItems/pageDesignElements/columns/TwoColumnWithImg";
 import nynkeWithDiscs
     from "../assets/img/Nynke-gooit-met-cups-en-disks.jpg";
 
