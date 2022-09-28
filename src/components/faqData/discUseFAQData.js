@@ -1,10 +1,18 @@
+import ImgGallery from "../../components/pageItems/pageDesignElements/columns/ImgGallery";
+import {insertDisc, removeDisc, foldDisc} from "../../gallerys/insertDisc";
+import { renderToString } from 'react-dom/server'
+import React from 'react';
+
+
+
 export const discCleanData = {
     title: "Disk gebruiken",
     rows: [
         {
             title: "Hoe gebruik je een menstruatiedisk?",
+
             content: `
-      <ul>
+            <ul>
                     <li><strong>Kook je disk</strong> 5 minuten uit voor gebruik.</li>
                     <li><strong>Vouw de disk</strong> tot een platte ovaal door hem aan de zijkanten in te drukken.</li>
                     <li>Spreid je benen. <strong>Schuif de disk, licht gekanteld, voorzichtig in je vagina</strong>, terwijl je de
@@ -39,20 +47,21 @@ export const discCleanData = {
                         badkamer en zeker niet in een luchtdichte container.
                     </li>
                 </ul>
-                
+                             
                 `
         },
-
         {
             title: "Hoe vouw je een menstruatiedisk?",
             content: `Je vouwt de disk, tot een platte ovaal door hem aan de zijkanten in te drukken.
-            
+            ${renderToString(<ImgGallery imageList={foldDisc}/>)}
             `
         },
         {
             title: "Hoe breng je een menstruatiedisk in?",
             content: `
-            <ul>
+
+
+                 <ul>
             <li><strong>Vouw de disk</strong> tot een platte ovaal door hem aan de zijkanten in te drukken.</li>
                     <li>Spreid je benen. <strong>Schuif de disk, licht gekanteld, voorzichtig in je vagina</strong>, terwijl je de
                         zijkanten samengeknepen
@@ -69,7 +78,9 @@ export const discCleanData = {
                     </li>
                     <li>Als de disk goed is ingebracht voel je hem niet zitten. Voel je hem toch? Dan heb je hem waarschijnlijk niet
                         ver genoeg ingebracht. Probeer het dan opnieuw.</li>
-</ul>
+</ul>                           ${renderToString(<ImgGallery imageList={insertDisc}/>)}
+
+
             
             
             `
@@ -81,6 +92,8 @@ Haak een vinger achter de rand van de disk, en <strong>haal de disk eruit</stron
                         dat je de disk horizontaal houdt, zodat je niet morst. Dit kan in het begin nog even lastig zijn,
                         dus neem er rustig de tijd voor en doe dit in een vertrouwde omgeving. En bij voorkeur onder de douche.</p>
             <p>Er is een grote kans dat er wat menstruatiebloed op je vingers komt. Dat was je er met water en zeep gewoon weer af. Maar wel fijn om op voorbereid te zijn.</p>
+            
+             ${renderToString(<ImgGallery imageList={removeDisc}/>)}
             `
         }
     ]

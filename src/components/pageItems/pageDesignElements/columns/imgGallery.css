@@ -29,6 +29,10 @@
     flex-basis: 21%;
 }
 
+.bookmark-container .caption {
+    font-size: 0.8em;
+}
+
 .caption {
     font-size: 1rem;
 }
@@ -36,7 +40,21 @@
 .gallery figure {
     position: relative;
     text-align: center;
+    /*margin-bottom: 1em;*/
 }
+
+.gallery {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.faq-row .gallery {
+    margin-left: 1em;
+}
+.faq-row .caption {
+    margin-bottom: 2em;
+}
+
 
 .number {
     position: absolute;
@@ -51,7 +69,10 @@
     border: var(--border);
     font-size: 1.4em;
     font-family: 'Fredoka One', cursive;
+    z-index: 5;
 }
+
+
 
 @media only screen and (max-width: 800px) {
     .page-two-section {

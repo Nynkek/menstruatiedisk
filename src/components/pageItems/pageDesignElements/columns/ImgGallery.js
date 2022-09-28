@@ -3,7 +3,7 @@ import "./imgGallery.css";
 
 
 function ImgGallery({imageList}) {
-    const [classNames, setClassNames] = useState("one");
+    const [classNames, setClassNames] = useState("two");
 
     function countImagesInGallery(imageList) {
         switch (imageList.length) {
@@ -28,7 +28,7 @@ function ImgGallery({imageList}) {
         []);
 
     return (
-        <div className="page-two-section page-content gallery">
+        <div className="page-two-section gallery">
             {imageList.map((imgList, index) => {
                 return (
                    <figure className={classNames} key={index}>
@@ -36,8 +36,6 @@ function ImgGallery({imageList}) {
                         <figcaption className="caption">{imgList.caption}</figcaption>
                        <span className="number">{index+1}</span>
                     </figure>
-
-
                 )
             })}
         </div>

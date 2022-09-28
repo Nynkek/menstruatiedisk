@@ -1,3 +1,9 @@
+import ImgGallery from "../../components/pageItems/pageDesignElements/columns/ImgGallery";
+import {insertDisc, removeDisc, troubleWithDisc} from "../../gallerys/insertDisc";
+import { renderToString } from 'react-dom/server'
+import React from 'react';
+
+
 export const discProblemsFAQData = {
     title: "Problemen met je disk?",
     rows: [
@@ -12,7 +18,8 @@ export const discProblemsFAQData = {
                 <li>Schiet de disk los? Probeer hem dan hoger achter je schaambot te klemmen.</li>
                 <li>Misschien is deze maat niet goed voor je... probeer onze <a href='/diskquiz'>Diskquiz</a> eens!</li>
              </ul>
-                
+                               ${renderToString(<ImgGallery imageList={troubleWithDisc}/>)}
+
                 `
         },
         {
@@ -37,19 +44,22 @@ export const discProblemsFAQData = {
             title: "Het eruithalen is erg bloederig.",
             content: `
              <ul>             
-                <li>Klopt</li>
+                <li>Dit is iets gebruikelijker bij disks dan bij bijvoorbeeld cups.</li>
+                <li>Er zijn disks met een uitneem-hulp, zoals een steeltje, die dit moeten voorkomen. Of in ieder geval, minder zouden moeten maken. Kijk <a href="/vergelijk-meerdere-menstruatiedisks">op de vergelijken-pagina</a> om disks te vergelijken.</li>
              </ul>
-                
+               ${renderToString(<ImgGallery imageList={removeDisc}/>)}
+
                 `
         },
         {
-            title: "Ik krijg hem er bijna niet uit!",
+            title: "Ik krijg hem er (bijna) niet uit!",
             content: `
              <ul>             
                 <li>Ontspan je! Hoe meer je je spieren aanspant, hoe lastiger het is.</li>
                 <li>De disk kan niet kwijtraken! Je vagina is een gesloten kanaal.</li>
-                <li>Misschien is een disk met een extra uitneemhulp beter voor je geschikt. Kijk bij "vergelijken" welke dat zijn.</li>
-                <li>Als je niet goed bij de disk kunt, druk dan met je bekkenspieren alsof je probeert te poepen.</li>
+                <li>Misschien is een disk met een extra uitneemhulp beter voor je geschikt. Kijk <a href="/vergelijk-meerdere-menstruatiedisks">op de vergelijken-pagina</a> welke dat zijn.</li>
+                <li>Als je niet goed bij de disk kunt, druk dan met je bekkenspieren alsof je probeert te poepen. Dan zou de disk wat lager moeten gaan zitten.</li>
+                <li>Probeer je het toevallig net als je wakker wordt of nadat je opgewonden bent geweest? Probeer het dan over 10 minuten pas weer. Loop eerst even rond, en laat de zwaartekracht zijn werk doen en je vagina weer krimpen.</li>
              </ul>
                 
                 `

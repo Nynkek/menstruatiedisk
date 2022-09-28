@@ -6,6 +6,15 @@ import img5 from "../assets/faqImg/menstruatiedisk-gebruiken-handleiding-eruit-h
 import img6 from "../assets/faqImg/menstruatiedisk-gebruiken-handleiding-eruit-halen.jpg";
 import img7 from "../assets/faqImg/menstruatiedisk-gebruiken-handleiding-lekt-bij-eruithalen.jpg";
 import img8 from "../assets/faqImg/menstruatiedisk-gebruiken-handleiding-lekt-door.jpg";
+import img9 from "../assets/faqImg/menstruatiedisk-gevouwen-indoen-gevouwen-model.jpg";
+import img10 from "../assets/img/menstruatiedisk-verschillende-disks-naast-elkaar-gevouwen.jpg";
+import img11 from "../assets/faqImg/menstruatiecup-gevouwen-inbrengen.jpg";
+import img12 from "../assets/faqImg/menstruatiedisk-gevouwen-indoen-gevouwen-model.jpg";
+import img13 from "../assets/faqImg/menstruatiecup-baarmoedermodel.jpg";
+import img14 from "../assets/faqImg/menstruatiedisk-zit-goed.jpg";
+import img15 from "../assets/faqImg/menstruatiedisk-gebruiken-handleiding-zij-aanzicht.jpg";
+import img16 from "../assets/img/menstruatiedisk-verschillende-disks-naast-elkaar-gevouwen.jpg";
+import img17 from "../assets/img/menstruatiedisk-verschillende-disks-naast-elkaar.jpg";
 
 export const insertDisc = [
         {
@@ -27,9 +36,7 @@ export const insertDisc = [
             alt: 'De disk zit goed, je kunt hem zo 12 uur dragen.',
             caption: 'De disk zit goed, je kunt hem zo 12 uur dragen.',
             image: img4,
-        },
-
-
+        }
     ];
 
 export const removeDisc = [
@@ -47,7 +54,79 @@ export const removeDisc = [
         alt: 'menstruatiedisk',
         caption: 'De disk zal wat op je vingers lekken. Dit kun je er er gewoon weer afspoelen.',
         image: img7,
+    }
+];
+
+export const troubleWithDisc = [
+    {
+        alt: 'menstruatiedisk',
+        caption: 'Zit er bloed aan de onderkant van je disk? Dan zit de disk niet goed onder je baarmoedermond. Waarschijnlijk heb je hem niet schuin genoeg ingedaan.',
+        image: img8,
+    },
+    {
+        alt: 'menstruatiedisk',
+        caption: 'Je hebt de disk waarschijnlijk recht omhoog in gedaan, dat moet je niet doen! Mik meer richting je middenrug tijdens het inbrengen in plaats van recht omhoog.',
+        image: img1,
+    },
+];
+
+
+export const foldDisc = [
+    {
+        alt: 'Een gevouwen disk en een ongevouwen disk.',
+        caption: 'Een gevouwen disk en een ongevouwen disk.',
+        image: img10,
+    },
+    {
+        alt: 'Je vouwt een disk door de zijkanten in te drukken.',
+        caption: 'Je vouwt een disk door de zijkanten in te drukken.',
+        image: img9,
+    },
+];
+
+export const discVsCup = [
+    {
+        alt: 'Een gevouwen menstruatiecup in doen',
+        caption: 'Een gevouwen menstruatiecup in doen',
+        image: img11,
+    },
+    {
+        alt: 'Een gevouwen menstruatiedisk indoen',
+        caption: 'Een gevouwen menstruatiedisk indoen',
+        image: img12,
+    },
+    {
+        alt: 'hoe hoog je een menstruatiecup draagt',
+        caption: 'hoe hoog je een menstruatiecup draagt',
+        image: img13,
+    },
+    {
+        alt: 'hoe hoog je een menstruatiedisk draag',
+        caption: 'hoe hoog je een menstruatiedisk draagt',
+        image: img14,
+    },
+];
+
+export const discImages = [
+    {
+        alt: 'menstruatiedisk',
+        caption: 'menstruatiedisk waar je hem draagt',
+        image: img15,
+    },
+    {
+        alt: 'menstruatiedisk',
+        caption: 'menstruatiedisk',
+        image: img16,
     },
 
-
+    {
+        alt: 'menstruatiedisk',
+        caption: 'menstruatiedisk',
+        image: img17,
+    },
+    {
+        alt: 'Een gevouwen menstruatiedisk indoen',
+        caption: 'Een gevouwen menstruatiedisk indoen',
+        image: img12,
+    },
 ];

@@ -64,7 +64,7 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                 {useScrollToHash()}
             </BookmarkBox>
             <a id="gebruik"></a>
-            <TwoColumnBothImg img1={faqImg1} imgAlt1="disks" imgCaption1="cup" img2={faqImg2} imgAlt2="afbeelding" imgCaption2="disk" />
+
             <BookmarkBox verticalText="gebruik">
                 <Faq data={discCleanData}
                      styles={{

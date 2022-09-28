@@ -1,3 +1,8 @@
+import ImgGallery from "../../components/pageItems/pageDesignElements/columns/ImgGallery";
+import {discVsCup,discImages} from "../../gallerys/insertDisc";
+import { renderToString } from 'react-dom/server'
+import React from 'react';
+
 export const discData = {
     title: "Menstruatiedisk",
     rows: [
@@ -11,7 +16,11 @@ export const discData = {
                     zitten.</p>
                 <p>Eruit halen doe je door met je vinger achter de rand te klemmen. Dan trek je de menstruatiedisk
                     eruit. Je hoeft geen vacuüm te verbreken, zoals bij een menstruatiecup.</p>
-    <p>Je spoelt hem af, en brengt hem weer gevouwen in.</p>`
+                <p>Je spoelt hem af, en brengt hem weer gevouwen in.</p>
+
+                     ${renderToString(<ImgGallery imageList={discImages}/>)}
+
+`
         },
         {
             title: "Wat zijn de voordelen van een menstruatiedisk?",
@@ -96,25 +105,25 @@ export const discData = {
             title: "Verschil tussen een cup en een disk?",
             content: `
 
-<p>Daar heb ik <a href="https://cupkiezer.nl/menstruatiecups-vergelijken/" target="_blank"  rel="noreferrer">op cupkiezer.nl al eens uitgebreid over geschreven</a>. Maar hieronder nog in het kort.</p>
- <p>De <strong>overeenkomst</strong> tussen de menstruatiedisk en de -cup is dat ze beide je menstruatie opvangen en dat je ze 12 uur kan dragen. Dat is het ongeveer wel... Maar hoe je ze indoet en hoe hoog je ze draagt is anders.</p>
- <p>Het verschil: </p>
- <ul>
- <li>Disks blijven zitten doordat ze zo breed zijn, je klemt hem vast achter je schaambeen. Cups blijven zitten door hun vacuum.</li>
- <li>Disks kun je inhouden tijdens penetratie.</li>
- <li>Disks hebben gemiddeld meer inhoud dan cups.</li>
- <li>Er bestaan ook wegwerp disks, maar geen wegwerp cups.</li>
- <li>Disks hebben in hun opvang-bakje een dunner laagje silicone, waardoor ze waarschijnlijk iets minder lang meegaan dan een cup.</li>
-</ul>
-<p>Welke beter bij jouw lichaam past, is persoonlijk. <strong>Wil je weten welke cup of disk bij jouw lichaam past? </strong></p>
-<ul>
-<li>De <a href="https://cupkiezer.nl/quiz" target="_blank"  rel="noreferrer">Cupquiz</a> vind je op cupkiezer.nl</li>
-<li>De <a href="/diskquiz" target="_blank" rel="noreferrer">Diskquiz</a> vind je hier, op menstruatiedisk.nl</li>
-</ul>
-
-
-
-`
+                <p>Daar heb ik <a href="https://cupkiezer.nl/menstruatiecups-vergelijken/" target="_blank"  rel="noreferrer">op cupkiezer.nl al eens uitgebreid over geschreven</a>. Maar hieronder nog in het kort.</p>
+                 <p>De <strong>overeenkomst</strong> tussen de menstruatiedisk en de -cup is dat ze beide je menstruatie opvangen en dat je ze 12 uur kan dragen. Dat is het ongeveer wel... Maar hoe je ze indoet en hoe hoog je ze draagt is anders.</p>
+                 <p>Het verschil: </p>
+                 <ul>
+                 <li>Disks blijven zitten doordat ze zo breed zijn, je klemt hem vast achter je schaambeen. Cups blijven zitten door hun vacuum.</li>
+                 <li>Disks kun je inhouden tijdens penetratie.</li>
+                 <li>Disks hebben gemiddeld meer inhoud dan cups.</li>
+                 <li>Er bestaan ook wegwerp disks, maar geen wegwerp cups.</li>
+                 <li>Disks hebben in hun opvang-bakje een dunner laagje silicone, waardoor ze waarschijnlijk iets minder lang meegaan dan een cup.</li>
+                </ul>
+                <p>Welke beter bij jouw lichaam past, is persoonlijk. <strong>Wil je weten welke cup of disk bij jouw lichaam past? </strong></p>
+                <ul>
+                <li>De <a href="https://cupkiezer.nl/quiz" target="_blank"  rel="noreferrer">Cupquiz</a> vind je op cupkiezer.nl</li>
+                <li>De <a href="/diskquiz" target="_blank" rel="noreferrer">Diskquiz</a> vind je hier, op menstruatiedisk.nl</li>
+                </ul>
+                
+                     ${renderToString(<ImgGallery imageList={discVsCup}/>)}
+                
+                `
         }, {
             title: "Kan ik plassen of poepen met de disk in?",
             content: `Jazekers. De disk zit in je vagina-kanaal. Niet in je anus of plasbuis. <br/>Het kan zijn dat je disk automatisch zichzelf leegt op de wc en dat je hem weer even achter je schaambeen moet klemmen.`
