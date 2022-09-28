@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import pageImg
-    from '../assets/Cupkiezer-Bamboozy-menstruatiedisk-en-cup-vergelijken-in-twee-maten-4356.jpg'
+    from '../assets/headers/menstruatiedisk.nl-kiezen-quiz-10.jpg'
 import DiscQuizTabel from "../components/tabel/DiscQuizTabel";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";

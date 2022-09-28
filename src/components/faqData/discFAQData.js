@@ -64,7 +64,7 @@ export const discData = {
         {
             title: "Voel je de disk als je hem draagt?",
             content: "<p>Nee, tijdens het dragen zou je hem niet moeten voelen! De wegwerp-exemplaren zijn een stuk harder, waardoor je die nog wel kan voelen. </p>" +
-                "<p>Voel je de disk toch? Dan heb je wellicht een verkeerde maat... probeer onze <a href='/discquiz'>Discquiz</a> eens! </p>"
+                "<p>Voel je de disk toch? Dan heb je wellicht een verkeerde maat... probeer onze <a href='/diskquiz'>Diskquiz</a> eens! </p>"
         },
         {
             title: "Ruik je iets tijdens het dragen van een disk?",
@@ -104,7 +104,7 @@ export const discData = {
  <li>Disks kun je inhouden tijdens penetratie.</li>
  <li>Disks hebben gemiddeld meer inhoud dan cups.</li>
  <li>Er bestaan ook wegwerp disks, maar geen wegwerp cups.</li>
- <li>Discs hebben in hun opvang-bakje een dunner laagje silicone, waardoor ze waarschijnlijk iets minder lang meegaan dan een cup.</li>
+ <li>Disks hebben in hun opvang-bakje een dunner laagje silicone, waardoor ze waarschijnlijk iets minder lang meegaan dan een cup.</li>
 </ul>
 <p>Welke beter bij jouw lichaam past, is persoonlijk. <strong>Wil je weten welke cup of disk bij jouw lichaam past? </strong></p>
 <ul>

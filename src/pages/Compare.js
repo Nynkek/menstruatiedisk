@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import pageImg
-    from '../assets/Cupkiezer-menstruatiedisk-naast-elkaar-softcup-ziggy-cup-en-nixit-cup-mening-vergelijken-20210511.jpg'
+    from '../assets/headers/menstruatiedisk.nl-verschillende-disks-kiezen-quiz-3.jpg'
 import DiscQuizTabel from "../components/tabel/DiscQuizTabel";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";

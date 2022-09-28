@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../../assets/menstruatiedisk-logo-rood.png';
+import logo from '../../../assets/logos/menstruatiedisk-logo-rood.png';
 import Nav from "./nav/Nav";
 import {useNavigate, Link} from 'react-router-dom';
 import "./header.css";

@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import logo from '../../../assets/menstruatiedisk-logo-rood.png'
+import logo from '../../../assets/logos/menstruatiedisk-logo-rood.png'
 import {Link} from "react-router-dom";
 import "./footer.css";
 
@@ -19,12 +19,11 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="footer-txt">
-                    <p>Gemaakt door Nynke (van Cupkiezer) omdat er nog bijna geen informatie over menstruatiedisk in het
+                    <p>Deze website is een zuster-site van <a href="https://cupkiezer.nl">Cupkiezer</a></p>
+                    <p>De site is gemaakt door <a href="https://nynkek.nl">Nynkek</a> omdat er bijna geen onafhankelijke informatie over menstruatiedisks in het
                         Nederlands te vinden was. Terwijl het zo’n <span className="highlighter">geweldig duurzaam product</span> is.
                     </p>
-                    ♥ <p>Deze website was het eindproject van Nynke. <br/>Vind je het project tof,
-                    de website lekker werken en het design cool en je op zoek naar een full stack developer:
-                    neem contact op! ◕‿◕</p>
+
                 </div>
                 <div className="footer-logo">
                     <img src={logo} alt="menstruatiedisk.nl logo" className="logo"/>

@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import pageImg
-    from "../assets/Cupkiezer-Bamboozy-menstruatiedisk-en-cup-vergelijken-in-twee-maten-4367.jpg";
+    from "../assets/headers/menstruatiedisk.nl-kiezen-quiz-4.jpg";
 import discs
-    from "../assets/Cupkiezer-menstruatiedisc-vergelijken-NIXIT-easecup-en-softdisc-20200413-13.jpg"
+    from "../assets/headers/menstruatiedisk.nl-kiezen-quiz-4.jpg"
 import discs2
-    from "../assets/Cupkiezer-menstruatiedisk-naast-elkaar-softcup-ziggy-cup-en-nixit-cup-mening-vergelijken-20210511.jpg"
+    from "../assets/headers/menstruatiedisk.nl-kiezen-quiz-4.jpg"
 import TwoColumnWithImg from "../components/pageItems/pageDesignElements/twoColumn/TwoColumnWithImg";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";

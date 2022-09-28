@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import pageImg from "../assets/Cupkiezer-Bamboozy-menstruatiedisk-en-cup-vergelijken-in-twee-maten-4356.jpg";
+import pageImg from "../assets/headers/menstruatiedisk.nl-gevouwen-disk-quiz-5.jpg";
 import Faq from 'react-faq-component';
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";

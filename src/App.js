@@ -7,7 +7,7 @@ import Information from "./pages/Information";
 import Compare from "./pages/Compare";
 import Contact from "./pages/Contact";
 import headerImg
-    from '../src/assets/Cupkiezer-Bamboozy-menstruatiedisk-en-cup-vergelijken-in-twee-maten-4308-1000x400.jpg'
+    from '../src/assets/headers/menstruatiedisk.nl-kiezen-quiz-6.jpg'
 
 import Donate from "./pages/Donate";
 import Header from "./components/pageItems/header/Header";

@@ -1,11 +1,11 @@
 import React, {useEffect} from 'react';
-import pageImg from "../assets/Cupkiezer-Bamboozy-menstruatiedisk-en-cup-vergelijken-in-twee-maten-4308-1000x400.jpg";
+import pageImg from "../assets/headers/menstruatiedisk.nl-kiezen-quiz-6.jpg";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import YellowContentBox from "../components/pageItems/pageDesignElements/yellowContentBox/YellowContentBox";
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
 import TwoColumnWithImg from "../components/pageItems/pageDesignElements/twoColumn/TwoColumnWithImg";
 import cupsOnRackImg
-    from "../assets/20211217-16-42-27-Cupkiezer-verschillende-menstruatiecup-vergelijken-op-kruidenrek-1024x1024.jpg";
+    from "../assets/img/verschillende-menstruatiecups-vergelijken-op-kruidenrek.jpg";
 import TwoColumn from "../components/pageItems/pageDesignElements/twoColumn/TwoColumn";
 import Column from "../components/pageItems/pageDesignElements/twoColumn/Column";
 
