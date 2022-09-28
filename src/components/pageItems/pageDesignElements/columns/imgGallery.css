@@ -23,7 +23,6 @@
 
 .three {
     flex-basis: 30%;
-
 }
 
 .four {
@@ -41,13 +40,17 @@
 
 .number {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: -1rem;
+    left: -.5rem;
     background-color: var(--yellow);
     margin: 0;
-    padding: 1em;
+    width: 2.4em;
+    height: 2.4em;
+    padding: 0.3em 0em;
     border-radius: 5em;
-
+    border: var(--border);
+    font-size: 1.4em;
+    font-family: 'Fredoka One', cursive;
 }
 
 @media only screen and (max-width: 800px) {

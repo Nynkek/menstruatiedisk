@@ -20,9 +20,7 @@ function ImgGallery({imageList}) {
                 setClassNames("four");
                 break;
         }
-
     }
-
 
     useEffect(() => {
             countImagesInGallery(imageList)
@@ -34,10 +32,9 @@ function ImgGallery({imageList}) {
             {imageList.map((imgList, index) => {
                 return (
                    <figure className={classNames} key={index}>
-
                         <img src={imgList.image} alt={imgList.alt}/>
                         <figcaption className="caption">{imgList.caption}</figcaption>
-                       <span className="number">{index}</span>
+                       <span className="number">{index+1}</span>
                     </figure>
 
 
