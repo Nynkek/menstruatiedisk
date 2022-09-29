@@ -15,6 +15,7 @@ import img14 from "../assets/faqImg/menstruatiedisk-zit-goed.jpg";
 import img15 from "../assets/faqImg/menstruatiedisk-gebruiken-handleiding-zij-aanzicht.jpg";
 import img16 from "../assets/img/menstruatiedisk-verschillende-disks-naast-elkaar-gevouwen.jpg";
 import img17 from "../assets/img/menstruatiedisk-verschillende-disks-naast-elkaar.jpg";
+import img18 from "../assets/faqImg/menstruatiedisk-gebruiken-handleiding-verkeerd-indoen.jpg";
 
 export const insertDisc = [
         {
@@ -60,13 +61,31 @@ export const removeDisc = [
 export const troubleWithDisc = [
     {
         alt: 'menstruatiedisk',
+        caption: 'Je hebt de disk waarschijnlijk recht omhoog in gedaan, dat moet je niet doen! Mik meer richting je middenrug tijdens het inbrengen in plaats van recht omhoog.',
+        image: img18,
+    },
+    {
+        alt: 'menstruatiedisk',
         caption: 'Zit er bloed aan de onderkant van je disk? Dan zit de disk niet goed onder je baarmoedermond. Waarschijnlijk heb je hem niet schuin genoeg ingedaan.',
         image: img8,
     },
     {
         alt: 'menstruatiedisk',
-        caption: 'Je hebt de disk waarschijnlijk recht omhoog in gedaan, dat moet je niet doen! Mik meer richting je middenrug tijdens het inbrengen in plaats van recht omhoog.',
+        caption: 'Je moet de disk schuin in doen, meer mikken op je middenrug.',
         image: img1,
+    },
+];
+
+export const troubleWithDisc2 = [
+    {
+        alt: 'menstruatiedisk',
+        caption: 'Mik tijdens in inbrengen van de disk richting je middenrug tijdens het inbrengen in plaats van recht omhoog. Zo komt hij onder je baarmoedermond in plaats van ernaast.',
+        image: img1,
+    },
+    {
+        alt: 'menstruatiedisk',
+        caption: 'Heb je de disk wel echt goed achter je schaambot geklemd? Duw hem zo ver mogelijk omhoog.',
+        image: img3,
     },
 ];
 

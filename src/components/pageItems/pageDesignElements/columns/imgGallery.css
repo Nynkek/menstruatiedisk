@@ -11,6 +11,8 @@
     max-height: calc(100% - var(--margin));
     box-shadow: var(--dropshadow);
     border: var(--border);
+    border-radius: 0px 0px 1em 1em;
+
 }
 
 .one {
@@ -35,6 +37,8 @@
 
 .caption {
     font-size: 1rem;
+    margin-bottom: 2em;
+
 }
 
 .gallery figure {
@@ -51,9 +55,7 @@
 .faq-row .gallery {
     margin-left: 1em;
 }
-.faq-row .caption {
-    margin-bottom: 2em;
-}
+
 
 
 .number {

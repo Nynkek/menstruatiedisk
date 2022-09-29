@@ -14,6 +14,9 @@ import {HashLink} from 'react-router-hash-link';
 import YellowContentBox from "../components/pageItems/pageDesignElements/yellowContentBox/YellowContentBox";
 import useScrollToHash from "../helpers/useScrollToHash";
 import TwoColumnBothImg from "../components/pageItems/pageDesignElements/columns/TwoColumnBothImg";
+import ImgGallery from "../components/pageItems/pageDesignElements/columns/ImgGallery";
+import {discImages, discVsCup} from "../gallerys/insertDisc";
+import {Link} from "react-router-dom";
 
 function FaqPage({headerImageHandler, pageTitleHandler}) {
 
@@ -28,15 +31,12 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
             <TextContainer>
                 <p>Heb je een vraag over menstruatiedisks, het gebruik of het schoonmaken van de disks? Hieronder hebben
                     veel vragen beantwoordt, dus lees die maar rustig door.</p>
-
+                <a id="hoofdstukken"></a>
                 <p>Staat je vraag er echt niet tussen? Stel je vraag in <a
                     href="https://www.facebook.com/groups/menstruatiecupclub/" target="_blank" rel="noreferrer">onze
                     Facebookgroep!</a>
                 </p>
 
-            </TextContainer>
-            <a id="hoofdstukken"></a>
-            <YellowContentBox>
 
                 <h2>Hoofdstukken</h2>
                 <ul>
@@ -45,7 +45,10 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                     <li><HashLink to="#kiezen">Disk kiezen</HashLink></li>
                     <li><HashLink to="/faq#problemen">Disk problemen</HashLink></li>
                 </ul>
-            </YellowContentBox>
+
+                <ImgGallery imageList={discImages}></ImgGallery>
+
+            </TextContainer>
 
             <a id="algemeen"></a>
 
@@ -62,7 +65,9 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
 
                 />
                 {useScrollToHash()}
+
             </BookmarkBox>
+
             <a id="gebruik"></a>
 
             <BookmarkBox verticalText="gebruik">
@@ -107,7 +112,17 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
 
             </BookmarkBox>
 
-            <TextContainer><HashLink to="#hoofdstukken">Bekijk alle hoofdstukken</HashLink></TextContainer>
+            <TextContainer><h2>Hoofdstukken</h2>
+                <ul>
+                    <li><HashLink to="#algemeen">Algemene vragen over disks</HashLink></li>
+                    <li><HashLink to="#gebruik">Diks gebruiken</HashLink></li>
+                    <li><HashLink to="#kiezen">Disk kiezen</HashLink></li>
+                    <li><HashLink to="/faq#problemen">Disk problemen</HashLink></li>
+                </ul>
+            <h2>Genoeg gelezen?</h2>
+                <p>Vind dan de menstruatiedisk die bij jouw lichaam past met <Link to="/diskquiz" >onze diskquiz!</Link></p>
+
+            </TextContainer>
 
         </>
     );

@@ -1,10 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import pageImg
-    from '../assets/headers/menstruatiedisk.nl-kiezen-quiz-10.jpg'
+    from '../assets/headers/menstruatiedisk.nl-kiezen-herbruikbaar-wegwerp-disk.jpg'
 import DiscQuizTabel from "../components/tabel/DiscQuizTabel";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
-
+import {discProblemsFAQData} from "../components/faqData/discProblemsFAQData";
+import Faq from "react-faq-component";
+import {discQuizFAQ} from "../components/faqData/discQuizFAQ";
 
 
 function Diskquiz({headerImageHandler, pageTitleHandler}) {
@@ -30,7 +32,7 @@ function Diskquiz({headerImageHandler, pageTitleHandler}) {
     return (
         <>
 
-            <div className="page-content">
+            <TextContainer>
 
                 <p>Menstruatiedisks komen in verschillende breedtes, hardheden en modellen.
                     Er is niet één "one size fits all"-disk, helaas.</p>
@@ -38,38 +40,23 @@ function Diskquiz({headerImageHandler, pageTitleHandler}) {
                     <strong>Wil je weten welke disk bij jouw lichaam past?</strong> Beantwoord onderstaande vragen en
                     dan verschijnen de disks die geschikt zijn voor jou in de tabel daaronder!
                 </p>
-            </div>
+            </TextContainer>
 
             <DiscQuizTabel/>
+
             <TextContainer>
 
-                <h3>Baarmoedermondhoogte</h3>
-                <p>Dit bepaalt de breedte van de disk. Als je nog niet weet hoe hoog je baarmoedermond zit, raad ik je
-                    wel aan dit eerst op te meten.</p>
-                <p><strong>Je baarmoedermond opmeten</strong> doe je door tijdens je menstruatie met een schone vinger
-                    in je vagina te voelen.
-                    De hoogte kan veranderen tijdens je cyclus, daarom is het belangrijk dat je het echt tijdens je
-                    menstruatie doet.
-                    Aangezien je dan de disk gaat dragen.</p><p>
-                Je baarmoedermond voelt als een kleine, beetje harde donutvormige bobbel die terugveert bij aanraking.
-                Het zal wat
-                harder voelen dan de rest van je vaginawand. Wanneer je hem voelt houd dan met een andere vinger bij hoe
-                diep je zit. Meet daarna op hoeveel mm dat ongeveer was.</p>
-                <p>
-                    De baarmoederhals vormt de verbinding van de baarmoeder met de vagina.
-                </p>
+                <Faq data={discQuizFAQ}
+                     styles={{
+                         titleTextColor: "var(--black)",
+                         rowTitleColor: "var(--black)",
+                         rowContentColor: "var(--black)",
+                         bgColor: "none",
+                         rowContentTextSize: "1em",
+                         arrowColor: "var(--black)",
+                     }}
+                />
 
-                <h3>Herbruikbaar</h3>
-                <p>Dit bepaalt of je een siliconen herbruikbare disk te zien krijgt, of wegwerp exemplaren van
-                    polymeer.</p>
-
-                <h3>Steeltje</h3>
-                <p>De eerste menstruatiedisks waren een ronde schijf zonder poespas.
-                    Een aantal nieuwere modellen hebben een touwtje of lusje aan de disk zitten. Dit helpt je met de
-                    disk eruit halen.</p><p>
-                Wat jij fijner vindt, moet je natuurlijk nog uitvinden.
-                Maar weet wel dat je het touwtje er altijd weer af kan knippen als het toch niet bevalt. Het nadeel is
-                dan weer dat de disks met touwtje/lusje minder goed in NL te verkrijgen zijn.</p>
 
                 {showDisks(menstrualDiscs)}
             </TextContainer>

@@ -27,7 +27,7 @@ function Contact({headerImageHandler, pageTitleHandler}) {
                     besloten Facebookgroep</a> waar je vragen kan stellen. Je hoeft alleen een paar vragen te beantwoorden bij het lid worden, zodat we zeker weten dat er alleen echte mensen lid worden.</p>
             </TextContainer>
 
-            <TwoColumnWithImg img={nynkeWithDiscs} imgAlt="alt text" imgCaption="Foto: Met Francis">
+            <TwoColumnWithImg img={nynkeWithDiscs} imgAlt="alt text" imgCaption="Foto: 'Met Francis'">
                 <h2>Onafhankelijk en genderneutraal</h2>
                 <p> Wat menstruatiedisk.nl bijzonder maakt is dat het een <span className="highlighter">onafhankelijke site</span> is;
                     ik word niet betaald door fabrikanten. Ik krijg de meeste producten wel gratis opgestuurd.</p>
