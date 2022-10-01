@@ -34,7 +34,7 @@ function ImgGallery({imageList}) {
                    <figure className={classNames} key={index}>
                         <img src={imgList.image} alt={imgList.alt}/>
                         <figcaption className="caption">{imgList.caption}</figcaption>
-                       {index > 1 && <span className="number">{index+1}</span>  }
+                       {imageList.length !== 1 && <span className="number">{index+1}</span>  }
 
                     </figure>
                 )
