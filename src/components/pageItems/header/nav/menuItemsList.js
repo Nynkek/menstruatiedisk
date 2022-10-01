@@ -27,19 +27,8 @@ export const menuItemsList = [
             ],
         },
         {
-            title: 'vergelijken ⌵',
-            url: '/vergelijk-meerdere-menstruatiedisks',
-            submenu: [
-                {
-                    title: 'vind jouw disk',
-                    url: 'diskquiz',
-                },
-                {
-                    title: 'disks vergelijken',
-                    url: 'vergelijk-meerdere-menstruatiedisks',
-                },
-            ],
-
+            title: 'diskquiz',
+            url: '/diskquiz',
         },
 
         {

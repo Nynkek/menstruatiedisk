@@ -47,17 +47,17 @@ header .logo {
 
 
 .header-img-container {
-    top: -62px;
+    top: -1em;
     position: relative;
     z-index: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 18rem;
 }
 
 .header-img {
     width: 100%;
-    min-height: 5rem;
     background-color: var(--yellow);
 }
 
