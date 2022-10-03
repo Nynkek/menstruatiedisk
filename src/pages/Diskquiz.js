@@ -62,15 +62,13 @@ function Diskquiz({headerImageHandler, pageTitleHandler}) {
             </TextContainer>
             <BookmarkBox verticalText="legenda">
                 <h2>Uitleg menstruatiedisk-tabel</h2>
-                <p>Lengte: De lengte van de cup. Dit is exclusief de steel. (Die je er af kan knippen). Meer info.<br/>
-                    Inhoud: Hoeveel ml er in de cup kan, tot de luchtgaten gemeten. Voller kan hij ook niet zonder te
-                    lekken. Meer info.<br/>
-                    Diameter: Is het breedste gedeelte van de cup. Meer info.<br/>
-                    Hardheid: In drie gradaties (soft, regular, hard). Meer info.<br/>
-                    Materiaal: Cups zijn van Siliconen, TPE of rubber. Meer info.<br/><br/>
+                <p>
+                    Inhoud: Hoeveel ml er in de disk kan. Het reservoir van de disk zal nooit helemaal vol kunnen,
+                    omdat het een beetje platgedrukt in je vaginakanaal zit.<br/>
+                    Diameter: Is het breedste gedeelte van de disk. <br/>
+                    Materiaal: Herbruikbare disk zijn van siliconen. Wegwerp disks zijn van polymer. <br/>
 
-                    Dat een cup opgenomen is in deze tabel betekent niet dat wij de cup aanraden. Lees hier meer over
-                    cups en veiligheid.</p>
+                    Dat een disk opgenomen is in deze tabel betekent niet dat wij de disk aanraden.</p>
             </BookmarkBox>
 
 
