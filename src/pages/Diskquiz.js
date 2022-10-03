@@ -7,6 +7,7 @@ import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/
 import {discProblemsFAQData} from "../components/faqData/discProblemsFAQData";
 import Faq from "react-faq-component";
 import {discQuizFAQ} from "../components/faqData/discQuizFAQ";
+import {HashLink} from "react-router-hash-link";
 
 
 function Diskquiz({headerImageHandler, pageTitleHandler}) {
@@ -40,9 +41,13 @@ function Diskquiz({headerImageHandler, pageTitleHandler}) {
                     <strong>Wil je weten welke disk bij jouw lichaam past?</strong> Beantwoord onderstaande vragen en
                     dan verschijnen de disks die geschikt zijn voor jou in de tabel daaronder!
                 </p>
+                <h2>Legenda</h2>
+                <p>De <strong><HashLink to="#legenda">Legenda</HashLink></strong> vind je onder de tabel. Net als een <strong><HashLink to="#uitleg"> uitleg per vraag</HashLink></strong>.</p>
+                <p>De tabel is het beste zichtbaar op een breed scherm. (Dus draai je telefoon)</p>
             </TextContainer>
 
             <DiscQuizTabel/>
+            <a id="uitleg"></a>
 
             <TextContainer>
 
@@ -60,6 +65,8 @@ function Diskquiz({headerImageHandler, pageTitleHandler}) {
 
                 {showDisks(menstrualDiscs)}
             </TextContainer>
+            <a id="legenda"></a>
+
             <BookmarkBox verticalText="legenda">
                 <h2>Uitleg menstruatiedisk-tabel</h2>
                 <p>

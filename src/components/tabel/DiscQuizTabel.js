@@ -189,9 +189,9 @@ function DiscQuizTabel() {
         <div className="tabel">
             <YellowContentBox>
                 <h2>Menstruatiediskquiz</h2>
-                <p>Onder de tabel vind je de legenda. De tabel is het best zichtbaar op een breed scherm.</p>
+                <p>Onder de tabel vind je de <a href="#legenda">legenda</a>. De tabel is het best zichtbaar op een breed scherm.</p>
 
-                <h4 className="legend">Baarmoedermondhoogte (bepaalt de breedte van de disk)</h4>
+                <h4 className="legend">Baarmoedermondhoogte (bepaalt de breedte van de disk)  <a href="#uitleg">[?]</a></h4>
                 <form>
                     <label>
                         <input type="radio" value="hoge-bmm" name="bmm"
@@ -214,7 +214,7 @@ function DiscQuizTabel() {
                         Ik weet het niet, geef me gemiddelde disks.
                     </label><br/>
 
-                    <h4 className="legend">Herbruikbaar?</h4>
+                    <h4 className="legend">Herbruikbaar? <a href="#uitleg">[?]</a></h4>
                     <label><input type="radio" value="ja-hbb" name="herbruikbaar" onChange={handleOptionChange}
                                   checked={reusable === "ja-hbb"}/>
                         Ik wil een herbruikbare disk. <span className="small-txt">Die gaat tot 10 jaar mee, vanaf €20.</span></label><br/>
@@ -225,7 +225,7 @@ function DiscQuizTabel() {
                                   checked={reusable === "geen-hbb"}/>
                         Maakt me niet uit, laat me alle opties zien.</label>
 
-                    <h4 className="legend">Steeltje of lusje?</h4>
+                    <h4 className="legend">Steeltje of lusje? <a href="#uitleg">[?]</a></h4>
                     <label> <input type="radio" value="ja-steel" name="steel" onChange={handleOptionChange}
                                    checked={stem === "ja-steel"}/>
                         Ik wil extra hulp bij het eruit halen. <span className="small-txt"> Dus een disk met een
@@ -234,7 +234,7 @@ function DiscQuizTabel() {
                                   checked={stem === "nee-steel"}/>
                         Het maakt me niet uit, laat me alle opties zien.</label><br/>
 
-                    <h4 className="legend">Nederlandse webshop?</h4>
+                    <h4 className="legend">Nederlandse webshop? <a href="#uitleg">[?]</a></h4>
                     <label> <input type="radio" value="ja-nl" name="land" onChange={handleOptionChange}
                                    checked={country === "ja-nl"}/>
                         Ik wil alleen disks zien die makkelijk in NL te verkrijgen zijn.</label><br/>
