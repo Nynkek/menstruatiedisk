@@ -60,6 +60,8 @@ header .logo {
     width: 100%;
     background-color: var(--yellow);
     aspect-ratio: 16 / 9;
+    height: 56.25%;
+
 }
 
 .page-title {
