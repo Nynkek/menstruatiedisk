@@ -13,7 +13,6 @@ import {discProblemsFAQData} from "../components/faqData/discProblemsFAQData";
 import {HashLink} from 'react-router-hash-link';
 import YellowContentBox from "../components/pageItems/pageDesignElements/yellowContentBox/YellowContentBox";
 import useScrollToHash from "../helpers/useScrollToHash";
-import TwoColumnBothImg from "../components/pageItems/pageDesignElements/columns/TwoColumnBothImg";
 import ImgGallery from "../components/pageItems/pageDesignElements/columns/ImgGallery";
 import {discImages, discVsCup} from "../gallerys/insertDisc";
 import {Link} from "react-router-dom";
@@ -46,7 +45,6 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                     <li><HashLink to="/faq#problemen">Disk problemen</HashLink></li>
                 </ul>
 
-                <ImgGallery imageList={discImages}></ImgGallery>
 
             </TextContainer>
 

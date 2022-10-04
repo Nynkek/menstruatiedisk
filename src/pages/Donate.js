@@ -5,6 +5,8 @@ import YellowContentBox from "../components/pageItems/pageDesignElements/yellowC
 import ImgGallery from "../components/pageItems/pageDesignElements/columns/ImgGallery";
 import {discQuizFAQ} from "../components/faqData/discQuizFAQ";
 import {discImages} from "../gallerys/insertDisc";
+import nynkeWithDiscs from "../assets/img/Nynke-gooit-met-cups-en-disks.jpg";
+import TwoColumnWithImg from "../components/pageItems/pageDesignElements/columns/TwoColumnWithImg";
 
 function Donate({headerImageHandler, pageTitleHandler}) {
     useEffect(() => {
@@ -15,8 +17,8 @@ function Donate({headerImageHandler, pageTitleHandler}) {
     return (
         <>
             <TextContainer>
-                <h3>Onafhankelijke informatie over duurzaam menstrueren: visueel, begrijpbaar, en inclusief.</h3>
-                <p>Menstruatiedisk.nl heeft als doel:</p>
+                <h2>Onafhankelijke informatie over duurzaam menstrueren: visueel, begrijpbaar, en inclusief.</h2>
+                <p><br/>Menstruatiedisk.nl heeft als doel:</p>
                 <ul>
                     <li>Minder afval,</li>
                     <li>Menstruatie-armoede verminderen,</li>
@@ -26,8 +28,8 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 </ul>
             </TextContainer>
             <YellowContentBox>
-                <h4>Wil je eenmalig bijdragen om deze informatie beschikbaar te houden?</h4>
-                <p>Graag! Elke donatie is welkom.</p>
+                <h3>Eenmalig bijdragen om deze informatie te ondersteunen?</h3>
+                <p>Graag! Elke donatie is meer dan welkom.</p>
                 <ul className="button-container">
                     <li className="button">
 
@@ -43,7 +45,7 @@ function Donate({headerImageHandler, pageTitleHandler}) {
 
                         <a href="https://tikkie.me/pay/7qoe4tqr36bvcv6ebi4r" target="_blank" rel="noopener">
                             <span className="donate-btn-txt">€X</span> <br/>
-                            Kies eigen bedrag.</a></li>
+                            Kies eigen bedrag</a></li>
                 </ul>
             </YellowContentBox>
             <TextContainer>
@@ -51,7 +53,7 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 <p>Menstruatiedisks zijn een onbekend product.
                     Terwijl ze veel voordelen hebben! Iedereen moet zelf bepalen wat ze gebruiken tijdens hun
                     menstruatie,
-                    maar we helpen graag om een weloverwogen keuze te maken!</p>
+                    maar ik help graag om een weloverwogen keuze te maken!</p>
                 <h3>Lagere milieubelasting</h3>
                 <p>Wegwerp menstruatie-artikelen zorgen voor 80 kilo afval per persoon en horen bij het restafval: ze
                     zijn
@@ -86,8 +88,13 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 te hebben.
             </p>
 
+            </TextContainer>
+            <YellowContentBox>
+            <TwoColumnWithImg img={nynkeWithDiscs} imgAlt="Nynke jongleert met menstruatiecups en -disks"
+                              imgCaption="Nynke jongleert met cups en disk. Foto: 'Met Francis'">
                 <h2>Doneren - Waar draag je aan bij?</h2>
-                <p>Ik, Nynke, bouw en onderhoud deze website en content zelf. Dat vind ik leuk om te doen, maar het kost altijd
+                <p>Ik, Nynke, bouw en onderhoud deze website en content zelf. Dat vind ik leuk om te doen, maar het kost
+                    altijd
                     meer tijd dan je denkt. En het kost ook gewoon geld.</p>
                 <h3>Kosten</h3>
                 <p>Ik betaal per jaar: €82,39 voor de hosting en de domeinnaam. <br/>
@@ -95,6 +102,9 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                     Photoshop. </p>
                 <p>De meeste disks heb ik gratis opgestuurd gekregen van de bedrijven.
                     Maar sommige heb ik ook zelf moeten aanschaffen. Dat is ~€40 per disk!</p>
+
+            </TwoColumnWithImg>
+
                 <h3>Tijd</h3>
                 <p>Het ontwerpen en bouwen van de website in React heeft me een maand fulltime werken gekost.
                     Gelukkig was een gedeelte onderdeel van het eindproject van mijn studie fullstack development.
@@ -105,34 +115,32 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 <p>Als je via een affiliatie-link een product koopt, ontvang ik daar een klein percentage van (~5%).
                     Dat is mooi meegenomen om de kosten te dekken. Maar het is lang niet genoeg om deze website in de
                     lucht te houden, of om mezelf af en toe op een koffie te trakteren.</p>
-
+            </YellowContentBox>
+            <TextContainer>
                 <h2>Donatie-opties</h2>
+                <p>Onderstaande links zijn Tikkie-links. Dus je kunt dan met iDeal betalen.</p>
+
                 <ul>
-                    <li>€40: <a href="https://tikkie.me/pay/rouidsf0f8h2sg3mlj2c" target="_blank" rel="noopener">betaal
-                        een nieuwe menstruatiedisk</a> voor me. Ik heb nog een hele lijst met Amerikaanse disks die ik graag wil uitproberen en reviewen voor deze website!
+                    <li>€40: <a href="https://tikkie.me/pay/rouidsf0f8h2sg3mlj2c" target="_blank" rel="noopener">doneer
+                        een menstruatiedisk</a>. Ik heb nog een hele lijst met Amerikaanse disks die ik
+                        graag wil uitproberen en reviewen voor deze website!
                     </li>
                     <li>€7: <a href="https://tikkie.me/pay/dggbff7jd9fho4qo47du" target="_blank" rel="noopener">betaal
                         eenmalig
                         1 maand de vaste lasten</a> van hosting en domeinnaam.
                     </li>
                     <li>€3: <a href="https://tikkie.me/pay/8df9cg6mgh06ia77uusr" target="_blank" rel="noopener">trakteer
-                        me
-                        eenmalig
-                        op een kopje koffie</a> buiten de deur.
+                        me op een kopje koffie</a> buiten de deur.
                     </li>
                     <li>€X: <a href="https://tikkie.me/pay/7qoe4tqr36bvcv6ebi4r" target="_blank" rel="noopener"> Kies je
                         eigen bedrag.</a> Alles is welkom!
                     </li>
                 </ul>
-
+                <br/>
                 <h2>Heel erg bedankt!</h2>
-
-                <ImgGallery imageList={discImages}></ImgGallery>
-
             </TextContainer>
         </>
-    )
-        ;
+    );
 }
 
 export default Donate;
