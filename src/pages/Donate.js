@@ -20,18 +20,20 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 <h2>Onafhankelijke informatie over duurzaam menstrueren: visueel, begrijpbaar, en inclusief.</h2><br/>
                 <p>Alle informatie die je hier vindt is onafhankelijk.
                     Wat ook betekent dat ik er <strong>niet betaald voor heb gekregen</strong>.
-                    Ik heb bewust gekozen om niet samen te werken met merken, omdat als een merk informatie geeft,
-                    het altijd in hun voordeel is.
-                    Waardoor er soms leugens in de tekst staan, zoals dat ze claimen dat hun disk de beste is.
-                    Terwijl elk lichaam anders is, en er geen "one size fits all" disk is. Helaas. </p>
-                <p>Omdat ik onafhankelijke informatie belangrijk vind, heb ik deze website gemaakt.
-                    Maar het kost erg veel tijd, en ook nog eens geld om hem te onderhouden. </p>
+                    Ik heb bewust gekozen om niet samen te werken met merken. Dat klinkt misschien gek,
+                    maar in mijn ervaring is dat de enige manier om onafhankelijk te blijven.
+                    Want elk merk claimt dat hun disk de beste is, terwijl elk lichaam anders is,
+                    en er geen "one size fits all" disk is. Helaas. </p>
+                <p>Ik heb deze website gemaakt omdat ik onafhankelijke informatie belangrijk vind.
+                    Ik hoop de zoektocht naar jouw favo menstruatie-artikel makkelijk te maken.
+                    Maar dit project kost erg veel tijd, en ook nog eens geld om te onderhouden.
+                    Dus daar ben jij bij nodig!</p>
 
                   <p>Ben je blij met de informatie die je hier gevonden hebt? Overweeg dan om bij te dragen.
                       Daar maak je mij heel blij mee! En dan kan ik weer nieuwe toffe onafhankelijke projecten maken.</p>
-                <strong>Menstruatiedisk.nl heeft als doel:</strong>
+                <strong>Menstruatiedisk.nl heeft als doel om bij te dragen aan:</strong>
                 <ul>
-                    <li>Minder afval,</li>
+                    <li>Menstruatie-afval verminderen,</li>
                     <li>Menstruatie-armoede verminderen,</li>
                     <li>Fijnere menstruaties,</li>
                     <li>Weloverwogen keuzes in menstruatie-producten.</li>
@@ -67,28 +69,28 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                     maar ik help graag om een weloverwogen keuze te maken!</p>
                 <h3>Lagere milieubelasting</h3>
                 <p>Wegwerp menstruatie-artikelen zorgen voor 80 kilo afval per persoon en horen bij het restafval: ze
-                    zijn
-                    niet te
-                    recyclen. Dat is zo’n 10.000 producten per persoon.
+                    zijn niet te recyclen.
+                    Dat is zo’n 10.000 producten per persoon die weggegooid worden.
                     [<a href="https://www.milieucentraal.nl/bewust-winkelen/uitgelichte-producten/maandverband-en-tampons/"
                         target="_blank">bron</a>] </p>
 
-                <p>Een menstruatiedisk gaat 5 - 10 jaar mee, en als hij "op" is, kun je hem gewoon verbranden.</p>
+                <p>Een menstruatiedisk gaat vijf tot tien jaar mee, en als hij "op" is, kun je hem gewoon verbranden.
+                    Als je 40 jaar menstrueert, hebben we het over vier tot acht producten!</p>
 
 
                 <h3>Goedkoper, daarom een middel tegen menstruatie-armoede.</h3>
                 <p>Negen procent van de meisjes en jonge menstrueerders in Nederland heeft soms te weinig geld om
                     tampons of
-                    maandverband te kunnen kopen.
+                    maandverband te kunnen kopen. Dit is een groot probleem.
                     [<a href="https://www.armoedefonds.nl/menstruatie-armoede" target="_blank">bron</a>].</p>
                 <p>Een menstruatiedisk is een investering (€22 tot €45), maar het heeft verder geen terugkerende kosten.
                     Per 10 jaar kosten goedkope tampons €144,00, en tampons van biologisch katoen €600. Waar een disk
                     alleen
                     het aanschafbedrag (€22 tot €45) heeft gekost. [<a
                         href="https://cupkiezer.nl/menstruatie-producten-overzicht/" target="_blank">bron</a>] </p>
-                <p>Dit betekent zeker niet dat de disk 'De oplossing' voor menstruatie-armoede is, daar is veel meer
-                    voor nodig. Zoals gratis menstruatie-producten op scholen.
-                    Maar het is een product wat je menstruatie goedkoper en gemakkelijker kan maken.</p>
+                <p>Dit betekent zeker niet dat de disk 'De oplossing' voor menstruatie-armoede is. Daar is veel meer
+                    voor nodig, zoals gratis menstruatie-producten op scholen.
+                    Maar het is een product dat je menstruatie goedkoper en gemakkelijker kan maken.</p>
 
                 <h3>Ze vangen meer menstruatie op dan tampons</h3>
                 <p>Twintig procent van de Nederlandse menstrueerders tussen de 35 tot 55 jaar kampt met extreem
@@ -102,7 +104,7 @@ function Donate({headerImageHandler, pageTitleHandler}) {
             </TextContainer>
             <YellowContentBox>
             <TwoColumnWithImg img={nynkeWithDiscs} imgAlt="Nynke jongleert met menstruatiecups en -disks"
-                              imgCaption="Nynke jongleert met cups en disk. Foto: 'Met Francis'">
+                              imgCaption="Nynke jongleert met cups en disk. Fotograaf: 'Met Francis'">
                 <h2>Doneren - Waar draag je aan bij?</h2>
                 <p>Ik, Nynke, bouw en onderhoud deze website en content zelf. Dat vind ik leuk om te doen, maar het kost
                     altijd
