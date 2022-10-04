@@ -13,7 +13,7 @@ function Nav() {
                 return "/nav-home";
             case "/informatie-over-menstruatiedisks":
                 return "nav-info";
-            case "/vergelijk-meerdere-menstruatiedisks":
+            case "/diskquiz":
                 return "nav-vergelijk";
             case "/contact":
                 return "nav-contact";

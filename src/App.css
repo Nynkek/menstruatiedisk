@@ -219,14 +219,19 @@ button:active {
 /*donate button*/
 .button-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 .donate-btn-txt {
   font-size: 1.2em;
   padding-bottom: 1em;
   font-weight: bolder;
-
 }
+
+.button  a:hover {
+  box-shadow: none;
+}
+
 .button {
   background-color: var(--orange);
   padding: 0.8em 1.8em;
