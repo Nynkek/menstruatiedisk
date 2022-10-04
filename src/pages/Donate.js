@@ -17,8 +17,19 @@ function Donate({headerImageHandler, pageTitleHandler}) {
     return (
         <>
             <TextContainer>
-                <h2>Onafhankelijke informatie over duurzaam menstrueren: visueel, begrijpbaar, en inclusief.</h2>
-                <p><br/>Menstruatiedisk.nl heeft als doel:</p>
+                <h2>Onafhankelijke informatie over duurzaam menstrueren: visueel, begrijpbaar, en inclusief.</h2><br/>
+                <p>Alle informatie die je hier vindt is onafhankelijk.
+                    Wat ook betekent dat ik er <strong>niet betaald voor heb gekregen</strong>.
+                    Ik heb bewust gekozen om niet samen te werken met merken, omdat als een merk informatie geeft,
+                    het altijd in hun voordeel is.
+                    Waardoor er soms leugens in de tekst staan, zoals dat ze claimen dat hun disk de beste is.
+                    Terwijl elk lichaam anders is, en er geen "one size fits all" disk is. Helaas. </p>
+                <p>Omdat ik onafhankelijke informatie belangrijk vind, heb ik deze website gemaakt.
+                    Maar het kost erg veel tijd, en ook nog eens geld om hem te onderhouden. </p>
+
+                  <p>Ben je blij met de informatie die je hier gevonden hebt? Overweeg dan om bij te dragen.
+                      Daar maak je mij heel blij mee! En dan kan ik weer nieuwe toffe onafhankelijke projecten maken.</p>
+                <strong>Menstruatiedisk.nl heeft als doel:</strong>
                 <ul>
                     <li>Minder afval,</li>
                     <li>Menstruatie-armoede verminderen,</li>
