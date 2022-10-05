@@ -5,13 +5,13 @@
     gap: 5%;
 }
 
-
 .page-two-section img {
     max-width: calc(100% - var(--margin));
     max-height: calc(100% - var(--margin));
     box-shadow: var(--dropshadow);
     border: var(--border);
     border-radius: 0.1em;
+    background-color: var(--black);
 
 }
 
