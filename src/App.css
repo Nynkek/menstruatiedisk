@@ -216,6 +216,11 @@ button:active {
   box-shadow: 0.2em 0.2em 0 var(--black);
 }
 
+.space-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /*donate button*/
 .button-container {
   display: flex;

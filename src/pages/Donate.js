@@ -17,7 +17,7 @@ function Donate({headerImageHandler, pageTitleHandler}) {
     return (
         <>
             <TextContainer>
-                <h2>Onafhankelijke informatie over duurzaam menstrueren: visueel, begrijpbaar, en inclusief.</h2><br/>
+                <h2>Onafhankelijke informatie over duurzaam menstrueren: visueel, begrijpbaar en inclusief.</h2><br/>
                 <p>Alle informatie die je hier vindt is onafhankelijk.
                     Wat ook betekent dat ik er <strong>niet betaald voor heb gekregen</strong>.
                     Ik heb bewust gekozen om niet samen te werken met merken. Dat klinkt misschien gek,
@@ -71,8 +71,7 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 <p>Wegwerp menstruatie-artikelen zorgen voor 80 kilo afval per persoon en horen bij het restafval: ze
                     zijn niet te recyclen.
                     Dat is zo’n 10.000 producten per persoon die weggegooid worden.
-                    [<a href="https://www.milieucentraal.nl/bewust-winkelen/uitgelichte-producten/maandverband-en-tampons/"
-                        target="_blank">bron</a>] </p>
+                    [bron: Milieucentraal] </p>
 
                 <p>Een menstruatiedisk gaat vijf tot tien jaar mee, en als hij "op" is, kun je hem gewoon verbranden.
                     Als je 40 jaar menstrueert, hebben we het over vier tot acht producten!</p>
@@ -82,12 +81,11 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 <p>Negen procent van de meisjes en jonge menstrueerders in Nederland heeft soms te weinig geld om
                     tampons of
                     maandverband te kunnen kopen. Dit is een groot probleem.
-                    [<a href="https://www.armoedefonds.nl/menstruatie-armoede" target="_blank">bron</a>].</p>
+                    [bron: Armoedefonds].</p>
                 <p>Een menstruatiedisk is een investering (€22 tot €45), maar het heeft verder geen terugkerende kosten.
                     Per 10 jaar kosten goedkope tampons €144,00, en tampons van biologisch katoen €600. Waar een disk
                     alleen
-                    het aanschafbedrag (€22 tot €45) heeft gekost. [<a
-                        href="https://cupkiezer.nl/menstruatie-producten-overzicht/" target="_blank">bron</a>] </p>
+                    het aanschafbedrag (€22 tot €45) heeft gekost. [bron: Cupkiezer] </p>
                 <p>Dit betekent zeker niet dat de disk 'De oplossing' voor menstruatie-armoede is. Daar is veel meer
                     voor nodig, zoals gratis menstruatie-producten op scholen.
                     Maar het is een product dat je menstruatie goedkoper en gemakkelijker kan maken.</p>
@@ -96,7 +94,8 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 <p>Twintig procent van de Nederlandse menstrueerders tussen de 35 tot 55 jaar kampt met extreem
                     bloedverlies
                     en bijbehorende klachten.
-                    [<a href="https://www.hevigbloedverlies.nl/bloedserieus" target="_blank">bron</a>] </p><p>
+                    [bron: hevigbloedverlies.nl] </p>
+                <p>
                 Een disk vangt meer bloed op dan een tampon. Daardoor kan dit helpen om minder last van je menstruatie
                 te hebben.
             </p>
@@ -149,8 +148,25 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                         eigen bedrag.</a> Alles is welkom!
                     </li>
                 </ul>
-                <br/>
+
                 <h2>Heel erg bedankt!</h2>
+                <br />
+                <hr className="space-50"/>
+
+                <h4>Bronnen</h4>
+
+
+                <ul>
+                    <li>
+                        <a href="https://www.milieucentraal.nl/bewust-winkelen/uitgelichte-producten/maandverband-en-tampons/"
+                            target="_blank">bron: Milieucentraal</a>
+                    </li>
+                    <li> <a href="https://www.armoedefonds.nl/menstruatie-armoede" target="_blank">bron: armoedefonds</a></li>
+                    <li> <a
+                        href="https://cupkiezer.nl/menstruatie-producten-overzicht/" target="_blank">bron: Cupkiezer</a></li>
+                    <li><a href="https://www.hevigbloedverlies.nl/bloedserieus" target="_blank">bron: hevigbloedverlies.nl</a></li>
+                </ul>
+
             </TextContainer>
         </>
     );

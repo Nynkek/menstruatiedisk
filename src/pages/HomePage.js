@@ -39,9 +39,9 @@ function HomePage({headerImageHandler, pageTitleHandler}) {
                         op. </p>
                     <p>Je kun een disk tot <strong>12 uur lang dragen</strong>. Daarna haal je de disk eruit, door met
                         je vinger achter de
-                        rand te haken (of met het lusje als je disk die heeft), leegt de disk en spoelt hem af. Daarna
+                        rand te haken (of met het lusje als je disk die heeft), leeg de disk en spoel hem af. Daarna
                         breng je hem weer terug
-                        in. Voor nog 12 uur zorgeloze menstruatie. </p>
+                        in, tot je hem weer leegt. Dat is maximaal 12 uur later. </p>
                     <p>Er zijn ook wegwerp-exemplaren, die gooi je na gebruik weg.</p>
                 </Column>
                 <Column>
@@ -49,7 +49,7 @@ function HomePage({headerImageHandler, pageTitleHandler}) {
                     <p>Nee, het ligt aan de heftigheid van je menstruatie. Als de disk eerder dan 12 uur vol is, zul je
                         hem
                         eerder moeten legen. Maar een disk vangt veel menstruatie op! 30 tot 70ml! Ter vergelijking: een
-                        regular tampon heeft een opvangvermogen van 8-10 ml.</p>
+                        gemiddelde tampon heeft een opvangvermogen van 8-10 ml.</p>
                     <p>Bij sommige disk-gebruikers leegt de disk zichzelf bij elk toiletbezoek. Dit wordt auto-dumping
                         genoemd.
                         Op die manier kun je de disk wel 12 uur dragen als je veel menstrueert.</p>
@@ -84,7 +84,7 @@ function HomePage({headerImageHandler, pageTitleHandler}) {
                     </li>
                     <li>Duw de disk-rand omhoog, en <strong>klem zo de disk vast achter je schaambeen.</strong> Dit bot
                         zit aan het
-                        begin van je vagina bij je buik. Elk lichaam is anders, dus hoe ver dit precies zit ligt aan
+                        begin van je vagina bij je buik. Elk lichaam is anders, dus hoe ver dit precies zit, ligt aan
                         jouw bouw.
                         Duw de disk zo ver dat hij niet meer verder naar achter kan. Nu kun je
                         hem <strong>loslaten!</strong>
@@ -106,7 +106,7 @@ function HomePage({headerImageHandler, pageTitleHandler}) {
 
                 <ul>
 
-                    <li>Om de disk eruit te halen spreid je weer je benen en breng een schone vinger in je vagina. Haak
+                    <li>Om de disk eruit te halen spreid je weer je benen en breng je een schone vinger in je vagina. Haak
                         een vinger achter de rand van de disk of pak de rand met twee vingers vast, en <strong>haal de
                             disk eruit</strong>.
                         Heeft je disk een speciaal haakje of steeltje, dan kun je die gebruiken om de disk eruit te
