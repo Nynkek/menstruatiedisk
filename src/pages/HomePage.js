@@ -70,7 +70,7 @@ function HomePage({headerImageHandler, pageTitleHandler}) {
                     <li><strong>Kook je disk</strong> 5 minuten uit voor gebruik.</li>
                 </ul>
 
-                <h3>Disk indoen</h3>
+                <h3>Disk inbrengen</h3>
                 <ul>
                     <li><strong>Vouw de disk</strong> tot een platte ovaal door hem aan de zijkanten in te drukken.</li>
                     <li>Spreid je benen. <strong>Schuif de disk, licht gekanteld, voorzichtig in je vagina</strong>,

@@ -8,7 +8,7 @@ export const discProblemsFAQData = {
     title: "Problemen met je disk?",
     rows: [
         {
-            title: "Ik lek door!",
+            title: "Mijn menstruatiedisk lekt!",
             content: `
                <p>Dat is vervelend. Hieronder vind je een aantal scenario's met oplossing:</p>
              <ul>             

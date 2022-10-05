@@ -39,9 +39,9 @@ function Diskquiz({headerImageHandler, pageTitleHandler}) {
                     Er is niet één "one size fits all"-disk, helaas.</p>
                 <p>
                     <strong>Wil je weten welke disk bij jouw lichaam past?</strong> Beantwoord onderstaande vragen en
-                    dan verschijnen de disks die geschikt zijn voor jou in de tabel daaronder!
+                    dan verschijnen de disks die geschikt zijn voor jou in de tabel daaronder! Op die manier kun je makkelijk een menstruatiedisk kiezen.
                 </p>
-                <h2>Legenda</h2>
+                <h3>Legenda</h3>
                 <p>De <strong><HashLink to="#legenda">Legenda</HashLink></strong> vind je onder de tabel. Net als een <strong><HashLink to="#uitleg"> uitleg per vraag</HashLink></strong>.</p>
                 <p>De tabel is het beste zichtbaar op een breed scherm. (Dus draai je telefoon)</p>
             </TextContainer>
