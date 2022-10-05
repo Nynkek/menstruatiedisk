@@ -11,6 +11,7 @@ hr {
     border: var(--border);
     width: 95%;
     margin: 1em;
+    background-color: var(--black);
 }
 
 footer {

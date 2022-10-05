@@ -12,6 +12,8 @@
     border: var(--border);
     border-radius: 0.1em;
     background-color: var(--black);
+    outline: 1px solid transparent;
+
 
 }
 

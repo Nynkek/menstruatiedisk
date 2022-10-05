@@ -41,6 +41,12 @@ header .logo {
     width: 10em;
     padding: 1em;
     transform: rotate(-1.3deg);
+    -webkit-backface-visibility: hidden;
+    /*padding: 1px;*/
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    -webkit-background-clip:content-box;
+    background-clip:content-box;
 }
 
 /*-----------HEADER-IMG----------*/
@@ -114,6 +120,7 @@ header .logo {
 .nav-home {
     animation-name: animateLeftSideDown;
     transform: rotate(-1.2deg);
+    /*-webkit-backface-visibility: hidden;*/
 }
 
 @keyframes animateLeftSideDown {
