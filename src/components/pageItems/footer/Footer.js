@@ -15,12 +15,11 @@ function Footer() {
                         <li><Link to="/faq">faq</Link></li>
                         <li><Link to="/privacy-policy">privacy policy</Link></li>
                         <li><Link to="/contact">over Nynke</Link></li>
-                        <li><Link to="/design-elementen/">design</Link></li>
                     </ul>
                 </div>
                 <div className="footer-txt">
                     <p>Deze website is een zuster-site van <a href="https://cupkiezer.nl" target="_blank">Cupkiezer</a></p>
-                    <p>De site is gemaakt door <a href="https://nynkek.nl/blog" target="_blank">Nynkek</a> omdat er bijna geen onafhankelijke informatie over menstruatiedisks in het
+                    <p>De site is gemaakt door <a href="https://nynkek.nl/" target="_blank">Nynkek</a> omdat weinig onafhankelijke informatie over menstruatiedisks in het
                         Nederlands te vinden was. Terwijl het zo’n <span className="highlighter">geweldig duurzaam product</span> is.
                     </p>
 
