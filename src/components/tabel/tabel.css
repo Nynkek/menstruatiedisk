@@ -60,6 +60,7 @@ label {
     left: 2ch;
     position: relative;
     bottom: 1ch;
+
 }
 
 .legend a.questionmark, .legend a.questionmark:link, .legend a.questionmark:active, .legend a.questionmark:visited {
@@ -71,6 +72,8 @@ label {
     color: var(--black);
     box-shadow: none;
     text-decoration: none;
+    cursor: help;
+
 }
 
 .legend-name {
