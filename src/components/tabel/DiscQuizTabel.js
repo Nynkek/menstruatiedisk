@@ -172,8 +172,8 @@ function DiscQuizTabel() {
         } else if (e.target.name === "steel") {
             setStem(e.target.value);
         } else if (e.target.name === "land") {
-        setCountry(e.target.value);
-    }
+            setCountry(e.target.value);
+        }
     }
 
     function resetFilters() {
@@ -188,10 +188,11 @@ function DiscQuizTabel() {
 
         <div className="tabel">
             <YellowContentBox>
-                <h2>Menstruatiediskquiz</h2>
-                <p>Onder de tabel vind je de <a href="#legenda">legenda</a>. De tabel is het best zichtbaar op een breed scherm.</p>
+                <h2>Menstruatiedisk&#173;quiz</h2>
+                <p>De tabel is het best zichtbaar op een breed scherm.</p>
 
-                <h4 className="legend">Baarmoedermondhoogte (bepaalt de breedte van de disk)  <a href="#uitleg">[?]</a></h4>
+                <h4 className="legend"><span className="legend-name">Baarmoedermondhoogte (bepaalt de breedte van de disk)</span><a href="#uitleg" className="questionmark">?</a>
+                </h4>
                 <form>
                     <label>
                         <input type="radio" value="hoge-bmm" name="bmm"
@@ -201,7 +202,8 @@ function DiscQuizTabel() {
                     <label>
                         <input type="radio" value="gem-bmm" name="bmm" onChange={handleOptionChange}
                                checked={bmm === "gem-bmm"}/>
-                        Ik heb een gemiddelde baarmoedermondhoogte. <span className="small-txt">Zo'n 4,5cm - 5,5cm hoog.</span>
+                        Ik heb een gemiddelde baarmoedermondhoogte. <span
+                        className="small-txt">Zo'n 4,5cm - 5,5cm hoog.</span>
                     </label><br/>
                     <label>
                         <input type="radio" value="lage-bmm" name="bmm"
@@ -214,10 +216,11 @@ function DiscQuizTabel() {
                         Ik weet het niet, geef me gemiddelde disks.
                     </label><br/>
 
-                    <h4 className="legend">Herbruikbaar? <a href="#uitleg">[?]</a></h4>
+                    <h4 className="legend"><span className="legend-name">Herbruikbaar</span><a href="#uitleg" className="questionmark">?</a></h4>
                     <label><input type="radio" value="ja-hbb" name="herbruikbaar" onChange={handleOptionChange}
                                   checked={reusable === "ja-hbb"}/>
-                        Ik wil een herbruikbare disk. <span className="small-txt">Die gaat tot 10 jaar mee, vanaf €20.</span></label><br/>
+                        Ik wil een herbruikbare disk. <span
+                            className="small-txt">Die gaat tot 10 jaar mee, vanaf €20.</span></label><br/>
                     <label><input type="radio" value="nee-hbb" name="herbruikbaar" onChange={handleOptionChange}
                                   checked={reusable === "nee-hbb"}/>
                         Ik wil een wegwerp exemplaar. <span className="small-txt">Die kan je 1x gebruiken, rond de €4 per stuk.</span></label><br/>
@@ -225,7 +228,7 @@ function DiscQuizTabel() {
                                   checked={reusable === "geen-hbb"}/>
                         Maakt me niet uit, laat me alle opties zien.</label>
 
-                    <h4 className="legend">Steeltje of lusje? <a href="#uitleg">[?]</a></h4>
+                    <h4 className="legend"><span className="legend-name">Steeltje of lusje</span><a href="#uitleg" className="questionmark">?</a></h4>
                     <label> <input type="radio" value="ja-steel" name="steel" onChange={handleOptionChange}
                                    checked={stem === "ja-steel"}/>
                         Ik wil extra hulp bij het eruit halen. <span className="small-txt"> Dus een disk met een
@@ -234,7 +237,7 @@ function DiscQuizTabel() {
                                   checked={stem === "nee-steel"}/>
                         Het maakt me niet uit, laat me alle opties zien.</label><br/>
 
-                    <h4 className="legend">Nederlandse webshop? <a href="#uitleg">[?]</a></h4>
+                    <h4 className="legend"><span className="legend-name">Nederlandse webshop</span><a href="#uitleg" className="questionmark">?</a></h4>
                     <label> <input type="radio" value="ja-nl" name="land" onChange={handleOptionChange}
                                    checked={country === "ja-nl"}/>
                         Ik wil alleen disks zien die makkelijk in NL te verkrijgen zijn.</label><br/>

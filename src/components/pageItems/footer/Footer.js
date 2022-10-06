@@ -14,7 +14,7 @@ function Footer() {
                     <ul>
                         <li><Link to="/faq">faq</Link></li>
                         <li><Link to="/privacy-policy">privacy policy</Link></li>
-                        <li><Link to="/contact">over Nynke</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
                 <div className="footer-txt">

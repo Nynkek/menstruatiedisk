@@ -4,7 +4,7 @@ import React from 'react';
 import {cervix, reusableDisc} from "../../gallerys/diskQuizGallery";
 
 export const discQuizFAQ = {
-    title: "Uitleg bij de menstruatiediskquiz vragen",
+    title: "Uitleg bij de menstruatiedisk-quiz vragen",
     rows: [
         {
             title: "Baarmoedermondhoogte",

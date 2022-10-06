@@ -8,6 +8,7 @@ import {discProblemsFAQData} from "../components/faqData/discProblemsFAQData";
 import Faq from "react-faq-component";
 import {discQuizFAQ} from "../components/faqData/discQuizFAQ";
 import {HashLink} from "react-router-hash-link";
+import {Link} from "react-router-dom";
 
 
 function Diskquiz({headerImageHandler, pageTitleHandler}) {
@@ -39,10 +40,12 @@ function Diskquiz({headerImageHandler, pageTitleHandler}) {
                     Er is niet één "one size fits all"-disk, helaas.</p>
                 <p>
                     <strong>Wil je weten welke disk bij jouw lichaam past?</strong> Beantwoord onderstaande vragen en
-                    dan verschijnen de disks die geschikt zijn voor jou in de tabel daaronder! Op die manier kun je makkelijk een menstruatiedisk kiezen.
+                    dan verschijnen de disks die geschikt zijn voor jou in de tabel daaronder! Op die manier kun je
+                    makkelijk een menstruatiedisk kiezen.
                 </p>
                 <h3>Legenda</h3>
-                <p>De <strong><HashLink to="#legenda">Legenda</HashLink></strong> vind je onder de tabel. Net als een <strong><HashLink to="#uitleg"> uitleg per vraag</HashLink></strong>.</p>
+                <p>De <strong><HashLink to="#legenda">Legenda</HashLink></strong> vind je onder de tabel. Net als
+                    een <strong><HashLink to="#uitleg"> uitleg per vraag</HashLink></strong>.</p>
                 <p>De tabel is het beste zichtbaar op een breed scherm. (Dus draai je telefoon)</p>
             </TextContainer>
 
@@ -68,16 +71,24 @@ function Diskquiz({headerImageHandler, pageTitleHandler}) {
             <a id="legenda"></a>
 
             <BookmarkBox verticalText="legenda">
-                <h2>Uitleg menstruatiedisk-tabel</h2>
+                <h2>Uitleg menstruatiedisk&#173;tabel</h2>
                 <p>
-                    Inhoud: Hoeveel ml er in de disk kan. Het reservoir van de disk zal nooit helemaal vol kunnen,
+                    <strong>Inhoud:</strong> Hoeveel ml er in de disk kan. Het reservoir van de disk zal nooit helemaal vol kunnen,
                     omdat het een beetje platgedrukt in je vaginakanaal zit.<br/>
-                    Diameter: Is het breedste gedeelte van de disk. <br/>
-                    Materiaal: Herbruikbare disk zijn van siliconen. Wegwerp disks zijn van polymer. <br/>
+                    <strong>Diameter:</strong> Is het breedste gedeelte van de disk. <br/>
+                    <strong>Materiaal:</strong> Herbruikbare disk zijn van siliconen. Wegwerp disks zijn van polymer. </p>
 
-                    Dat een disk opgenomen is in deze tabel betekent niet dat wij de disk aanraden.</p>
+                    <p>Dat een disk opgenomen is in deze tabel betekent niet dat ik de disk aanraad. Ik kan ze niet allemaal controleren en kopen.</p>
             </BookmarkBox>
-
+            <TextContainer>
+                <h3>Heb je wat gehad aan de diskquiz?</h3>
+                <p>Geweldig! Dat is goed om te horen. Hopelijk heeft het je zoektocht naar jouw perfecte
+                    menstruatie-artikel makkelijker gemaakt.</p>
+                <p>Het heeft me veel tijd gekost om deze website te maken en alle data bij elkaar te zoeken. Als je iets
+                    kan missen, ga dan naar <Link to="/doneren">de doneer-pagina. </Link></p>
+                <p>Wanneer jij een klein beetje doneert kan ik onafhankelijke info blijven geven en onder andere deze tabel up-to-date houden. Want er komen steeds meer nieuwe disks op de markt!
+                    Bedankt! </p>
+            </TextContainer>
 
         </>
     );

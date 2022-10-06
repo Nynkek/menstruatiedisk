@@ -35,7 +35,7 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                     href="https://www.facebook.com/groups/menstruatiecupclub/" target="_blank" rel="noreferrer">onze
                     Facebookgroep!</a>
                 </p>
-
+<hr className="space-50"/>
 
                 <h2>Hoofdstukken</h2>
                 <ul>

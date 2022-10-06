@@ -2,6 +2,7 @@
 
 :root {
   --yellow: #F4D846;
+  --lightYellow: #f8e27f;
   --lightGrey: #E6E6E6;
   --white: #fffee6;
   --black: #212121;
@@ -32,7 +33,7 @@
 body {
   font-family: 'Mulish', sans-serif;
   font-size: 1em;
-  background: var(--bluegreen) url('assets/bg/24pxGrid.png') repeat fixed top;
+  background: var(--bluegreen) url('assets/bg/24pxGrid.png') repeat fixed center;
   color: #111111;
 }
 
