@@ -1,6 +1,7 @@
 import {Routes, Route, useLocation } from 'react-router-dom'
 import {useLayoutEffect, useState} from 'react'
 import './App.css';
+import ReactGA from 'react-ga';
 
 import HomePage from "./pages/HomePage";
 import Information from "./pages/Information";
@@ -21,6 +22,8 @@ import Diskquiz from "./pages/Diskquiz";
 function App() {
     const [headerImage, setHeaderImage] = useState(headerImg);
     const [pageTitle, setPageTitle] = useState("Menstruatiedisk");
+    const TRACKING_ID = "G-LMPS4RD6EL"; // OUR_TRACKING_ID
+    ReactGA.initialize(TRACKING_ID);
 
     const Wrapper = ({children}) => {
         const location = useLocation();
