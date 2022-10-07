@@ -1,7 +1,6 @@
 import {Routes, Route, useLocation } from 'react-router-dom'
 import {useEffect, useLayoutEffect, useState} from 'react'
 import './App.css';
-import ReactGA from 'react-ga';
 
 import HomePage from "./pages/HomePage";
 import Information from "./pages/Information";
@@ -17,8 +16,11 @@ import FaqPage from "./pages/Faq-page";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Elements from "./pages/Elements";
 import Diskquiz from "./pages/Diskquiz";
+import ReactGA from 'react-ga';
 const TRACKING_ID = "G-LMPS4RD6EL"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 function App() {
     const [headerImage, setHeaderImage] = useState(headerImg);
