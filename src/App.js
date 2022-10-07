@@ -24,7 +24,7 @@ ReactGA.send("pageview");
 function App() {
     const [headerImage, setHeaderImage] = useState(headerImg);
     const [pageTitle, setPageTitle] = useState("Menstruatiedisk");
-    
+
 
     const Wrapper = ({children}) => {
         const location = useLocation();
