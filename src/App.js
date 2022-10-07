@@ -1,5 +1,5 @@
 import {Routes, Route, useLocation } from 'react-router-dom'
-import {useLayoutEffect, useState} from 'react'
+import {useEffect, useLayoutEffect, useState} from 'react'
 import './App.css';
 import ReactGA from 'react-ga';
 
@@ -24,6 +24,9 @@ function App() {
     const [headerImage, setHeaderImage] = useState(headerImg);
     const [pageTitle, setPageTitle] = useState("Menstruatiedisk");
 
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }, []);
 
     const Wrapper = ({children}) => {
         const location = useLocation();
