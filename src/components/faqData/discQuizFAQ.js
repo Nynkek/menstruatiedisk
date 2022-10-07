@@ -23,8 +23,8 @@ export const discQuizFAQ = {
                     Je baarmoedermond voelt als een kleine, beetje harde donutvormige bobbel die terugveert bij
                     aanraking.
                     Het zal wat harder aanvoelen dan de rest van je vaginawand.
-                    Wanneer je hem voelt houd dan met een andere vinger bij hoe diep je zit.
-                    Meet daarna op hoeveel mm dat ongeveer was.</p>
+                    Wanneer je hem voelt, houd dan met een andere vinger bij hoe diep je zit.
+                    Meet daarna bij je vinger op hoeveel centimeter dat ongeveer was.</p>
                 <p>
                     De baarmoederhals vormt de verbinding van de baarmoeder met de vagina.
                 </p>
@@ -43,7 +43,7 @@ export const discQuizFAQ = {
                        <p>De eerste menstruatiedisks waren een ronde schijf zonder poespas.
                     Een aantal nieuwere modellen hebben een touwtje of lusje aan de disk zitten. Dit helpt je met de
                     disk eruit halen.</p><p>
-                Wat jij fijner vindt, moet je natuurlijk nog uitvinden.
+                Wat jij fijner vindt, moet je misschien nog uitvinden.
                 Maar weet wel dat je het touwtje er altijd weer af kan knippen als het toch niet bevalt. Het nadeel is
                 dan weer dat de disks met touwtje/lusje minder goed in NL te verkrijgen zijn.</p>
                     
@@ -69,10 +69,10 @@ export const discQuizFAQ = {
                  <ul>
                     <li>Breedte van de disk: wordt bepaald door je baarmoedermondhoogte.</li>
                     <li>Hardheid van de disk: ligt aan hoe gevoelig je vagina en blaas zijn.</li>
-                    <li>Vorm van de disk: Persoonlijke voorkeur.</li>
-                    <li>Makkelijk eruit halen: Persoonlijke voorkeur. Wil je een steeltje of extra lusje? </li>
+                    <li>Vorm van de disk: persoonlijke voorkeur.</li>
+                    <li>Makkelijk eruit halen: persoonlijke voorkeur. Wil je een steeltje of extra lusje? </li>
                     <li>Wegwerp op herbruikbaar: persoonlijke voorkeur.</li>
-                    <li>Makkelijk te verkrijgen: Helaas zijn de meeste disks nog niet zo makkelijk in NL te verkrijgen.</li>
+                    <li>Makkelijk te verkrijgen: helaas zijn de meeste disks nog niet zo makkelijk in NL te verkrijgen.</li>
                     <li>Inhoud van de disk: verschilt per disk.</li>
                 </ul>
 

@@ -17,20 +17,27 @@ function Donate({headerImageHandler, pageTitleHandler}) {
     return (
         <>
             <TextContainer>
-                <h2>Onafhankelijke informatie over duurzaam menstrueren: visueel, begrijpbaar en inclusief.</h2><br/>
+                <h2>Onafhankelijke informatie over duurzaam menstrueren.</h2>
+                <h3>Visueel, begrijpbaar en inclusief!</h3>
                 <p>Alle informatie die je hier vindt is onafhankelijk.
                     Wat ook betekent dat ik er <strong>niet betaald voor heb gekregen</strong>.
                     Ik heb bewust gekozen om niet samen te werken met merken. Dat klinkt misschien gek,
                     maar in mijn ervaring is dat de enige manier om onafhankelijk te blijven.
-                    Want elk merk claimt dat hun disk de beste is, terwijl elk lichaam anders is,
-                    en er geen "one size fits all" disk is. Helaas. </p>
+                    Want elk merk claimt dat hun disk de beste is, terwijl elk lichaam anders is.
+                    Er geen "one size fits all" disk is. Helaas. </p>
+                <h3>Advertentie-vrij!</h3>
                 <p>Ik heb deze website gemaakt omdat ik onafhankelijke informatie belangrijk vind.
+                    Het is belangrijk dat iedereen een goed geïnformeerde beslissing kan maken in het menstruatieproduct,
+                    passend bij jouw lijf.
                     Ik hoop de zoektocht naar jouw favo menstruatie-artikel makkelijk te maken.
-                    Maar dit project kost erg veel tijd, en ook nog eens geld om te onderhouden.
+                    Maar dit project kost veel tijd, en ook nog eens geld om te onderhouden.
                     Dus daar ben jij bij nodig!</p>
 
-                  <p>Ben je blij met de informatie die je hier gevonden hebt? Overweeg dan om bij te dragen.
-                      Daar maak je mij heel blij mee! En dan kan ik weer nieuwe toffe onafhankelijke projecten maken.</p>
+                  <p>
+                      Ben je blij met de onafhankelijke informatie die je hier gevonden hebt? Top! Overweeg om bij te dragen.
+                      Daar maak je mij niet alleen heel blij mee, maar zo kan ik ook deze website up to date en advertentie-vrij houden.
+                      Het onderhouden van de website kost geld. Net zoals het up to date houden van de juiste informatie.
+                  </p>
                 <strong>Menstruatiedisk.nl heeft als doel om bij te dragen aan:</strong>
                 <ul>
                     <li>Menstruatie-afval verminderen,</li>
@@ -63,15 +70,15 @@ function Donate({headerImageHandler, pageTitleHandler}) {
             </YellowContentBox>
             <TextContainer>
                 <h2>Drie voordelen van een menstruatiedisk:</h2>
-                <p>Menstruatiedisks zijn een onbekend product.
+                <p>Menstruatiedisks zijn (nog) een onbekend product.
                     Terwijl ze veel voordelen hebben! Iedereen moet zelf bepalen wat ze gebruiken tijdens hun
                     menstruatie,
                     maar ik help graag om een weloverwogen keuze te maken!</p>
                 <h3>Lagere milieubelasting</h3>
                 <p>Wegwerp menstruatie-artikelen zorgen voor 80 kilo afval per persoon en horen bij het restafval: ze
                     zijn niet te recyclen.
-                    Dat is zo’n 10.000 producten per persoon die weggegooid worden.
-                    [bron: Milieucentraal] </p>
+                    Dat zijn zo’n 10.000 producten per persoon die weggegooid worden.
+                    [bron: Milieucentraal.] </p>
 
                 <p>Een menstruatiedisk gaat vijf tot tien jaar mee, en als hij "op" is, kun je hem gewoon verbranden.
                     Als je 40 jaar menstrueert, hebben we het over vier tot acht producten!</p>
@@ -80,8 +87,8 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 <h3>Goedkoper, daarom een middel tegen menstruatie-armoede.</h3>
                 <p>Negen procent van de meisjes en jonge menstrueerders in Nederland heeft soms te weinig geld om
                     tampons of
-                    maandverband te kunnen kopen. Dit is een groot probleem.
-                    [bron: Armoedefonds].</p>
+                    maandverband te kunnen kopen. [bron: Armoedefonds] Dit noemen we menstruatie-armoede en dit is een groot probleem.
+                    </p>
                 <p>Een menstruatiedisk is een investering (€22 tot €45), maar het heeft verder geen terugkerende kosten.
                     Per 10 jaar kosten goedkope tampons €144,00, en tampons van biologisch katoen €600. Waar een disk
                     alleen
@@ -108,7 +115,7 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 <p>Ik, Nynke, bouw en onderhoud deze website en content zelf. Dat vind ik leuk om te doen, maar het kost
                     altijd
                     meer tijd dan je denkt. En het kost ook gewoon geld.</p>
-                <h3>Kosten</h3>
+                <h3>Even transparant over de kosten</h3>
                 <p>Ik betaal per jaar: €82,39 voor de hosting en de domeinnaam. <br/>
                     Daarnaast gebruik ik ook veel apparatuur en software. Zoals mijn camera, laptop, microfoon en
                     Photoshop. </p>
@@ -124,9 +131,12 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 <p>De teksten en de foto's maken was samen zo'n 40 uur.
                     Daarnaast ben ik ook op social media actief en wil ik nieuwe disks blijven toevoegen aan de
                     tabel.</p>
-                <p>Als je via een affiliatie-link een product koopt, ontvang ik daar een klein percentage van (~5%).
-                    Dat is mooi meegenomen om de kosten te dekken. Maar het is lang niet genoeg om deze website in de
-                    lucht te houden, of om mezelf af en toe op een koffie te trakteren.</p>
+                <h2>Hoe ik een beetje geld krijg</h2>
+                <p>Als je via een affiliatie-link in de quiz een product koopt, ontvang ik daar soms een klein percentage van (~5%).
+                    Dit is alleen als die website een partner-programma heeft, zoals bijvoorbeeld bol.com.
+                    De meeste sites hebben geen partner-programma, dus ontvang ik daar ook geen percentage over.</p>
+                    <p>Deze affiliate-links zijn mooi meegenomen om de kosten te dekken. Het kost de koper niks extra's namelijk. Maar het is lang niet genoeg om deze website in de
+                    lucht te houden. </p>
             </YellowContentBox>
             <TextContainer>
                 <h2>Donatie-opties</h2>
@@ -148,7 +158,8 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                         eigen bedrag.</a> Alles is welkom!
                     </li>
                 </ul>
-
+                <h3>Kun je niks missen?</h3>
+                Je hebt me ook al heel erg door dit project te delen! Stuur het door. En volg <a href="https://instagram.com/cupkiezer/" target="_blank"> Cupkiezer (het zusterproject) op instagram</a>.
                 <h2>Heel erg bedankt!</h2>
                 <br />
                 <hr className="space-50"/>

@@ -88,6 +88,8 @@ function Diskquiz({headerImageHandler, pageTitleHandler}) {
                     kan missen, ga dan naar <Link to="/doneren">de doneer-pagina. </Link></p>
                 <p>Wanneer jij een klein beetje doneert kan ik onafhankelijke info blijven geven en onder andere deze tabel up-to-date houden. Want er komen steeds meer nieuwe disks op de markt!
                     Bedankt! </p>
+                <h3>Op hoogte blijven></h3>
+                <p>Volg dan <a href="http://instagram.com/cupkiezer/" target="_blank" rel="nofollow">Cupkiezer, het zusterproject, op instagram!</a></p>
             </TextContainer>
 
         </>
