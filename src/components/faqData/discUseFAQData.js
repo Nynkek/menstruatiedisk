@@ -18,20 +18,20 @@ export const discCleanData = {
                     <li>Spreid je benen. <strong>Schuif de disk, licht gekanteld, voorzichtig in je vagina</strong>, terwijl je de
                         zijkanten samengeknepen
                         houdt.
-                        De disk moet je niet, zoals bij een tampon, recht omhoog, inbregen.
+                        De disk moet je niet, zoals bij een tampon, recht omhoog inbregen.
                         Maar juist een beetje schuin. Richt tijdens het inbregen met de disk naar je middenrug.
                         Dit zorgt ervoor dat de disk onder je baarmoedermond gaat zitten, in plaats van er tegenaan.
                         Je kan glijmiddel op waterbasis gebruiken om het soepeler te laten gaan.
                     </li>
                     <li>Duw de disk-rand omhoog, en <strong>klem zo de disk vast achter je schaambeen.</strong> Dit bot zit aan het
-                        begin van je vagina bij je buik. Elk lichaam is anders, dus hoe ver dit precies zit ligt aan jouw bouw.
+                        begin van je vagina bij je buik. Elk lichaam is anders, dus hoe ver dit precies zit, ligt aan jouw bouw.
                         Duw de disk zo ver dat hij niet meer verder naar achter kan. Nu kun je
                         hem <strong>loslaten!</strong>
                     </li>
-                    <li>Als de disk goed is ingebracht voel je hem niet zitten. Voel je hem toch? Dan heb je hem waarschijnlijk niet
+                    <li>Als de disk goed is ingebracht, voel je hem niet zitten. Voel je hem toch? Dan heb je hem waarschijnlijk niet
                         ver genoeg ingebracht. Probeer het dan opnieuw.</li>
                     <li><strong>tot 12 uur lang chillen!</strong></li>
-                    <li>Om de disk eruit te halen spreid je weer je benen en breng een schone vinger in je vagina. Haak
+                    <li>Om de disk eruit te halen spreid je weer je benen en breng je een schone vinger in je vagina. Haak
                         een vinger achter de rand van de disk of pak de rand met twee vingers vast, en <strong>haal de disk eruit</strong>.
                         Heeft je disk een speciaal haakje of steeltje, dan kun je die gebruiken om de disk eruit te halen.
                     </li><li>Zorg er wel voor dat
@@ -87,7 +87,7 @@ export const discCleanData = {
         },
         {
             title: "Hoe haal je een disk er weer uit?",
-            content: `<p>Om de disk eruit te halen spreid je weer je benen en breng een schone vinger in je vagina. Pers een beetje, zoals bij het poepen om de disk binnen handbereik te krijgen.
+            content: `<p>Om de disk eruit te halen spreid je weer je benen en breng je een schone vinger in je vagina. Pers een beetje, zoals bij het poepen, om de disk binnen handbereik te krijgen.
 Haak een vinger achter de rand van de disk, en <strong>haal de disk eruit</strong>. Zorg er wel voor
                         dat je de disk horizontaal houdt, zodat je niet morst. Dit kan in het begin nog even lastig zijn,
                         dus neem er rustig de tijd voor en doe dit in een vertrouwde omgeving. En bij voorkeur onder de douche.</p>

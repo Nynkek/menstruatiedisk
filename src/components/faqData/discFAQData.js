@@ -8,10 +8,11 @@ export const discData = {
     rows: [
         {
             title: "Wat is een menstruatiedisk?",
-            content: `<p>De menstruatiedisk is een flexibele schijf en lijkt op een pessarium. Het is een bakje wat je menstruatie opvangt.</p>
+            content: `<p>De menstruatiedisk is een flexibele schijf en lijkt op een pessarium. Het is een herbruikbaar bakje wat je menstruatie opvangt.</p>
 
-                <p>Je vouwt de menstruatiedisk tot een ovaal en doet hem net als een tampon in je vagina, maar dan wat
-                    schuiner. De disk komt tussen de achterwand van de vagina en het schaambeen te liggen, daar bedekt
+                <p>Je vouwt jouw menstrautiedisk tot een ovaal. Daarna doe je 'm in je vagina. 
+                Dit werkt iets anders dan bij een tampon, de disk moet namelijk iets schuiner ingebracht worden. 
+                    De disk komt tussen de achterwand van de vagina en het schaambeen te liggen, daar bedekt
                     het de hele baarmoedermond. Je klemt hem achter je schaambeen, om hem op z’n plek te laten
                     zitten.</p>
                 <p>Eruit halen doe je door met je vinger achter de rand te klemmen. Dan trek je de menstruatiedisk
@@ -44,8 +45,8 @@ export const discData = {
 
                     <li><strong>Sportief:</strong> Je kan er gewoon mee blijven sporten. Ja, zelfs zwemmen!<br/></li>
 
-                    <li><strong>12 uur draagbaar:</strong> Je hoeft de disk maar om de 12 uur te legen. Mocht je heftig ongesteld zijn,
-                        dan zit hij wellicht wel eerder vol.<br/></li>
+                    <li><strong>12 uur draagbaar:</strong> Je hoeft de disk maar om de 12 uur te legen. Mocht je veel bloed verliezen,
+                        dan zit hij wellicht wel eerder vol en zul je hem dus eerder moeten legen.<br/></li>
 
                         <li><strong>Duurzaam:</strong> Een menstruatiedisk gaat tot zeker tien jaar mee!<br/></li>
 
@@ -65,8 +66,8 @@ export const discData = {
                         <li><strong>Bloed op je vingers:</strong> Grote kans dat er menstruatie op je vingers komt bij het eruit halen. 
                     Je wast je handen erna weer, dus het is niet erg. Maar ik kan me voorstellen dat het een nadeel is.<br/>Er zijn ook disks met lusjes of touwtjes, die dit makkelijker moeten maken.</li>
                 <li><strong>Leercurve</strong>: Het kan even duren voordat je het in- en uitdoen onder de knie hebt.</li>
-                <li><strong>Spiraaltje?</strong>: check even bij je huisarts of die tips heeft en het touwtje zo kort mogelijk kan knippen.</li>
-                <li><strong>Onbekend</strong>: Ze zijn alleen online te krijgen.</li>
+                <li><strong>Spiraaltje?</strong> Check even bij je huisarts of die tips heeft en het touwtje zo kort mogelijk kan knippen.</li>
+                <li><strong>Verkrijgbaarheid</strong>: Helaas zijn ze nog niet goed beschikbaar in fysieke winkels. Ze zijn doorgaans vooral online verkrijgbaar. En sommige disks zijn alleen nog in Amerika te verkrijgen.</li>
                 </ul>
                 `
         },
@@ -78,17 +79,18 @@ export const discData = {
         {
             title: "Ruik je iets tijdens het dragen van een disk?",
             content: "<p>Nee, bloed wat in aanraking met zuurstof komt kan geuren. Maar tijdens het dragen ruik je niks! Bij het eruig halen ruik je soms een ijzerige-geur, omdat bloed ijzer bevat. </p>" +
-                "Wanneer je een disk langer dan 12 uur draagt het wel dat je menstruatie een geur krijgt."
+                "Wanneer je een disk langer dan 12 uur draagt kan het wel zijn dat je menstruatie een geur krijgt. Dit ruik je wanneer je de disk er uit haalt."
         },
         {
             title: "Kan iedereen een disk 12 uur dragen?",
             content: "<p>Nee, het ligt aan de heftigheid van je menstruatie. </p>Als de disk eerder dan 12 uur vol is, zul je hem eerder moeten legen. " +
-                " <p>Maar een disk vangt veel menstruatie op, wel 30 tot 70ml! Ter vergelijking: een regular tampon heeft een absorptievermogen van 8-10 ml.</p>" +
+                " <p>Maar een disk vangt veel menstruatie op, wel 30 tot 70ml! Ter vergelijking: een gemiddelde tampon heeft een absorptievermogen van 8-10 ml.</p>" +
                 "<p>Wil je weten hoe lang jij je disk kan inhouden? Probeer hem dan eens wat vaker te legen, om te zien of hij al vol zit. Als hij niet vol zit, kun je de volgende keer er langer mee doen.</p>"
         },
         {
             title: "Kan ik seks hebben met een disk in?",
-            content: "Jup, dat is een van de voordelen van een disk. Je kan hem tijdens orale en penetratieve seks inhouden. Veel merken noemen dit 'mess-free sex', maar leeg hem voor de zekerheid even voor gebruik. En het is geen anti-conceptie!"
+            content: "<p>Jup, dat is een van de voordelen van een disk. Je kan hem tijdens orale en penetratieve seks inhouden. Veel merken noemen dit 'mess-free sex', maar leeg hem voor de zekerheid even voor gebruik. </p>" +
+                "<p>Het is geen voorbehoedsmiddel. Het beschermt je niet tegen zwangerschappen en soa's.</p> "
         },
         {
             title: "Kan ik gaan zwemmen met een disk in?",
@@ -98,7 +100,7 @@ export const discData = {
         {
             title: "Verschil tussen tampons/maandverband en een disk?",
             content: `Tampons en maandverband absorberen je menstruatie, maar een disk vangt het alleen op. <br /><br />
-                    Je kun een disk tot 12 uur lang dragen. Daarna haal je de disk eruit, door met je vinger achter de rand te haken (of met het lusje als je disk die heeft), leegt de disk en spoelt hem af. 
+                    Je kun een disk tot 12 uur lang dragen. Daarna haal je de disk eruit, door met je vinger achter de rand te haken (of met het lusje als je disk die heeft), leeg de disk en spoelt hem af. 
                     Daarna breng je hem weer terug in. Voor nog 12 uur zorgeloze menstruatie.`
         },
         {

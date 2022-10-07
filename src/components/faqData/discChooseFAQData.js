@@ -14,10 +14,10 @@ Een disk die voor een ander goed werkt, hoeft niet bij jou goed te werken.</p>
                  <ul>
                     <li>Breedte van de disk: wordt bepaald door je baarmoedermondhoogte.</li>
                     <li>Hardheid van de disk: ligt aan hoe gevoelig je vagina en blaas zijn.</li>
-                    <li>Vorm van de disk: Persoonlijke voorkeur.</li>
-                    <li>Makkelijk eruit halen: Persoonlijke voorkeur. Wil je een steeltje of extra lusje? </li>
+                    <li>Vorm van de disk: persoonlijke voorkeur.</li>
+                    <li>Makkelijk eruit halen: persoonlijke voorkeur. Wil je een steeltje of extra lusje? </li>
                     <li>Wegwerp op herbruikbaar: persoonlijke voorkeur.</li>
-                    <li>Makkelijk te verkrijgen: Helaas zijn de meeste disks nog niet zo makkelijk in NL te verkrijgen.</li>
+                    <li>Makkelijk te verkrijgen: helaas zijn de meeste disks nog niet zo makkelijk in NL te verkrijgen.</li>
                     <li>Inhoud van de disk: verschilt per disk.</li>
                 </ul>
 

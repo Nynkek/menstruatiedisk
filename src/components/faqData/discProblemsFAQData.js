@@ -88,15 +88,15 @@ export const discProblemsFAQData = {
                 `
         },
         {
-            title: "De disk leegt zichzelf als ik naar de wc ga.",
+            title: "De disk leegt zichzelf als ik naar de wc ga (auto-dumping).",
             content: `
              <ul>             
-                <li>Ideaal toch?</li>
+                <li>Ideaal toch? :) Maak je geen zorgen, sterker nog: zie het als een voordeel! </li>
                 <li>Een voordeel die disk-gebruikers ervaren is dat de disk automatisch losschiet als je op de wc zit, waardoor die zich leegt in de wc. Vaak moet je hem erna weer even terugklemmen achter je schaambeen. 
                 Ideaal als je veel menstrueert, want dan kan je er echt 12 uur mee doen!</li>
                 <li>Als de disk losschiet op andere momenten, is dit een lekkage en geen auto-dump. Probeer de disk iets hoger vast te klemmen.</li>
              </ul>
-                
+               
                 `
         },
 
