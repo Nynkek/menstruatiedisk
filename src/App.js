@@ -16,19 +16,15 @@ import FaqPage from "./pages/Faq-page";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Elements from "./pages/Elements";
 import Diskquiz from "./pages/Diskquiz";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 const TRACKING_ID = "G-LMPS4RD6EL"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
-ReactGA.pageview(window.location.pathname + window.location.search);
-
+ReactGA.send("pageview");
 
 function App() {
     const [headerImage, setHeaderImage] = useState(headerImg);
     const [pageTitle, setPageTitle] = useState("Menstruatiedisk");
-
-    useEffect(() => {
-        ReactGA.pageview(window.location.pathname + window.location.search);
-    }, []);
+    
 
     const Wrapper = ({children}) => {
         const location = useLocation();
