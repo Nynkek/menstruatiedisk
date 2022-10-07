@@ -17,13 +17,13 @@ import FaqPage from "./pages/Faq-page";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Elements from "./pages/Elements";
 import Diskquiz from "./pages/Diskquiz";
-
+const TRACKING_ID = "G-LMPS4RD6EL"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
     const [headerImage, setHeaderImage] = useState(headerImg);
     const [pageTitle, setPageTitle] = useState("Menstruatiedisk");
-    const TRACKING_ID = "G-LMPS4RD6EL"; // OUR_TRACKING_ID
-    ReactGA.initialize(TRACKING_ID);
+
 
     const Wrapper = ({children}) => {
         const location = useLocation();
