@@ -78,7 +78,7 @@ export const discData = {
         },
         {
             title: "Ruik je iets tijdens het dragen van een disk?",
-            content: "<p>Nee, bloed wat in aanraking met zuurstof komt kan geuren. Maar tijdens het dragen ruik je niks! Bij het eruig halen ruik je soms een ijzerige-geur, omdat bloed ijzer bevat. </p>" +
+            content: "<p>Nee, bloed wat in aanraking met zuurstof komt kan geuren. Maar tijdens het dragen ruik je niks! Bij het eruit halen ruik je soms een ijzerige-geur, omdat bloed ijzer bevat. </p>" +
                 "Wanneer je een disk langer dan 12 uur draagt kan het wel zijn dat je menstruatie een geur krijgt. Dit ruik je wanneer je de disk er uit haalt."
         },
         {
