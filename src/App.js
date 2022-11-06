@@ -17,6 +17,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Elements from "./pages/Elements";
 import Diskquiz from "./pages/Diskquiz";
 import ReactGA from 'react-ga4';
+import TermsAndConditions from "./pages/TermsAndConditions";
 const TRACKING_ID = "G-LMPS4RD6EL"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 ReactGA.send("pageview");
@@ -66,6 +67,9 @@ function App() {
 
                 <Route path="/doneren"
                        element={<Donate headerImageHandler={setHeaderImage} pageTitleHandler={setPageTitle}/>}/>
+
+                <Route path="/algemene-voorwaarden"
+                       element={<TermsAndConditions headerImageHandler={setHeaderImage} pageTitleHandler={setPageTitle}/>}/>
 
             </Routes>
             <Footer/>

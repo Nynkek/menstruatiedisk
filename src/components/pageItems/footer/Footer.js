@@ -14,6 +14,8 @@ function Footer() {
                     <ul>
                         <li><Link to="/faq">faq</Link></li>
                         <li><Link to="/privacy-policy">privacy policy</Link></li>
+                        <li><Link to="/doneren">Doneren</Link></li>
+                        <li><Link to="/algemene-voorwaarden">Algemene voorwaarden</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
