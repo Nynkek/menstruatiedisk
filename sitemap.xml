@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.menstruatiedisk.nl</loc>
+        <priority>0.8</priority>
+        <lastmod>2022-11-06</lastmod>
+    </url>
+
+    <url>
+        <loc>https://www.menstruatiedisk.nl/faq</loc>
+        <priority>1.0</priority>
+        <lastmod>2022-11-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.menstruatiedisk.nl/diskquiz</loc>
+        <priority>1.0</priority>
+        <lastmod>2022-11-06</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.menstruatiedisk.nl/vergelijk-meerdere-menstruatiedisks</loc>
+        <lastmod>2022-11-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.menstruatiedisk.nl/contact</loc>
+        <priority>0.2</priority>
+        <lastmod>2022-11-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.menstruatiedisk.nl/doneren</loc>
+    </url>
+    <url>
+        <loc>https://www.menstruatiedisk.nl/privacy-policy</loc>
+        <priority>0.1</priority>
+    </url>
+
+    </urlset>
