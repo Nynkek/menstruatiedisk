@@ -49,24 +49,25 @@ function Donate({headerImageHandler, pageTitleHandler}) {
             </TextContainer>
             <YellowContentBox>
                 <h3>Eenmalig bijdragen om deze informatie te ondersteunen?</h3>
-                <p>Graag! Elke donatie is meer dan welkom.</p>
+                <p>Graag! Elke donatie is meer dan welkom. </p>
                 <ul className="button-container">
                     <li className="button">
 
-                        <a href="https://tikkie.me/pay/dggbff7jd9fho4qo47du" target="_blank" rel="noopener">
+                        <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/EUR7" target="_blank" rel="noopener">
                             <span className="donate-btn-txt">€7</span> <br/>
                             1 maand vaste lasten</a></li>
                     <li className="button">
 
-                        <a href="https://tikkie.me/pay/8df9cg6mgh06ia77uusr" target="_blank" rel="noopener">
+                        <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/EUR3" target="_blank" rel="noopener">
                             <span className="donate-btn-txt">€3</span> <br/>
                             trakteer een kopje koffie</a></li>
                     <li className="button">
 
-                        <a href="https://tikkie.me/pay/7qoe4tqr36bvcv6ebi4r" target="_blank" rel="noopener">
+                        <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/" target="_blank" rel="noopener">
                             <span className="donate-btn-txt">€X</span> <br/>
                             Kies eigen bedrag</a></li>
                 </ul>
+                <p>Er staat <strong>"Nynkek"</strong> boven de betaalservice, omdat dat de naam van mijn onderneming is. <br/>Je kan met iDeal en Bancontact betalen.</p>
             </YellowContentBox>
             <TextContainer>
                 <h2>Drie voordelen van een menstruatiedisk:</h2>
@@ -140,21 +141,21 @@ function Donate({headerImageHandler, pageTitleHandler}) {
             </YellowContentBox>
             <TextContainer>
                 <h2>Donatie-opties</h2>
-                <p>Onderstaande links zijn Tikkie-links. Dus je kunt dan met iDeal betalen.</p>
+                <p>Onderstaande links zijn betaal-links, je kunt dan met iDeal en Bancontact betalen. Er staat "Nynkek" boven, omdat dat de naam van mijn onderneming is.</p>
 
                 <ul>
-                    <li>€40: <a href="https://tikkie.me/pay/rouidsf0f8h2sg3mlj2c" target="_blank" rel="noopener">doneer
+                    <li>€40: <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/EUR40" target="_blank" rel="noopener">doneer
                         een menstruatiedisk</a>. Ik heb nog een hele lijst met Amerikaanse disks die ik
                         graag wil uitproberen en reviewen voor deze website!
                     </li>
-                    <li>€7: <a href="https://tikkie.me/pay/dggbff7jd9fho4qo47du" target="_blank" rel="noopener">betaal
+                    <li>€7: <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/EUR7" target="_blank" rel="noopener">betaal
                         eenmalig
                         1 maand de vaste lasten</a> van hosting en domeinnaam.
                     </li>
-                    <li>€3: <a href="https://tikkie.me/pay/8df9cg6mgh06ia77uusr" target="_blank" rel="noopener">trakteer
+                    <li>€3: <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/EUR3" target="_blank" rel="noopener">trakteer
                         me op een kopje koffie</a> buiten de deur.
                     </li>
-                    <li>€X: <a href="https://tikkie.me/pay/7qoe4tqr36bvcv6ebi4r" target="_blank" rel="noopener"> Kies je
+                    <li>€X: <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/" target="_blank" rel="noopener"> Kies je
                         eigen bedrag.</a> Alles is welkom!
                     </li>
                 </ul>
