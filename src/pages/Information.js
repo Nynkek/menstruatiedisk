@@ -18,7 +18,7 @@ function Information({headerImageHandler, pageTitleHandler}) {
     useEffect(() => {
         headerImageHandler(pageImg);
         pageTitleHandler("Menstruatiedisk-informatie");
-    }, []);
+    }, [headerImageHandler, pageTitleHandler]);
 
     useEffect(() => {
 
@@ -27,6 +27,7 @@ function Information({headerImageHandler, pageTitleHandler}) {
                 setMenstrualDiscs([]);
                 const data = snapshot.val();
                 if (data !== null) {
+                    // eslint-disable-next-line array-callback-return
                     Object.values(data).map((disk) => {
                         setMenstrualDiscs((oldArray) => [...oldArray, disk]);
                     });
@@ -37,7 +38,7 @@ function Information({headerImageHandler, pageTitleHandler}) {
         getDiscs();
         console.log(menstrualDiscs);
         console.log("Test");
-    }, []);
+    }, [menstrualDiscs]);
 
 
     return (

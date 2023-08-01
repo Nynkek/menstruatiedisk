@@ -1,7 +1,5 @@
 import React, {useEffect} from 'react';
 import pageImg from "../assets/headers/menstruatiedisk.nl-gevouwen-disk-quiz-5.jpg";
-import faqImg1 from "../assets/img/Cupkiezer-alle-mensturatieproducten-icon-menstruatiecup.png";
-import faqImg2 from "../assets/img/Cupkiezer-alle-mensturatieproducten-icon-menstruatiedisk.png";
 import Faq from 'react-faq-component';
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
@@ -11,10 +9,7 @@ import {discCleanData} from "../components/faqData/discUseFAQData";
 import {discChooseData} from "../components/faqData/discChooseFAQData";
 import {discProblemsFAQData} from "../components/faqData/discProblemsFAQData";
 import {HashLink} from 'react-router-hash-link';
-import YellowContentBox from "../components/pageItems/pageDesignElements/yellowContentBox/YellowContentBox";
 import useScrollToHash from "../helpers/useScrollToHash";
-import ImgGallery from "../components/pageItems/pageDesignElements/columns/ImgGallery";
-import {discImages, discVsCup} from "../gallerys/insertDisc";
 import {Link} from "react-router-dom";
 
 function FaqPage({headerImageHandler, pageTitleHandler}) {
@@ -30,7 +25,7 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
             <TextContainer>
                 <p>Heb je een vraag over menstruatiedisks, het gebruik of het schoonmaken van de disks? Hieronder hebben
                     veel vragen beantwoordt, dus lees die maar rustig door.</p>
-                <a id="hoofdstukken"></a>
+                <a id="hoofdstukken" href="#hoofdstukken"> </a>
                 <p>Staat je vraag er echt niet tussen? Stel je vraag in <a
                     href="https://www.facebook.com/groups/menstruatiecupclub/" target="_blank" rel="noreferrer">onze
                     Facebookgroep!</a>
@@ -48,7 +43,7 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
 
             </TextContainer>
 
-            <a id="algemeen"></a>
+            <a id="algemeen" href='# '> </a>
 
             <BookmarkBox verticalText="Algemeen">
                 <Faq data={discData}
@@ -66,7 +61,7 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
 
             </BookmarkBox>
 
-            <a id="gebruik"></a>
+            <a id="gebruik" href='# '> </a>
 
             <BookmarkBox verticalText="gebruik">
                 <Faq data={discCleanData}
@@ -80,7 +75,7 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                      }}
                 />
             </BookmarkBox>
-            <a id="kiezen"></a>
+            <a id="kiezen" href='# '> </a>
 
             <BookmarkBox verticalText="kiezen">
                 <Faq data={discChooseData}
@@ -94,7 +89,7 @@ function FaqPage({headerImageHandler, pageTitleHandler}) {
                      }}
                 />
             </BookmarkBox>
-            <a id="problemen"></a>
+            <a id="problemen" href='# '> </a>
 
             <BookmarkBox verticalText="problemen" id="problemen">
                 <Faq data={discProblemsFAQData}

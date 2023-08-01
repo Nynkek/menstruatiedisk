@@ -27,7 +27,7 @@ function ImgGallery({imageList}) {
     useEffect(() => {
             countImagesInGallery(imageList)
         },
-        []);
+        [imageList]);
 
     return (
         <div className="page-two-section gallery">

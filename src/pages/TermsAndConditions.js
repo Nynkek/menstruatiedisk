@@ -6,7 +6,7 @@ function TermsAndConditions({headerImageHandler, pageTitleHandler}) {
     useEffect(() => {
         headerImageHandler(pageImg);
         pageTitleHandler("Algemene Voorwaarden Donaties");
-    }, []);
+    }, [headerImageHandler, pageTitleHandler]);
     return (
         <TextContainer>
 

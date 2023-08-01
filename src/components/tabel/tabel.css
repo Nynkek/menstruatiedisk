@@ -24,9 +24,6 @@
     margin: 0;
 }
 
-.discsTabel .rdt_TableBody {
-}
-
 .discsTabel {
     width: 108%;
     left: -4%;
@@ -74,9 +71,6 @@ label {
     text-decoration: none;
     cursor: help;
 
-}
-
-.legend-name {
 }
 
 .small-txt {

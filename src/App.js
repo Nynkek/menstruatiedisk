@@ -1,5 +1,5 @@
 import {Routes, Route, useLocation } from 'react-router-dom'
-import {useEffect, useLayoutEffect, useState} from 'react'
+import {useLayoutEffect, useState} from 'react'
 import './App.css';
 
 import HomePage from "./pages/HomePage";

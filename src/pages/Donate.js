@@ -1,10 +1,8 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, {useEffect} from 'react';
 import pageImg from "../assets/headers/menstruatiedisk.nl-kiezen-quiz-11.jpg";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import YellowContentBox from "../components/pageItems/pageDesignElements/yellowContentBox/YellowContentBox";
-import ImgGallery from "../components/pageItems/pageDesignElements/columns/ImgGallery";
-import {discQuizFAQ} from "../components/faqData/discQuizFAQ";
-import {discImages} from "../gallerys/insertDisc";
 import nynkeWithDiscs from "../assets/img/Nynke-gooit-met-cups-en-disks.jpg";
 import TwoColumnWithImg from "../components/pageItems/pageDesignElements/columns/TwoColumnWithImg";
 
@@ -12,7 +10,7 @@ function Donate({headerImageHandler, pageTitleHandler}) {
     useEffect(() => {
         headerImageHandler(pageImg);
         pageTitleHandler("Help mee!");
-    }, []);
+    }, [headerImageHandler, pageTitleHandler]);
 
     return (
         <>

@@ -1,18 +1,15 @@
 import React, {useEffect, useState} from 'react';
 import pageImg
     from '../assets/headers/menstruatiedisk.nl-verschillende-disks-kiezen-quiz-3.jpg'
-import DiscQuizTabel from "../components/tabel/DiscQuizTabel";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
-import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
 import DiscTabel from "../components/tabel/DiscTabel";
 import {Link} from "react-router-dom";
 
 
 function Compare({headerImageHandler, pageTitleHandler}) {
-    const [menstrualDiscs, setMenstrualDiscs] = useState([]);
+    const [menstrualDiscs] = useState([]);
 
 
-    const sizes = menstrualDiscs.length; // misschien map?
 
 
     function showDisks(array) {
@@ -25,7 +22,7 @@ function Compare({headerImageHandler, pageTitleHandler}) {
     useEffect(() => {
         headerImageHandler(pageImg);
         pageTitleHandler("Vergelijken");
-    }, []);
+    }, [headerImageHandler, pageTitleHandler]);
 
 
     return (

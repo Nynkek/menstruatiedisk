@@ -12,7 +12,7 @@ function Contact({headerImageHandler, pageTitleHandler}) {
     useEffect(() => {
         headerImageHandler(pageImg);
         pageTitleHandler("Contact met Nynke");
-    }, []);
+    }, [headerImageHandler, pageTitleHandler]);
 
 
     return (

@@ -6,13 +6,13 @@ function PrivacyPolicy({headerImageHandler, pageTitleHandler}) {
     useEffect(() => {
         headerImageHandler(pageImg);
         pageTitleHandler("Privacy policy");
-    }, []);
+    }, [headerImageHandler, pageTitleHandler]);
 
     return (
         <TextContainer>
 
-           <p> Menstruatiedisk.nl hecht waarde aan de privacy van lezers en quiz-gebruikers en begrijpt en erkent dat jouw privacy heel belangrijk is. Hieronder staat kort welke informatie wij ontvangen als je Menstruatiedisk.nl.nl bezoekt en welke stappen ondernomen worden om jouw informatie te beschermen.
-            Maar het allerbelangrijkste: Wij zullen nooit je persoonlijke informatie gebruiken om door te geven aan derden (tenzij het wettelijk verplicht wordt).</p>
+           <p> Menstruatiedisk.nl hecht waarde aan de privacy van lezers en quiz-gebruikers en begrijpt en erkent dat jouw privacy heel belangrijk is. Hieronder staat kort welke informatie wij ontvangen als je Menstruatiedisk.nl.nl bezoekt en welke stappen ondernomen worden om jouw informatie te beschermen.
+            Maar het allerbelangrijkste: Wij zullen nooit je persoonlijke informatie gebruiken om door te geven aan derden (tenzij het wettelijk verplicht wordt).</p>
 
             <h2>Menstruatiedisk.nl</h2>
             <p>Menstruatiedisk.nl (valt onder Nynkek), gevestigd in Utrecht, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.</p>
@@ -22,12 +22,12 @@ function PrivacyPolicy({headerImageHandler, pageTitleHandler}) {
             <p>Menstruatiedisk.nl verwerkt je persoonsgegevens doordat je gebruik maakt van onze diensten en/of omdat je deze gegevens zelf aan ons verstrekt.</p>
 
             <h3>Hieronder vind je een overzicht van de persoonsgegevens die wij verwerken:</h3>
-            <h4>Bijzondere en/of gevoelige persoonsgegevens die wij verwerken </h4><p>Onze website en/of dienst heeft niet de intentie gegevens te verzamelen over websitebezoekers die jonger zijn dan 16 jaar. Tenzij ze toestemming hebben van ouders of voogd. We kunnen echter niet controleren of een bezoeker ouder dan 16 is. Wij raden ouders dan ook aan betrokken te zijn bij de online activiteiten van hun kinderen, om zo te voorkomen dat er gegevens over kinderen verzameld worden zonder ouderlijke toestemming. Als je er van overtuigd bent dat wij zonder die toestemming persoonlijke gegevens hebben verzameld over een minderjarige, neem dan contact met ons op via privacy@nynkek.nl, dan verwijderen wij deze informatie.</p>
-            <h4>Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken </h4><p>Menstruatiedisk.nl verwerkt jouw persoonsgegevens voor de volgende doelen:</p>
-            <h4>Geautomatiseerde besluitvorming </h4> <p>Menstruatiedisk.nl neemt niet op basis van geautomatiseerde verwerkingen besluiten over zaken die (aanzienlijke) gevolgen kunnen hebben voor personen. Het gaat hier om besluiten die worden genomen door computerprogramma’s of -systemen, zonder dat daar een mens (bijvoorbeeld een medewerker van Menstruatiedisk.nl) tussen zit.</p>
+            <h4>Bijzondere en/of gevoelige persoonsgegevens die wij verwerken</h4><p>Onze website en/of dienst heeft niet de intentie gegevens te verzamelen over websitebezoekers die jonger zijn dan 16 jaar. Tenzij ze toestemming hebben van ouders of voogd. We kunnen echter niet controleren of een bezoeker ouder dan 16 is. Wij raden ouders dan ook aan betrokken te zijn bij de online activiteiten van hun kinderen, om zo te voorkomen dat er gegevens over kinderen verzameld worden zonder ouderlijke toestemming. Als je er van overtuigd bent dat wij zonder die toestemming persoonlijke gegevens hebben verzameld over een minderjarige, neem dan contact met ons op via privacy@nynkek.nl, dan verwijderen wij deze informatie.</p>
+            <h4>Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken</h4><p>Menstruatiedisk.nl verwerkt jouw persoonsgegevens voor de volgende doelen:</p>
+            <h4>Geautomatiseerde besluitvorming</h4> <p>Menstruatiedisk.nl neemt niet op basis van geautomatiseerde verwerkingen besluiten over zaken die (aanzienlijke) gevolgen kunnen hebben voor personen. Het gaat hier om besluiten die worden genomen door computerprogramma’s of -systemen, zonder dat daar een mens (bijvoorbeeld een medewerker van Menstruatiedisk.nl) tussen zit.</p>
 
             <h2>Hoe lang we persoonsgegevens bewaren</h2>
-            <h4>Delen van persoonsgegevens met derden </h4>
+            <h4>Delen van persoonsgegevens met derden</h4>
                 <p>Menstruatiedisk.nl verstrekt uitsluitend aan derden en alleen als dit nodig is voor de uitvoering van onze overeenkomst met jou of om te voldoen aan een wettelijke verplichting.</p>
 
             <h2>Cookies, of vergelijkbare technieken, die wij gebruiken</h2>

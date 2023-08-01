@@ -15,7 +15,7 @@ function Elements({headerImageHandler, pageTitleHandler}) {
     useEffect(() => {
         headerImageHandler(pageImg);
         pageTitleHandler("Design elementen");
-    } ,[]);
+    } ,[headerImageHandler, pageTitleHandler]);
     return (
         <>
             <TextContainer>

@@ -1,5 +1,5 @@
 import ImgGallery from "../../components/pageItems/pageDesignElements/columns/ImgGallery";
-import {insertDisc, removeDisc, troubleWithDisc, troubleWithDisc2} from "../../gallerys/insertDisc";
+import {removeDisc, troubleWithDisc, troubleWithDisc2} from "../../gallerys/insertDisc";
 import { renderToString } from 'react-dom/server'
 import React from 'react';
 

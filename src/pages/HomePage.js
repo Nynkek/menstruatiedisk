@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import pageImg
     from "../assets/headers/menstruatiedisk.nl-kiezen-quiz-9.jpg";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
@@ -18,7 +18,7 @@ function HomePage({headerImageHandler, pageTitleHandler}) {
     useEffect(() => {
         headerImageHandler(pageImg);
         pageTitleHandler("Menstruatiedisk informatie");
-    }, []);
+    }, [headerImageHandler, pageTitleHandler]);
 
 
     return (
