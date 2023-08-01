@@ -19,6 +19,8 @@ function ImgGallery({imageList}) {
             case 4:
                 setClassNames("four");
                 break;
+                default: 
+                setClassNames("one");
         }
     }
 

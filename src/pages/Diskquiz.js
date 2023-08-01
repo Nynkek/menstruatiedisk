@@ -1,10 +1,10 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, {useEffect, useState} from 'react';
 import pageImg
     from '../assets/headers/menstruatiedisk.nl-kiezen-herbruikbaar-wegwerp-disk.jpg'
 import DiscQuizTabel from "../components/tabel/DiscQuizTabel";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import BookmarkBox from "../components/pageItems/pageDesignElements/bookmarkBox/BookmarkBox";
-import {discProblemsFAQData} from "../components/faqData/discProblemsFAQData";
 import Faq from "react-faq-component";
 import {discQuizFAQ} from "../components/faqData/discQuizFAQ";
 import {HashLink} from "react-router-hash-link";
@@ -12,10 +12,9 @@ import {Link} from "react-router-dom";
 
 
 function Diskquiz({headerImageHandler, pageTitleHandler}) {
-    const [menstrualDiscs, setMenstrualDiscs] = useState([]);
+    const [menstrualDiscs] = useState([]);
 
 
-    const sizes = menstrualDiscs.length; // misschien map?
 
 
     function showDisks(array) {
@@ -50,7 +49,7 @@ function Diskquiz({headerImageHandler, pageTitleHandler}) {
             </TextContainer>
 
             <DiscQuizTabel/>
-            <a id="uitleg"></a>
+            <a id="uitleg" href="# "> </a>
 
             <TextContainer>
 
@@ -68,7 +67,7 @@ function Diskquiz({headerImageHandler, pageTitleHandler}) {
 
                 {showDisks(menstrualDiscs)}
             </TextContainer>
-            <a id="legenda"></a>
+            <a id="legenda" href="# "> </a>
 
             <BookmarkBox verticalText="legenda">
                 <h2>Uitleg menstruatiedisk&#173;tabel</h2>
