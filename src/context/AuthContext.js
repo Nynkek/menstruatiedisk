@@ -1,8 +1,8 @@
-import React, {createContext, useState} from "react";
+import React, {createContext, useEffect, useState} from "react";
 import {useNavigate} from 'react-router-dom';
 import jwtDecode from "jwt-decode";
 import axios from "axios";
-// import isTokenValid from "../helpers/isTokenValid";
+import isTokenValid from "../helpers/isTokenValid";
 
 export const AuthContext = createContext(null);
 
@@ -15,20 +15,21 @@ function AuthContextProvider({children}) {
     let navigate = useNavigate();
 
 
-    // useEffect(() => {
-    //     const token = localStorage.getItem('token');
+    useEffect(() => {
+        const token = localStorage.getItem('token');
 
-    //     if (token && isTokenValid(token)) {
-    //         const decodedToken = jwtDecode(token);
-    //         getData(decodedToken.sub, token);
-    //     } else {
-    //         toggleAuth({
-    //             isAuth: false,
-    //             user: null,
-    //             status: 'done',
-    //         });
-    //     }
-    // }, [])
+        if (token && isTokenValid(token)) {
+            const decodedToken = jwtDecode(token);
+            getData(decodedToken.sub, token);
+        } else {
+            toggleAuth({
+                isAuth: false,
+                user: null,
+                status: 'done',
+            });
+        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
 
 
     function login(token) {
