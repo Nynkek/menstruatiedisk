@@ -51,17 +51,17 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 <ul className="button-container">
                     <li className="button">
 
-                        <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/EUR7" target="_blank" rel="noopener">
+                        <a href="https://paymentlink.mollie.com/payment/L7alOJHlEYLepP9cop8kY/" target="_blank" rel="noopener">
                             <span className="donate-btn-txt">€7</span> <br/>
                             1 maand vaste lasten</a></li>
                     <li className="button">
 
-                        <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/EUR3" target="_blank" rel="noopener">
+                        <a href="https://paymentlink.mollie.com/payment/zITFKgugi6XobxjnsQYpA/" target="_blank" rel="noopener">
                             <span className="donate-btn-txt">€3</span> <br/>
                             trakteer een kopje koffie</a></li>
                     <li className="button">
 
-                        <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/" target="_blank" rel="noopener">
+                        <a href="https://paymentlink.mollie.com/payment/w41RtoXMCWL7x1Qyv7v49/" target="_blank" rel="noopener">
                             <span className="donate-btn-txt">€X</span> <br/>
                             Kies eigen bedrag</a></li>
                 </ul>
@@ -142,18 +142,18 @@ function Donate({headerImageHandler, pageTitleHandler}) {
                 <p>Onderstaande links zijn betaal-links, je kunt dan met iDeal en Bancontact betalen. Er staat "Nynkek" boven, omdat dat de naam van mijn onderneming is.</p>
 
                 <ul>
-                    <li>€40: <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/EUR40" target="_blank" rel="noopener">doneer
+                    <li>€40: <a href="https://paymentlink.mollie.com/payment/FX4phPQRhsGZ5dzMSgIwy/" target="_blank" rel="noopener">doneer
                         een menstruatiedisk</a>. Ik heb nog een hele lijst met Amerikaanse disks die ik
                         graag wil uitproberen en reviewen voor deze website!
                     </li>
-                    <li>€7: <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/EUR7" target="_blank" rel="noopener">betaal
+                    <li>€7: <a href="https://paymentlink.mollie.com/payment/L7alOJHlEYLepP9cop8kY/" target="_blank" rel="noopener">betaal
                         eenmalig
                         1 maand de vaste lasten</a> van hosting en domeinnaam.
                     </li>
-                    <li>€3: <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/EUR3" target="_blank" rel="noopener">trakteer
+                    <li>€3: <a href="https://paymentlink.mollie.com/payment/zITFKgugi6XobxjnsQYpA/" target="_blank" rel="noopener">trakteer
                         me op een kopje koffie</a> buiten de deur.
                     </li>
-                    <li>€X: <a href="https://useplink.com/payment/w41RtoXMCWL7x1Qyv7v49/" target="_blank" rel="noopener"> Kies je
+                    <li>€X: <a href="https://paymentlink.mollie.com/payment/w41RtoXMCWL7x1Qyv7v49/" target="_blank" rel="noopener"> Kies je
                         eigen bedrag.</a> Alles is welkom!
                     </li>
                 </ul>
