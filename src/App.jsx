@@ -35,7 +35,6 @@ function App() {
         return children
     }
 
-
     return (
         <Wrapper>
         <div className="container">
