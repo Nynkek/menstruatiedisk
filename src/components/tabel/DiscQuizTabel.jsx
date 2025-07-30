@@ -149,6 +149,9 @@ function DiscQuizTabel() {
                 discList = discList.filter(disc => disc.hasStem === true)
                 break;
             case "nee-steel":
+                 discList = discList.filter(disc => disc.hasStem === false)
+                break;
+            case "geen-mening-steel":
                 break;
             default:
         }
@@ -235,8 +238,10 @@ function DiscQuizTabel() {
                         steeltje of uitneemgleuf.</span></label><br/>
                     <label><input type="radio" value="nee-steel" name="steel" onChange={handleOptionChange}
                                   checked={stem === "nee-steel"}/>
+                        Nee, ik wil een ronde/ovale disk zonder poespas.</label><br/>
+                         <label><input type="radio" value="geen-mening-steel" name="steel" onChange={handleOptionChange}
+                                  checked={stem === "geen-mening-steel"}/>
                         Het maakt me niet uit, laat me alle opties zien.</label><br/>
-
                     <h4 className="legend"><span className="legend-name">Nederlandse webshop</span><a href="#uitleg" className="questionmark">?</a></h4>
                     <label> <input type="radio" value="ja-nl" name="land" onChange={handleOptionChange}
                                    checked={country === "ja-nl"}/>
