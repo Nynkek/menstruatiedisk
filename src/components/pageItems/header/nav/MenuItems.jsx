@@ -2,13 +2,8 @@ import React, {useState} from 'react';
 import Dropdown from '../dropdown/Dropdown'
 import {NavLink} from "react-router-dom";
 
-
-
-
 function MenuItems({items}) {
     const [dropdown, toggleDropdown] = useState(false);
-
-
 
     return (
         <li className="menu-items">

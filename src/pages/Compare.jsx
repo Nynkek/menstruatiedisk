@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import pageImg from "../assets/headers/menstruatiedisk.nl-verschillende-disks-kiezen-quiz-3.jpg";
 import TextContainer from "../components/pageItems/pageDesignElements/textContainer/TextContainer";
 import DiscTabel from "../components/tabel/DiscTabel";
