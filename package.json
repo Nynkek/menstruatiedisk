@@ -49,9 +49,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/core": "^7.28.0",
-    "babel-preset-react-app": "^10.1.0"
   }
 }
