@@ -15,6 +15,10 @@ function DiscTabel() {
     const [reusable, setReusable] = useState('');
     const [stem, setStem] = useState('');
     const [country, setCountry] = useState('');
+    const [compareDiscs, setCompareDiscs] = useState(() => {
+        const saved = localStorage.getItem('compareDiscs');
+        return saved ? JSON.parse(saved) : [];
+});
 
 
     useEffect(() => {
@@ -38,22 +42,19 @@ function DiscTabel() {
     </div>);
 
     const columns = [
-        // {
-        //     name: 'afbeelding',
-        //     selector: row => row.image,
-        //     sortable: true,
-        //     compact: true,
-        //     width: "80px",
-        //     cell: row => {
-        //         if (row.image) {
-        //             return <img height="53px" width="83px" alt={row.image.fileName}
-        //                         src={row.image.url}/>
-        //         } else {
-        //             return <img height="53px" width="83px" alt="disc"
-        //                         src="https://cupkiezer.nl/wp-content/uploads/2018/10/Belladot_evelina_small_m_box_pouch.jpg"/>
-        //         }
-        //     }
-        // },
+        {
+            name: 'Zien',
+            sortable: false,
+            compact: false,
+            width: "60px",
+            cell: (row) => <input
+                type="checkbox"
+                value={row.id}
+                name="vergelijken"
+                onChange={handleOptionChange}
+                checked={compareDiscs.includes(String(row.id))}
+            />
+        },
         {
             name: 'Name',
             selector: row => row.name,
@@ -150,6 +151,9 @@ function DiscTabel() {
                 discList = discList.filter(disc => disc.hasStem === true)
                 break;
             case "nee-steel":
+                 discList = discList.filter(disc => disc.hasStem === false)
+                break;
+            case "geen-mening-steel":
                 break;
             default:
         }
@@ -165,6 +169,11 @@ function DiscTabel() {
 
     }, [bmm, reusable, stem, menstrualDiscs, country])
 
+    useEffect(() => {
+        localStorage.setItem('compareDiscs', JSON.stringify(compareDiscs));
+    }, [compareDiscs]);
+
+
     function handleOptionChange(e) {
         if (e.target.name === "bmm") {
             setBmm(e.target.value);
@@ -174,6 +183,19 @@ function DiscTabel() {
             setStem(e.target.value);
         } else if (e.target.name === "land") {
             setCountry(e.target.value);
+        } else if (e.target.name === "vergelijken") {
+            if (e.target.checked) {
+            // Voeg toe aan lijst
+            console.log("checked=" + e.target.checked + " 1, value: " + e.target.value);
+            setCompareDiscs(prev => [...prev, e.target.value]);
+            console.log(compareDiscs + " toegevoegd");
+
+            } else {
+            // Verwijder uit lijst
+            console.log("checked=" + e.target.checked + " 2");
+            setCompareDiscs(prev => prev.filter(id => id !== e.target.value));
+            console.log(compareDiscs + " verwijdert");
+            }
         }
     }
 
@@ -232,6 +254,9 @@ function DiscTabel() {
                         Disks met steeltje of uitneem-gleuf. </label><br/>
                     <label><input type="radio" value="nee-steel" name="steel" onChange={handleOptionChange}
                                   checked={stem === "nee-steel"}/>
+                        Nee, ik wil een ronde/ovale disk zonder poespas.</label><br/>
+                    <label><input type="radio" value="geen-mening-steel" name="steel" onChange={handleOptionChange}
+                                  checked={stem === "geen-mening-steel"}/>
                         Het maakt me niet uit, laat me alle opties zien.</label><br/>
 
                     <h4 className="legend">Nederlandse webshop?</h4>
